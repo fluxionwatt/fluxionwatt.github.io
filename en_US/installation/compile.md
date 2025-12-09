@@ -2,12 +2,12 @@
 
 ## Installation dependencies
 
-Please refer to [Install dependencies](https://github.com/emqx/gridbeat/blob/main/Install-dependencies.md).
+Please refer to [Install dependencies](https://github.com/fluxionwatt/gridbeat/blob/main/Install-dependencies.md).
 
 ## Compilation
 
 ```
-$ git clone https://github.com/emqx/gridbeat
+$ git clone https://github.com/fluxionwatt/gridbeat
 $ cd gridbeat
 $ mkdir build && cd build
 $ cmake .. && make
@@ -22,7 +22,7 @@ There are three optional parameters in CMakeLists:
 
 ## Install Dashboard
 
-On the [gridbeat dashboard](https://github.com/emqx/gridbeat-dashboard/releases) download the latest `gridbeat-dashboard.zip` from the page, extract it, and place it in the dist directory under the GridBeat executable directory.
+On the [gridbeat dashboard](https://github.com/fluxionwatt/gridbeat-dashboard/releases) download the latest `gridbeat-dashboard.zip` from the page, extract it, and place it in the dist directory under the GridBeat executable directory.
 
 ## Operation
 

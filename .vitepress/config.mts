@@ -11,7 +11,7 @@ export default defineConfig({
     nav: [],
     sidebar: sidebarEn,
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/truenvr/gridbeat' }
+      { icon: 'github', link: 'https://github.com/fluxionwatt/gridbeat' }
     ]
   },
   locales: {
@@ -29,7 +29,7 @@ export default defineConfig({
       nav: [],
         sidebar: sidebarCn,
         socialLinks: [
-          { icon: 'github', link: 'https://github.com/truenvr/gridbeat' }
+          { icon: 'github', link: 'https://github.com/fluxionwatt/gridbeat' }
         ]
       },
     }

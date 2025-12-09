@@ -2,12 +2,12 @@
 
 ## 安装依赖
 
-请参考 [Install-dependencies](https://github.com/truenvr/gridbeat/blob/main/Install-dependencies.md)。
+请参考 [Install-dependencies](https://github.com/fluxionwatt/gridbeat/blob/main/Install-dependencies.md)。
 
 ## 编译
 
 ```
-$ git clone https://github.com/truenvr/gridbeat
+$ git clone https://github.com/fluxionwatt/gridbeat
 $ cd gridbeat
 $ mkdir build && cd build
 $ cmake .. && make
@@ -22,7 +22,7 @@ CMakeLists 中有三个可选参数：
 
 ### 安装 Dashboard
 
-在 [gridbeat-dashboard](https://github.com/truenvr/gridbeat-dashboard/releases) 页面下载最新的 `gridbeat-dashboard.zip`，解压后放到 GridBeat 可执行目录下的 dist 目录中。
+在 [gridbeat-dashboard](https://github.com/fluxionwatt/gridbeat-dashboard/releases) 页面下载最新的 `gridbeat-dashboard.zip`，解压后放到 GridBeat 可执行目录下的 dist 目录中。
 
 ### 运行
 
