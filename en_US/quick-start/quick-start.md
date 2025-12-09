@@ -9,13 +9,13 @@ GridBeat provides a variety of installation methods, and users can view the deta
 Get Docker image
 
 ```bash
-$ docker pull emqx/gridbeat:latest
+$ docker pull fluxionwatt/gridbeat:latest
 ```
 
 Run the Docker container
 
 ```bash
-$ docker run -d --name gridbeat -p 7000:7000 --privileged=true --restart=always emqx/gridbeat:latest
+$ docker run -d --name gridbeat -p 8080:8080 --privileged=true --restart=always fluxionwatt/gridbeat:latest
 ```
 
 ## Install Modbus Simulator
@@ -40,8 +40,8 @@ Access the GridBeat gateway management console, open a web browser and enter the
 
 Log in with the initial username and password:
 
-- Username: `admin` 
-- Password: `0000`
+- Username: `root` 
+- Password: `admin`
 
 ![login](./assets/login.png)
 

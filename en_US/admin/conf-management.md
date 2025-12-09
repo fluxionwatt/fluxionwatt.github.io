@@ -25,15 +25,20 @@ GridBeat supports reading environment variables during the startup process to co
 
 ## Configuration File
 
-GridBeat provides json format configuration files to configure GridBeat-related personalized parameters. The configuration file path is the gridbeat installation directory config/gridbeat.json. The default configuration content is as follows:
+GridBeat provides YAML format configuration files to configure GridBeat-related personalized parameters. The configuration file path is the gridbeat installation directory config/gridbeat.yaml. The default configuration content is as follows:
 
-```json
-{
-	"ip": "0.0.0.0",
-	"port": 7000,
-	"disable_auth": 0,
-	"syslog_host": "",
-	"syslog_port": 541,
-	"sub_filter_error": 0
-}
+```yaml
+debug: true
+log-path: ./log
+data-path: ./data
+extra-path: ./extra
+mqtt:
+    port: 1883
+    host: localhost
+http:
+    port: 8080
+    redirect_https: false
+https:
+    disable: false
+    port: 8443
 ```
