@@ -1,0 +1,25 @@
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: "GridBeat 产品文档"
+  text: ""
+  tagline: GridBeat 是一款开源的用于太阳能光伏、储能系统、充电桩数据采集与监控软件，它作为数据的汇聚中心，能够收集、转换协议、存储和管理来自众多逆变器、ESS、充电桩等设备上报的传感器数据，并通过网页界面（包含 API）实现高效的监控和维护。
+  actions:
+    - theme: brand
+      text: Quick Start
+      link: /en_US/quick-start/quick-start
+    - theme: alt
+      text: API
+      link: /en_US/api/http-api
+
+features:
+  - title: 数据聚合
+    details: 从逆变器、传感器和其他组件收集实时数据。具有实时能力的边缘原生应用程序可以利用边缘端的低延迟网络。松耦合模块化架构设计，通过可插拔模块扩展更多功能服务。
+  - title: Feature B
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature C
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+---
+
