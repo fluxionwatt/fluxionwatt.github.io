@@ -4,10 +4,10 @@
 
 ### 检查端口是否开启
 
-gridbeat 默认开启端口 7000，执行以下指令检查端口 7000 状态：
+gridbeat 默认开启端口 8080，执行以下指令检查端口 8080 状态：
 
 ```bash
-$ lsof -i:7000
+$ lsof -i:8080
 ```
 
 如果没有任何输出则说明没有开启该端口号，执行以下指令开启端口：
@@ -26,7 +26,7 @@ $ systemctl start firewalld.service
 开启指定端口：
 
 ```bash
-$ firewall-cmd --zone=public --add-port=7000/tcp --permanent
+$ firewall-cmd --zone=public --add-port=8080/tcp --permanent
 ```
 
 重启防火墙：
@@ -45,7 +45,7 @@ $ firewall-cmd --reload
 
 ### 检查 ip 是否输入正确
 
-GridBeat 访问格式为 http://x.x.x.x:7000 其中，x.x.x.x 代表安装 GridBeat 的网关地址，执行以下指令查看 ip：
+GridBeat 访问格式为 http://x.x.x.x:8080 其中，x.x.x.x 代表安装 GridBeat 的网关地址，执行以下指令查看 ip：
 
 ```bash
 $ ifconfig

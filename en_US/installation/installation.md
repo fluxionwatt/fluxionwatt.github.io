@@ -4,7 +4,7 @@ GridBeat supports 32-bit/64-bit ARM and 64-bit x86 architectures on Linux-based 
 
 * Debian Software Package (.deb) format for Debian, Ubuntu Linux-based operating systems.
 
-* Redhat Package Manager (.rpm) format for Red Hat, CentOS Linux-based operating systems.
+* Redhat Package Manager (.rpm) format for Red Hat, CentOS/Rocky Linux-based operating systems.
 
 
 ## Installation Packages for Linux Distro
@@ -12,7 +12,7 @@ GridBeat supports 32-bit/64-bit ARM and 64-bit x86 architectures on Linux-based 
 | Linux Distribution                                    | Required Package  |
 | ------------------------------------------------------------ | ------------------ |
 | Ubuntu 20.04 <br>Ubuntu 18.04 <br>Ubuntu16.04<br>Debian 11<br>Debian 10<br>Debian 9<br>Debian 8               | **Debian Software Package** (.deb)         |
-| CentOS Stream 9<br>CentOS Stream 8<br>CentOS 7    | **Redhat Package Manager** (.rpm)         |
+| RHEL/CentOS/Rocky 7/8/9/10    | **Redhat Package Manager** (.rpm)         |
 | Other Linux | **Tape Archiver** (tar.gz) |
 
 :::tip
@@ -22,7 +22,7 @@ The rpm/deb packages installation is recommended for setting up the system servi
 
 ## Hardware Requirements
 
-GridBeat is fully developed in C language and supports running on x86, ARM and other hardware architectures as well as container deployment, such as K8s, KubeEdge, etc. On devices with limited hardware resources, it can also achieve data acquisition of 100 ms or even 10 ms level. On servers with sufficient hardware resources, GridBeat can also make full use of multi-core CPUs, and can simultaneously conduct data acquisition and point write control of hundreds of thousands of points at the frequency of 100 ms.
+GridBeat is fully developed in Go language and supports running on x86, ARM and other hardware architectures as well as container deployment, such as K8s, KubeEdge, etc. On devices with limited hardware resources, it can also achieve data acquisition of 100 ms or even 10 ms level. On servers with sufficient hardware resources, GridBeat can also make full use of multi-core CPUs, and can simultaneously conduct data acquisition and point write control of hundreds of thousands of points at the frequency of 100 ms.
 
 The following table lists the hardware conditions required for the minimum demand of GridBeat at different number of tags.
 
@@ -52,33 +52,33 @@ CPU Usage                        : 90%<br>
 
 ## Download
 
-GridBeat software packages can be downloaded from the [EMQ website](https://www.emqx.com/en/downloads-and-install/gridbeat). You can also download GridBeat from [Github](https://github.com/emqx/gridbeat/releases).
+GridBeat software packages can be downloaded from [Github](https://github.com/fluxionwatt/gridbeat/releases).
 
 ## Debian Software Package
 
 | Download files               | Architecture |
 | ---------------------------- | ------------ |
-| gridbeat-x.y.z-linux-amd64.deb | X86_64       |
-| gridbeat-x.y.z-linux-armhf.deb | ARM_32       |
-| gridbeat-x.y.z-linux-arm64.deb | ARM_64       |
+| gridbeat-x.y.z-x86_64.deb | X86_64 |
+| gridbeat-x.y.z-linux-armhf.deb | ARM_32 |
+| gridbeat-x.y.z-aarch64.deb | ARM_64 |
 
 
 ## Redhat Package Manager
 
 | Download files               | Architecture |
 | ---------------------------- | ------------ |
-| gridbeat-x.y.z-linux-amd64.rpm | X86_64       |
-| gridbeat-x.y.z-linux-armhf.rpm | ARM_32       |
-| gridbeat-x.y.z-linux-arm64.rpm | ARM_64       |
+| gridbeat-x.y.z-x86_64.rpm | X86_64 |
+| gridbeat-x.y.z-armhf.rpm | ARM_32 |
+| gridbeat-x.y.z-aarch64.rpm | ARM_64 |
 
 
 ## Tape Archive
 
 | Download files               | Architecture |
 | ---------------------------- | ------------ |
-| gridbeat-x.y.z-linux-amd64.rpm | X86_64       |
-| gridbeat-x.y.z-linux-armhf.rpm | ARM_32       |
-| gridbeat-x.y.z-linux-arm64.rpm | ARM_64       |
+| gridbeat-x.y.z-linux-amd64.tar.gz | X86_64 |
+| gridbeat-x.y.z-linux-armhf.tar.gz | ARM_32 |
+| gridbeat-x.y.z-linux-arm64.tar.gz | ARM_64 |
 
 
 ## Docker Image
@@ -90,9 +90,9 @@ GridBeat software packages can be downloaded from the [EMQ website](https://www.
 
 ## Build from Source
 
-| Download files                | Remark        |
-| ----------------------------- | ------------- |
-| http://github.com/emqx/gridbeat | Github Source |
+| Download files                         | Remark        |
+| -------------------------------------- | ------------- |
+| http://github.com/fluxionwatt/gridbeat | Github Source |
 
 Release number x.y.z have following description:
 
@@ -105,7 +105,7 @@ Release number x.y.z have following description:
 
 ## License
 
-At present, GridBeat has open source MQTT, RESTful API and Modbus TCP, and users can directly use the open source driver protocols. However, by uploading a valid license, users can use more driving protocols such as OPC UA, Modbus RTU, Mitsubishi PLC and Omron PLC.
+At present, GridBeat has open source MQTT, RESTful API, IEC104, GOOSE and Modbus RTU/TCP, and users can directly use the open source driver protocols. 
 
 Please refer to [Module List](../introduction/plugin-list/plugin-list.md) for the driver protocols supported by GridBeat.
 

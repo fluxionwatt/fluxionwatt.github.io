@@ -5,7 +5,7 @@
 根据不同版本及架构下载安装包，例如：
 
 ```bash
-$ wget https://www.emqx.com/en/downloads/gridbeat/2.5.3/gridbeat-2.5.3-linux-amd64.rpm
+$ wget https://github.com/fluxionwatt/gridbeat/releases/download/v1.0.0/gridbeat-1.0.0-x86_64.rpm
 ```
 
 ## 安装
@@ -13,7 +13,7 @@ $ wget https://www.emqx.com/en/downloads/gridbeat/2.5.3/gridbeat-2.5.3-linux-amd
 根据不同版本及架构安装，例如：
 
 ```bash
-$ sudo rpm -i gridbeat-2.5.3-linux-amd64.rpm
+$ sudo rpm -ivh gridbeat-1.0.0-x86_64.rpm
 ```
 
 ::: tip

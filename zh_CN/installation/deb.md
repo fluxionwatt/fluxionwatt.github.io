@@ -5,7 +5,7 @@
 根据不同版本及架构下载安装包，例如：
 
 ```bash
-$ wget https://www.emqx.com/en/downloads/gridbeat/2.5.3/gridbeat-2.5.3-linux-amd64.deb
+$ wget https://github.com/fluxionwatt/gridbeat/releases/download/v1.0.1/gridbeat-1.0.1-x86_64.deb
 ```
 
 ## 安装
@@ -13,7 +13,7 @@ $ wget https://www.emqx.com/en/downloads/gridbeat/2.5.3/gridbeat-2.5.3-linux-amd
 根据不同版本及架构安装，例如：
 
 ```bash
-$ sudo dpkg -i gridbeat-2.5.3-linux-amd64.deb
+$ sudo dpkg -i gridbeat-1.0.1-x86_64.deb
 ```
 
 为避免 ubuntu 系统自动更新时替换 gridbeat 包，还需要执行以下命令使 gridbeat 软件包在 apt 升级中保留。

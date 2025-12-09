@@ -4,14 +4,14 @@ GridBeat 在基于 Linux 的操作系统上支持 32位/64位 ARM 和 64位 X86 
 
 * Debian 软件包（.deb）格式，用于基于 Debian、Ubuntu Linux 的操作系统；
 
-* Radhat 包管理器（.rpm）格式，适用于基于 Red Hat、CentOS Linux 的操作系统。
+* Radhat 包管理器（.rpm）格式，适用于基于 Red Hat、CentOS/Rocky Linux 的操作系统。
 
 ## Linux 发行版的安装包
 
 | Linux 发行版                                    | 所需包        |
 | ------------------------------------------------------------ | ------------------ |
 | Ubuntu 20.04<br> Ubuntu 18.04<br> Ubuntu16.04<br> Debian 11<br> Debian 10<br> Debian 9<br> Debian 8               | **Debian Software Package** (.deb)         |
-| CentOS Stream 9<br> CentOS Stream 8<br> CentOS 7    | **Redhat Package Manager** (.rpm)         |
+| RHEL/CentOS/Rocky 7/8/9/10    | **Redhat Package Manager** (.rpm)         |
 | Other Linux | **Tape Archiver** (tar.gz) |
 
 :::tip
@@ -20,7 +20,7 @@ GridBeat 在基于 Linux 的操作系统上支持 32位/64位 ARM 和 64位 X86 
 
 ## 硬件要求
 
-GridBeat 完全使用 C 语言开发，支持运行在 X86，ARM，MIPS，RISC-V 等硬件架构的设备上以及支持容器化的部署，如 K8s、KubeEdge 等。在有限硬件资源的设备上也能达到 100 毫秒，甚至 10 毫秒级别的数据采集，在硬件资源充足的服务器上，GridBeat 也能充分利用多核 CPU，能够同时对几十万的点位进行 100 毫秒频率的数据采集以及点位写入控制。
+GridBeat 完全使用 Go 语言开发，支持运行在 X86，ARM，MIPS，RISC-V 等硬件架构的设备上以及支持容器化的部署，如 K8s、KubeEdge 等。在有限硬件资源的设备上也能达到 100 毫秒，甚至 10 毫秒级别的数据采集，在硬件资源充足的服务器上，GridBeat 也能充分利用多核 CPU，能够同时对几十万的点位进行 100 毫秒频率的数据采集以及点位写入控制。
 
 下表列出了 GridBeat 在不同点位数量下的最低硬件要求。
 
@@ -48,24 +48,24 @@ CPU Usage                        : 90%<br>
 
 ## 下载
 
-GridBeat 软件包可由 [EMQ 官网](https://www.emqx.com/zh/downloads-and-install/gridbeat)下载。也可以到 [Github](https://github.com/emqx/gridbeat/releases) 仓库下载。
+GridBeat 软件包可以到 [Github](https://github.com/fluxionwatt/gridbeat/releases) 仓库下载。
 
 ## Debian 软件包
 
 | 下载文件                     | 架构   |
 | ---------------------------- | ------ |
-| gridbeat-x.y.z-linux-amd64.deb | X86_64 |
+| gridbeat-x.y.z-x86_64.deb | X86_64 |
 | gridbeat-x.y.z-linux-armhf.deb | ARM_32 |
-| gridbeat-x.y.z-linux-arm64.deb | ARM_64 |
+| gridbeat-x.y.z-aarch64.deb | ARM_64 |
 
 
 ## Redhat 软件包管理工具
 
 | 下载文件                     | 架构   |
 | ---------------------------- | ------ |
-| gridbeat-x.y.z-linux-amd64.rpm | X86_64 |
-| gridbeat-x.y.z-linux-armhf.rpm | ARM_32 |
-| gridbeat-x.y.z-linux-arm64.rpm | ARM_64 |
+| gridbeat-x.y.z-x86_64.rpm | X86_64 |
+| gridbeat-x.y.z-armhf.rpm | ARM_32 |
+| gridbeat-x.y.z-aarch64.rpm | ARM_64 |
 
 
 ## Tape Archive（tar）
@@ -86,9 +86,9 @@ GridBeat 软件包可由 [EMQ 官网](https://www.emqx.com/zh/downloads-and-inst
 
 ## 源码构建
 
-| 下载文件                      | 备注          |
-| ----------------------------- | ------------- |
-| http://github.com/emqx/gridbeat | Github Source |
+| 下载文件                                | 备注           |
+| -------------------------------------- | ------------- |
+| http://github.com/fluxionwatt/gridbeat | Github Source |
 
 版本号 x.y.z 说明：
 
@@ -99,7 +99,7 @@ GridBeat 软件包可由 [EMQ 官网](https://www.emqx.com/zh/downloads-and-inst
 
 ## License
 
-目前 GridBeat 已开源 MQTT、RESTful API 和 Modbus TCP，用户可以直接使用开源的驱动协议。但是，通过上传有效的许可证，用户可以使用更多的驱动协议，如 OPC UA，Modbus RTU，三菱 PLC 和欧姆龙 PLC。
+目前 GridBeat 已开源 MQTT、RESTful API、IEC104、GOOSE 和 Modbus TCP，用户可以直接使用开源的驱动协议。
 
 
 请参考[模块列表](../introduction/plugin-list/plugin-list.md)获取更多的 GridBeat 支持的驱动模块。

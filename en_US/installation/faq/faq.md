@@ -4,9 +4,9 @@
 
 ### Check whether the port is open
 
-By default, GridBeat opens port 7000 and executes the following command to check the status of port 7000:
+By default, GridBeat opens port 8080 and executes the following command to check the status of port 8080:
 ```bash
-$ lsof -i:7000
+$ lsof -i:8080
 ```
 If there is no output, it indicates that the port number is not enabled. Execute the following command to open the port:
 To view firewall status:
@@ -19,7 +19,7 @@ $ systemctl start firewalld.service
 ```
 Open the specified port:
 ```bash
-$ firewall-cmd --zone=public --add-port=7000/tcp --permanent
+$ firewall-cmd --zone=public --add-port=8080/tcp --permanent
 ```
 Restart the firewall:
 ```bash
@@ -33,7 +33,7 @@ $ firewall-cmd --reload
 
 ### Check whether the IP is input correctly
 
-The gridbeat access format is http://x.x.x.x:7000 Where x.x.x.x represents the gateway address where GridBeat is installed. Execute the following command to view the IP address:
+The gridbeat access format is http://x.x.x.x:8080 Where x.x.x.x represents the gateway address where GridBeat is installed. Execute the following command to view the IP address:
 ```bash
 $ ifconfig
 ```

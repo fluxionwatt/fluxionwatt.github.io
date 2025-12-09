@@ -2,25 +2,29 @@
 
 ## 获取镜像
 
-GridBeat docker 镜像请从 [docker hub](https://hub.docker.com/r/emqx/gridbeat/tags) 网站下载。
+:::tip
+当前 docker 版本在计划中，很快会到来。
+:::
+
+GridBeat docker 镜像请从 [docker hub](https://hub.docker.com/r/fluxionwatt/gridbeat/tags) 网站下载。
 
 ```bash
 ## pull GridBeat
-$ docker pull emqx/gridbeat:latest
+$ docker pull fluxionwatt/gridbeat:latest
 ```
 
-支持更小占用的 alpine 镜像，请从 [docker hub](https://hub.docker.com/r/emqx/gridbeat/tags) 网站下载。
+支持更小占用的 alpine 镜像，请从 [docker hub](https://hub.docker.com/r/fluxionwatt/gridbeat/tags) 网站下载。
 
 ```bash
 ## pull GridBeat
-$ docker pull emqx/gridbeat:2.5.3-alpine
+$ docker pull fluxionwatt/gridbeat:2.5.3-alpine
 ```
 
 ## 启动
 
 ```bash
 ## run GridBeat
-$ docker run -d --name gridbeat --log-opt max-size=100m -p 7000:7000 --privileged=true -v /host/dir:/opt/gridbeat/persistence --device /dev/ttyUSB0:/dev/ttyS0 --restart=always emqx/gridbeat:latest
+$ docker run -d --name gridbeat --log-opt max-size=100m -p 7000:7000 --privileged=true -v /host/dir:/opt/gridbeat/persistence --device /dev/ttyUSB0:/dev/ttyS0 --restart=always fluxionwatt/gridbeat:latest
 ```
 
 * tcp 7000：用于访问 web 和 http api 端口。
