@@ -3,16 +3,21 @@ import { sidebarCn, sidebarEn } from './sidebar'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "GridBeat",
-  description: "GridBeat 产品文档",
+  title: "FluxionWatt",
+  description: "FluxionWatt 产品文档",
   ignoreDeadLinks: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [],
-    sidebar: sidebarEn,
+    logo: '/static/img/logo.png',
+    //sidebar: sidebarEn,
     socialLinks: [
       { icon: 'github', link: 'https://github.com/fluxionwatt/gridbeat' }
-    ]
+    ],
+     footer: {
+      message: '',
+      copyright: 'Copyright © 2025 FluxionWatt Team'
+    }
   },
   locales: {
     root: {
