@@ -1,7 +1,7 @@
 baseURL = "https://www.fluxionwatt.com/"
 title = "FluxionWatt"
 defaultContentLanguage = "zh-cn"
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 
 # Theme Config
 theme = "hugo-saasify-theme"
