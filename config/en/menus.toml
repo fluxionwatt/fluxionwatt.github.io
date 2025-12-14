@@ -1,0 +1,31 @@
+[menu]
+  [[menu.main]]
+    name = "Features"
+    weight = 1
+    [menu.main.params]
+      has_submenu = true
+      submenu = [
+        { name = "Performance", url = "/features/performance/" },
+        { name = "Design System", url = "/features/design-system/" },
+        { name = "Developer Experience", url = "/features/developer-experience/" }
+      ]
+
+  [[menu.main]]
+    name = "Pricing"
+    url = "/pricing/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Company"
+    weight = 4
+    [menu.main.params]
+      has_submenu = true
+      submenu = [
+        { name = "About Us", url = "/company/" },
+        { name = "Careers", url = "/careers/" }
+      ]

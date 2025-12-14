@@ -1,6 +1,7 @@
 baseURL = "https://www.fluxionwatt.com/"
 title = "Saasify"
 defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
 
 # Theme Config
 theme = "hugo-saasify-theme"
@@ -180,7 +181,7 @@ paginatePath = "page"
      languageName = "English"
      title = "Saasify"
      weight = 1
-     contentDir = "content"
+     contentDir = "content/en-us"
 
    [languages.zh-cn]
      languageCode = "zh-cn"
