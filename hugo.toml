@@ -225,17 +225,17 @@ paginatePath = "page"
     [menu.main.params]
       has_submenu = true
       submenu = [
-        { name = "Performance", url = "/features/performance/" },
-        { name = "Design System", url = "/features/design-system/" },
-        { name = "Developer Experience", url = "/features/developer-experience/" }
+        { name = "Performance", url = "/zh-cn/features/performance/" },
+        { name = "Design System", url = "/zh-cn/features/design-system/" },
+        { name = "Developer Experience", url = "/zh-cn/features/developer-experience/" }
       ]
   [[menu.main]]
     name = "Pricing"
-    url = "/pricing"
+    url = "/zh-cn/pricing"
     weight = 2
   [[menu.main]]
     name = "Blog"
-    url = "/blog"
+    url = "/zh-cn/blog"
     weight = 3
   [[menu.main]]
     name = "About"
@@ -243,46 +243,46 @@ paginatePath = "page"
     [menu.main.params]
       has_submenu = true
       submenu = [
-        { name = "About Us", url = "/about/" },
-        { name = "Careers", url = "/careers/" }
+        { name = "About Us", url = "/zh-cn/about/" },
+        { name = "Careers", url = "/zh-cn/careers/" }
       ]
 
   # Footer Column 1 Menu
   [[menu.footer_column_1]]
     name = "Performance"
-    url = "/features/performance/"
+    url = "/zh-cn/features/performance/"
     weight = 1
   [[menu.footer_column_1]]
     name = "Design System"
-    url = "/features/design-system/"
+    url = "/zh-cn/features/design-system/"
     weight = 2
   [[menu.footer_column_1]]
     name = "Developer Experience"
-    url = "/features/developer-experience/"
+    url = "/zh-cn/features/developer-experience/"
     weight = 3
 
   # Footer Column 2 Menu
   [[menu.footer_column_2]]
     name = "Blog"
-    url = "/blog"
+    url = "/zh-cn/blog"
     weight = 1
   [[menu.footer_column_2]]
     name = "About Us"
-    url = "/about"
+    url = "/zh-cn/about"
     weight = 2
   [[menu.footer_column_2]]
     name = "Careers"
-    url = "/careers"
+    url = "/zh-cn/careers"
     weight = 3
 
   # Footer Column 3 Menu
   [[menu.footer_column_3]]
     name = "License"
-    url = "/license"
+    url = "/zh-cn/license"
     weight = 1
   [[menu.footer_column_3]]
     name = "Privacy Policy"
-    url = "/privacy"
+    url = "/zh-cn/privacy"
     weight = 2
 
 [languages.zh-cn.menu]
@@ -293,9 +293,9 @@ paginatePath = "page"
     [languages.zh-cn.menu.main.params]
       has_submenu = true
       submenu = [
-        { name = "性能", url = "/features/performance/" },
-        { name = "设计系统", url = "/features/design-system/" },
-        { name = "开发者体验", url = "/features/developer-experience/" }
+        { name = "性能", url = "/zh-cn/features/performance/" },
+        { name = "设计系统", url = "/zh-cn/features/design-system/" },
+        { name = "开发者体验", url = "/zh-cn/features/developer-experience/" }
       ]
 
   [[languages.zh-cn.menu.main]]
