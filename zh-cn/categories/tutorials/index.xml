@@ -1,100 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tutorials on FluxionWatt</title><link>https://www.fluxionwatt.com/zh-cn/categories/tutorials/</link><description>Recent content in Tutorials on FluxionWatt</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 14 Dec 2025 10:08:23 +0800</lastBuildDate><atom:link href="https://www.fluxionwatt.com/zh-cn/categories/tutorials/index.xml" rel="self" type="application/rss+xml"/><item><title>Getting Started with Hugo: A Beginner's Guide</title><link>https://www.fluxionwatt.com/zh-cn/blog/getting-started-with-hugo/</link><pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/blog/getting-started-with-hugo/</guid><description>&lt;div class="bg-gray-50 p-6 rounded-lg mb-8"&gt;
- &lt;h2 class="text-xl font-semibold mb-4"&gt;目录&lt;/h2&gt;
- &lt;nav id="TableOfContents"&gt;
- &lt;ul&gt;
- &lt;li&gt;&lt;a href="#introduction"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#why-choose-hugo"&gt;Why Choose Hugo?&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#setting-up-your-first-hugo-site"&gt;Setting Up Your First Hugo Site&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#working-with-content"&gt;Working with Content&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#advanced-features"&gt;Advanced Features&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#code-examples"&gt;Code Examples&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#conclusion"&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#next-steps"&gt;Next Steps&lt;/a&gt;&lt;/li&gt;
- &lt;/ul&gt;
-&lt;/nav&gt;
-&lt;/div&gt;
-
-&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.&lt;/p&gt;
-&lt;h2 id="why-choose-hugo"&gt;Why Choose Hugo?&lt;/h2&gt;
-&lt;p&gt;Here are some compelling reasons to choose Hugo for your next project:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Lightning Fast&lt;/li&gt;
-&lt;li&gt;Easy to Learn&lt;/li&gt;
-&lt;li&gt;Highly Flexible&lt;/li&gt;
-&lt;li&gt;Great Community&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="setting-up-your-first-hugo-site"&gt;Setting Up Your First Hugo Site&lt;/h2&gt;
-&lt;p&gt;Let&amp;rsquo;s walk through creating your first Hugo site:&lt;/p&gt;</description></item><item><title>Getting Started with Hugo: A Beginner's Guide</title><link>https://www.fluxionwatt.com/zh-cn/en-us/blog/getting-started-with-hugo/</link><pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/en-us/blog/getting-started-with-hugo/</guid><description>&lt;div class="bg-gray-50 p-6 rounded-lg mb-8"&gt;
- &lt;h2 class="text-xl font-semibold mb-4"&gt;目录&lt;/h2&gt;
- &lt;nav id="TableOfContents"&gt;
- &lt;ul&gt;
- &lt;li&gt;&lt;a href="#introduction"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#why-choose-hugo"&gt;Why Choose Hugo?&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#setting-up-your-first-hugo-site"&gt;Setting Up Your First Hugo Site&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#working-with-content"&gt;Working with Content&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#advanced-features"&gt;Advanced Features&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#code-examples"&gt;Code Examples&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#conclusion"&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#next-steps"&gt;Next Steps&lt;/a&gt;&lt;/li&gt;
- &lt;/ul&gt;
-&lt;/nav&gt;
-&lt;/div&gt;
-
-&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.&lt;/p&gt;
-&lt;h2 id="why-choose-hugo"&gt;Why Choose Hugo?&lt;/h2&gt;
-&lt;p&gt;Here are some compelling reasons to choose Hugo for your next project:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Lightning Fast&lt;/li&gt;
-&lt;li&gt;Easy to Learn&lt;/li&gt;
-&lt;li&gt;Highly Flexible&lt;/li&gt;
-&lt;li&gt;Great Community&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="setting-up-your-first-hugo-site"&gt;Setting Up Your First Hugo Site&lt;/h2&gt;
-&lt;p&gt;Let&amp;rsquo;s walk through creating your first Hugo site:&lt;/p&gt;</description></item><item><title>Getting Started with Hugo: A Beginner's Guide</title><link>https://www.fluxionwatt.com/zh-cn/zh-cn/blog/getting-started-with-hugo/</link><pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/zh-cn/blog/getting-started-with-hugo/</guid><description>&lt;div class="bg-gray-50 p-6 rounded-lg mb-8"&gt;
- &lt;h2 class="text-xl font-semibold mb-4"&gt;目录&lt;/h2&gt;
- &lt;nav id="TableOfContents"&gt;
- &lt;ul&gt;
- &lt;li&gt;&lt;a href="#introduction"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#why-choose-hugo"&gt;Why Choose Hugo?&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#setting-up-your-first-hugo-site"&gt;Setting Up Your First Hugo Site&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#working-with-content"&gt;Working with Content&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#advanced-features"&gt;Advanced Features&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#code-examples"&gt;Code Examples&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#conclusion"&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#next-steps"&gt;Next Steps&lt;/a&gt;&lt;/li&gt;
- &lt;/ul&gt;
-&lt;/nav&gt;
-&lt;/div&gt;
-
-&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.&lt;/p&gt;
-&lt;h2 id="why-choose-hugo"&gt;Why Choose Hugo?&lt;/h2&gt;
-&lt;p&gt;Here are some compelling reasons to choose Hugo for your next project:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Lightning Fast&lt;/li&gt;
-&lt;li&gt;Easy to Learn&lt;/li&gt;
-&lt;li&gt;Highly Flexible&lt;/li&gt;
-&lt;li&gt;Great Community&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="setting-up-your-first-hugo-site"&gt;Setting Up Your First Hugo Site&lt;/h2&gt;
-&lt;p&gt;Let&amp;rsquo;s walk through creating your first Hugo site:&lt;/p&gt;</description></item><item><title>GridBeat 1.0.0 新版发布</title><link>https://www.fluxionwatt.com/zh-cn/blog/gridbeat-ann-1.0.0/</link><pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/blog/gridbeat-ann-1.0.0/</guid><description>&lt;h2 id="发布"&gt;发布&lt;/h2&gt;
-&lt;p&gt;基于 Nginx 1.17.8 核心的 OpenResty 1.17.8.1 正式发布。 全部发布内容和详细修改、变更和测试相关的信息，参考这里。 因为本版本包含很多安全更新，我们建议所有 OpenResty 用户升级到此版本。 主要变更简介：所有官方 OpenResty 二进制使用的 OpenSSL 升级到了 1.1.1。 这是是主线 OpenSSL 1.1.1 版本系列的最新版本。 我们还给下列 Linux 发布添加了官方的 OpenResty 二进制仓库： Alpine 3.12，OpenSUSE 15.2，Ubuntu 14.04，和 Fedora 28。另外我们取消了 PUC-Rio Lua 的支持； 现在开始，只支持 LuaJIT 2.x。 另外，我们最后的 tar 包尺寸现在是 3.5MB，比之前的 4.7MB 小不少。&lt;/p&gt;
-&lt;h2 id="致谢"&gt;致谢&lt;/h2&gt;
-&lt;p&gt;向我们所有开发人员，赞助者和贡献者表示特别的感谢！&lt;/p&gt;
-&lt;h2 id="完整-changelog"&gt;完整 Changelog&lt;/h2&gt;
-&lt;p&gt;自最新发布以来所有的变更历史，都可以浏览这个页面 。&lt;/p&gt;
-&lt;h2 id="反馈"&gt;反馈&lt;/h2&gt;
-&lt;p&gt;欢迎给本版本提供反馈。欢迎到 GitHub issues 创建新 issue 或者给我们的邮件列表之一发送邮件， 或者到我们新建立的 bbs 讨论。&lt;/p&gt;
-&lt;h2 id="下一个版本"&gt;下一个版本&lt;/h2&gt;
-&lt;p&gt;下一个版本的 计划在十月初发布，只有 3 个月的时间，将基于 Nginx 1.19.x 系列核心。 向所有的支持者、贡献者和用户表示感谢！&lt;/p&gt;</description></item><item><title>GridBeat 1.0.0 新版发布</title><link>https://www.fluxionwatt.com/zh-cn/zh-cn/blog/gridbeat-ann-1.0.0/</link><pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/zh-cn/blog/gridbeat-ann-1.0.0/</guid><description>&lt;h2 id="发布"&gt;发布&lt;/h2&gt;
-&lt;p&gt;基于 Nginx 1.17.8 核心的 OpenResty 1.17.8.1 正式发布。 全部发布内容和详细修改、变更和测试相关的信息，参考这里。 因为本版本包含很多安全更新，我们建议所有 OpenResty 用户升级到此版本。 主要变更简介：所有官方 OpenResty 二进制使用的 OpenSSL 升级到了 1.1.1。 这是是主线 OpenSSL 1.1.1 版本系列的最新版本。 我们还给下列 Linux 发布添加了官方的 OpenResty 二进制仓库： Alpine 3.12，OpenSUSE 15.2，Ubuntu 14.04，和 Fedora 28。另外我们取消了 PUC-Rio Lua 的支持； 现在开始，只支持 LuaJIT 2.x。 另外，我们最后的 tar 包尺寸现在是 3.5MB，比之前的 4.7MB 小不少。&lt;/p&gt;
-&lt;h2 id="致谢"&gt;致谢&lt;/h2&gt;
-&lt;p&gt;向我们所有开发人员，赞助者和贡献者表示特别的感谢！&lt;/p&gt;
-&lt;h2 id="完整-changelog"&gt;完整 Changelog&lt;/h2&gt;
-&lt;p&gt;自最新发布以来所有的变更历史，都可以浏览这个页面 。&lt;/p&gt;
-&lt;h2 id="反馈"&gt;反馈&lt;/h2&gt;
-&lt;p&gt;欢迎给本版本提供反馈。欢迎到 GitHub issues 创建新 issue 或者给我们的邮件列表之一发送邮件， 或者到我们新建立的 bbs 讨论。&lt;/p&gt;
-&lt;h2 id="下一个版本"&gt;下一个版本&lt;/h2&gt;
-&lt;p&gt;下一个版本的 计划在十月初发布，只有 3 个月的时间，将基于 Nginx 1.19.x 系列核心。 向所有的支持者、贡献者和用户表示感谢！&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorials on FluxionWatt</title>
+    <link>http://localhost:1313/zh-cn/categories/tutorials/</link>
+    <description>Recent content in Tutorials on FluxionWatt</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 14 Dec 2025 10:08:23 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh-cn/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started with Hugo: A Beginner&#39;s Guide</title>
+      <link>http://localhost:1313/zh-cn/blog/getting-started-with-hugo/</link>
+      <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-cn/blog/getting-started-with-hugo/</guid>
+      <description>&lt;div class=&#34;bg-gray-50 p-6 rounded-lg mb-8&#34;&gt;&#xA;    &lt;h2 class=&#34;text-xl font-semibold mb-4&#34;&gt;目录&lt;/h2&gt;&#xA;    &lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#why-choose-hugo&#34;&gt;Why Choose Hugo?&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#setting-up-your-first-hugo-site&#34;&gt;Setting Up Your First Hugo Site&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#working-with-content&#34;&gt;Working with Content&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#advanced-features&#34;&gt;Advanced Features&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#code-examples&#34;&gt;Code Examples&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#conclusion&#34;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#next-steps&#34;&gt;Next Steps&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/nav&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-choose-hugo&#34;&gt;Why Choose Hugo?&lt;/h2&gt;&#xA;&lt;p&gt;Here are some compelling reasons to choose Hugo for your next project:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Lightning Fast&lt;/li&gt;&#xA;&lt;li&gt;Easy to Learn&lt;/li&gt;&#xA;&lt;li&gt;Highly Flexible&lt;/li&gt;&#xA;&lt;li&gt;Great Community&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;setting-up-your-first-hugo-site&#34;&gt;Setting Up Your First Hugo Site&lt;/h2&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s walk through creating your first Hugo site:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GridBeat 1.0.0 新版发布</title>
+      <link>http://localhost:1313/zh-cn/blog/gridbeat-ann-1.0.0/</link>
+      <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-cn/blog/gridbeat-ann-1.0.0/</guid>
+      <description>&lt;h2 id=&#34;发布&#34;&gt;发布&lt;/h2&gt;&#xA;&lt;p&gt;基于 Nginx 1.17.8 核心的 OpenResty 1.17.8.1 正式发布。 全部发布内容和详细修改、变更和测试相关的信息，参考这里。 因为本版本包含很多安全更新，我们建议所有 OpenResty 用户升级到此版本。 主要变更简介：所有官方 OpenResty 二进制使用的 OpenSSL 升级到了 1.1.1。 这是是主线 OpenSSL 1.1.1 版本系列的最新版本。 我们还给下列 Linux 发布添加了官方的 OpenResty 二进制仓库： Alpine 3.12，OpenSUSE 15.2，Ubuntu 14.04，和 Fedora 28。另外我们取消了 PUC-Rio Lua 的支持； 现在开始，只支持 LuaJIT 2.x。 另外，我们最后的 tar 包尺寸现在是 3.5MB，比之前的 4.7MB 小不少。&lt;/p&gt;&#xA;&lt;h2 id=&#34;致谢&#34;&gt;致谢&lt;/h2&gt;&#xA;&lt;p&gt;向我们所有开发人员，赞助者和贡献者表示特别的感谢！&lt;/p&gt;&#xA;&lt;h2 id=&#34;完整-changelog&#34;&gt;完整 Changelog&lt;/h2&gt;&#xA;&lt;p&gt;自最新发布以来所有的变更历史，都可以浏览这个页面 。&lt;/p&gt;&#xA;&lt;h2 id=&#34;反馈&#34;&gt;反馈&lt;/h2&gt;&#xA;&lt;p&gt;欢迎给本版本提供反馈。欢迎到 GitHub issues 创建新 issue 或者给我们的邮件列表之一发送邮件， 或者到我们新建立的 bbs 讨论。&lt;/p&gt;&#xA;&lt;h2 id=&#34;下一个版本&#34;&gt;下一个版本&lt;/h2&gt;&#xA;&lt;p&gt;下一个版本的 计划在十月初发布，只有 3 个月的时间，将基于 Nginx 1.19.x 系列核心。 向所有的支持者、贡献者和用户表示感谢！&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
