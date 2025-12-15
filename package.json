@@ -6,8 +6,8 @@
   "license": "MIT",
   "scripts": {
     "start": "concurrently \"npx tailwindcss -i themes/hugo-saasify-theme/assets/css/main.css -o static/css/style.css --watch\" \"hugo server -D\"",
-    "build": "cd gridbeat && yarn docs:build && cd ../ && tailwindcss -i themes/hugo-saasify-theme/assets/css/main.css -o static/css/style.css --minify && hugo --minify",
-    "publish": "gh-pages -d ./public/ -b gh-pages"
+    "build": "tailwindcss -i themes/hugo-saasify-theme/assets/css/main.css -o static/css/style.css --minify && hugo --minify && cd gridbeat && yarn docs:build && cd ../",
+    "deploy": "gh-pages -d ./public/ -b gh-pages"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.7",
@@ -16,8 +16,7 @@
     "concurrently": "^8.2.2",
     "postcss": "^8.4.31",
     "postcss-cli": "^10.1.0",
-    "tailwindcss": "^3.3.5",
-    "wrangler": "^4.54.0"
+    "tailwindcss": "^3.3.5"
   },
   "dependencies": {
     "gh-pages": "^6.3.0"

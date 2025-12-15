@@ -57,7 +57,7 @@ description: "Learn about our mission, leadership team, and the investors backin
 
 {{< section-container class="py-20 bg-gray-50" >}}
     <div class="max-w-6xl mx-auto">
-        <h2 class="text-3xl font-bold text-center mb-12">Company Values</h2>
+        <h2 class="text-3xl font-bold text-center mb-12">Our Values</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             {{< value-card 
                 title="Innovation First"
@@ -85,6 +85,24 @@ description: "Learn about our mission, leadership team, and the investors backin
             {{< stat number="200+" label="Team Members" >}}
             {{< stat number="10k+" label="Customers" >}}
             {{< stat number="50M+" label="Annual Revenue" >}}
+        </div>
+    </div>
+{{< /section-container >}}
+
+{{< section-container class="py-20 bg-gray-50" >}}
+    <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-12">联系我们</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {{< value-card 
+                title="Sales Consulting"
+                icon="lightbulb"
+                description="sales@fluxionwatt.com"
+            >}}
+            {{< value-card 
+                title="Technical Support"
+                icon="users"
+                description="sales@fluxionwatt.com"
+            >}}
         </div>
     </div>
 {{< /section-container >}}

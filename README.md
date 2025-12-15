@@ -1,9 +1,11 @@
 ### Local Development
 
 ```
-brew install yarn
+git submodule update --init --recursive
+
+brew install yarn hugo
 yarn install
-yarn docs:dev
+yarn run build
 ```
 
 ```
@@ -22,6 +24,6 @@ yarn docs:build
 ### Deployment
 
 ```
-yarn docs:deploy
+yarn run deploy
 ```
 

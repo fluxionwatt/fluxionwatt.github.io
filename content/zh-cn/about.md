@@ -57,22 +57,22 @@ description: "Learn about our mission, leadership team, and the investors backin
 
 {{< section-container class="py-20 bg-gray-50" >}}
     <div class="max-w-6xl mx-auto">
-        <h2 class="text-3xl font-bold text-center mb-12">Company Values</h2>
+        <h2 class="text-3xl font-bold text-center mb-12">我们的价值观</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             {{< value-card 
-                title="Innovation First"
+                title="创新至上"
                 icon="lightbulb"
-                description="We constantly push boundaries and embrace new technologies to solve complex challenges."
+                description="我们不断突破界限，拥抱新技术，以应对复杂挑战。"
             >}}
             {{< value-card 
-                title="Customer Success"
+                title="开发经验"
                 icon="users"
-                description="Our customers' success is our success. We're committed to delivering exceptional value."
+                description="我们在新能源汽车、光伏、储能、暖通空调/制冷行业拥有多年​​的电气设备开发经验。"
             >}}
             {{< value-card 
-                title="Transparency"
+                title="透明公开"
                 icon="eye"
-                description="We believe in open communication and building trust through transparency."
+                description="我们秉持开放沟通的理念，并通过透明公开建立信任。"
             >}}
         </div>
     </div>
@@ -85,6 +85,25 @@ description: "Learn about our mission, leadership team, and the investors backin
             {{< stat number="200+" label="Team Members" >}}
             {{< stat number="10k+" label="Customers" >}}
             {{< stat number="50M+" label="Annual Revenue" >}}
+        </div>
+    </div>
+{{< /section-container >}}
+
+
+{{< section-container class="py-20 bg-gray-50" >}}
+    <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-12">联系我们</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {{< value-card 
+                title="销售咨询"
+                icon="lightbulb"
+                description="sales@fluxionwatt.com"
+            >}}
+            {{< value-card 
+                title="技术支持"
+                icon="users"
+                description="sales@fluxionwatt.com"
+            >}}
         </div>
     </div>
 {{< /section-container >}}
