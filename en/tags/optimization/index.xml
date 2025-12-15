@@ -1,33 +1,168 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Optimization on FluxionWatt</title>
-    <link>http://localhost:1313/en/tags/optimization/</link>
-    <description>Recent content in Optimization on FluxionWatt</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 14 Dec 2025 09:08:05 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Optimizing Hugo Performance: Speed Up Your Site</title>
-      <link>http://localhost:1313/en/blog/optimizing-hugo-performance/</link>
-      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/blog/optimizing-hugo-performance/</guid>
-      <description>&lt;div class=&#34;bg-gray-50 p-6 rounded-lg mb-8&#34;&gt;&#xA;    &lt;h2 class=&#34;text-xl font-semibold mb-4&#34;&gt;Table of Contents&lt;/h2&gt;&#xA;    &lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#asset-optimization&#34;&gt;Asset Optimization&lt;/a&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#image-optimization&#34;&gt;Image Optimization&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#css-and-javascript&#34;&gt;CSS and JavaScript&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#caching-strategies&#34;&gt;Caching Strategies&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#content-delivery&#34;&gt;Content Delivery&lt;/a&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#cdn-setup&#34;&gt;CDN Setup&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#edge-computing&#34;&gt;Edge Computing&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#performance-monitoring&#34;&gt;Performance Monitoring&lt;/a&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#key-metrics&#34;&gt;Key Metrics&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#advanced-optimization-techniques&#34;&gt;Advanced Optimization Techniques&lt;/a&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#resource-hints&#34;&gt;Resource Hints&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#critical-css&#34;&gt;Critical CSS&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#seo-optimization&#34;&gt;SEO Optimization&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#conclusion&#34;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#resources&#34;&gt;Resources&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/nav&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Performance is crucial for user experience and SEO. In this guide, we&amp;rsquo;ll explore various techniques to optimize your Hugo site for maximum performance.&lt;/p&gt;&#xA;&lt;h2 id=&#34;asset-optimization&#34;&gt;Asset Optimization&lt;/h2&gt;&#xA;&lt;h3 id=&#34;image-optimization&#34;&gt;Image Optimization&lt;/h3&gt;&#xA;&lt;p&gt;Images often contribute the most to page weight. Here&amp;rsquo;s how to optimize them:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Optimizing Hugo Performance: Speed Up Your Site</title>
-      <link>http://localhost:1313/en/en-us/blog/optimizing-hugo-performance/</link>
-      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/en-us/blog/optimizing-hugo-performance/</guid>
-      <description>&lt;div class=&#34;bg-gray-50 p-6 rounded-lg mb-8&#34;&gt;&#xA;    &lt;h2 class=&#34;text-xl font-semibold mb-4&#34;&gt;Table of Contents&lt;/h2&gt;&#xA;    &lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#asset-optimization&#34;&gt;Asset Optimization&lt;/a&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#image-optimization&#34;&gt;Image Optimization&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#css-and-javascript&#34;&gt;CSS and JavaScript&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#caching-strategies&#34;&gt;Caching Strategies&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#content-delivery&#34;&gt;Content Delivery&lt;/a&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#cdn-setup&#34;&gt;CDN Setup&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#edge-computing&#34;&gt;Edge Computing&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#performance-monitoring&#34;&gt;Performance Monitoring&lt;/a&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#key-metrics&#34;&gt;Key Metrics&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#advanced-optimization-techniques&#34;&gt;Advanced Optimization Techniques&lt;/a&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#resource-hints&#34;&gt;Resource Hints&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#critical-css&#34;&gt;Critical CSS&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#seo-optimization&#34;&gt;SEO Optimization&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#conclusion&#34;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#resources&#34;&gt;Resources&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/nav&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Performance is crucial for user experience and SEO. In this guide, we&amp;rsquo;ll explore various techniques to optimize your Hugo site for maximum performance.&lt;/p&gt;&#xA;&lt;h2 id=&#34;asset-optimization&#34;&gt;Asset Optimization&lt;/h2&gt;&#xA;&lt;h3 id=&#34;image-optimization&#34;&gt;Image Optimization&lt;/h3&gt;&#xA;&lt;p&gt;Images often contribute the most to page weight. Here&amp;rsquo;s how to optimize them:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Optimizing Hugo Performance: Speed Up Your Site</title>
-      <link>http://localhost:1313/en/zh-cn/blog/optimizing-hugo-performance/</link>
-      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/zh-cn/blog/optimizing-hugo-performance/</guid>
-      <description>&lt;div class=&#34;bg-gray-50 p-6 rounded-lg mb-8&#34;&gt;&#xA;    &lt;h2 class=&#34;text-xl font-semibold mb-4&#34;&gt;Table of Contents&lt;/h2&gt;&#xA;    &lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#asset-optimization&#34;&gt;Asset Optimization&lt;/a&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#image-optimization&#34;&gt;Image Optimization&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#css-and-javascript&#34;&gt;CSS and JavaScript&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#caching-strategies&#34;&gt;Caching Strategies&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#content-delivery&#34;&gt;Content Delivery&lt;/a&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#cdn-setup&#34;&gt;CDN Setup&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#edge-computing&#34;&gt;Edge Computing&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#performance-monitoring&#34;&gt;Performance Monitoring&lt;/a&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#key-metrics&#34;&gt;Key Metrics&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#advanced-optimization-techniques&#34;&gt;Advanced Optimization Techniques&lt;/a&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#resource-hints&#34;&gt;Resource Hints&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#critical-css&#34;&gt;Critical CSS&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#seo-optimization&#34;&gt;SEO Optimization&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#conclusion&#34;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#resources&#34;&gt;Resources&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/nav&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Performance is crucial for user experience and SEO. In this guide, we&amp;rsquo;ll explore various techniques to optimize your Hugo site for maximum performance.&lt;/p&gt;&#xA;&lt;h2 id=&#34;asset-optimization&#34;&gt;Asset Optimization&lt;/h2&gt;&#xA;&lt;h3 id=&#34;image-optimization&#34;&gt;Image Optimization&lt;/h3&gt;&#xA;&lt;p&gt;Images often contribute the most to page weight. Here&amp;rsquo;s how to optimize them:&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Optimization on FluxionWatt</title><link>https://www.fluxionwatt.com/en/tags/optimization/</link><description>Recent content in Optimization on FluxionWatt</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 14 Dec 2025 09:08:05 +0800</lastBuildDate><atom:link href="https://www.fluxionwatt.com/en/tags/optimization/index.xml" rel="self" type="application/rss+xml"/><item><title>为什么储能行业充放电倍率都是 0.5C</title><link>https://www.fluxionwatt.com/en/zh-cn/blog/why-charge-discharge-storage-50c/</link><pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/en/zh-cn/blog/why-charge-discharge-storage-50c/</guid><description>&lt;h1 id="为什么储能行业充放电倍率都爱用05c"&gt;为什么储能行业充放电倍率“都爱用”0.5C？&lt;/h1&gt;
+&lt;p&gt;很多电化学储能项目（尤其是电网侧、工商业侧的大型电池储能系统 BESS）在参数表上都会出现一个熟悉的数字：&lt;strong&gt;0.5C 充放电倍率&lt;/strong&gt;。看起来好像整个行业都默认了 0.5C，这背后其实是 &lt;strong&gt;电芯特性、寿命成本、安全和电网应用场景多方面权衡的结果&lt;/strong&gt;。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;先简单回顾：&lt;br&gt;
+&lt;strong&gt;0.5C 的含义&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;对于容量为 &lt;em&gt;100Ah&lt;/em&gt; 的电池，0.5C 放电电流就是 &lt;em&gt;50A&lt;/em&gt;；&lt;/li&gt;
+&lt;li&gt;理论上 2 小时充满或放空，所以 0.5C 往往对应“2 小时制”储能系统。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;下面从几个维度拆开讲。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="一电芯物理特性05c-是寿命安全与效率的甜点位"&gt;一、电芯物理特性：0.5C 是寿命、安全与效率的“甜点位”&lt;/h2&gt;
+&lt;p&gt;大型储能现在主流用的是 &lt;strong&gt;磷酸铁锂（LFP）能量型电芯&lt;/strong&gt;，不是动力电池那种高 C 倍率“暴力玩家”。对这类能量型电芯来说：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;寿命在 0.5C 附近最划算&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;0.25C～0.5C：循环寿命可以轻松做到 6000–10000 次甚至更多；&lt;/li&gt;
+&lt;li&gt;拉到 1C：同样的电芯体系下，容量衰减明显加快，寿命可能直接打个 7 折甚至更低。&lt;br&gt;
+对于要求 10 年、15 年的电站来说，&lt;strong&gt;寿命一旦缩短就是实打实的度电成本上升&lt;/strong&gt;，所以大家自然会往 0.5C 附近靠。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;发热少，热管理简单、安全边际大&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;大电流意味着 &lt;strong&gt;I²R 损耗急剧放大&lt;/strong&gt;，发热上去，就要：
+&lt;ul&gt;
+&lt;li&gt;更复杂、更贵的冷却系统；&lt;/li&gt;
+&lt;li&gt;更苛刻的安全设计（热失控防护、绝缘距、电气间隙等）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;0.5C 下发热可控，&lt;strong&gt;空调 / 液冷系统压力小很多&lt;/strong&gt;，安全冗余更宽松，整个系统 CAPEX 也更友好。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;效率更高&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;低 C 倍率下，内阻损耗小一大截，系统往返效率更高。&lt;/li&gt;
+&lt;li&gt;对于以“搬运能量”为主的储能（削峰填谷、调峰），&lt;strong&gt;效率比瞬时大功率更重要&lt;/strong&gt;——多赚一点度电收益，远比瞬时多一点峰值功率划算。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;综合下来：&lt;br&gt;
+&lt;strong&gt;0.5C 是“物理上电芯比较舒服”的点&lt;/strong&gt;，再高就开始明显吃寿命和安全冗余了。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="二电网应用场景2-小时--4-小时制天然推导出-05c"&gt;二、电网应用场景：2 小时 / 4 小时制天然推导出 0.5C&lt;/h2&gt;
+&lt;p&gt;再看应用侧。&lt;/p&gt;</description></item><item><title>Optimizing Hugo Performance: Speed Up Your Site</title><link>https://www.fluxionwatt.com/en/blog/optimizing-hugo-performance/</link><pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/en/blog/optimizing-hugo-performance/</guid><description>&lt;div class="bg-gray-50 p-6 rounded-lg mb-8"&gt;
+ &lt;h2 class="text-xl font-semibold mb-4"&gt;Table of Contents&lt;/h2&gt;
+ &lt;nav id="TableOfContents"&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#introduction"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#asset-optimization"&gt;Asset Optimization&lt;/a&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#image-optimization"&gt;Image Optimization&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#css-and-javascript"&gt;CSS and JavaScript&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;li&gt;&lt;a href="#caching-strategies"&gt;Caching Strategies&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#content-delivery"&gt;Content Delivery&lt;/a&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#cdn-setup"&gt;CDN Setup&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#edge-computing"&gt;Edge Computing&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;li&gt;&lt;a href="#performance-monitoring"&gt;Performance Monitoring&lt;/a&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#key-metrics"&gt;Key Metrics&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;li&gt;&lt;a href="#advanced-optimization-techniques"&gt;Advanced Optimization Techniques&lt;/a&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#resource-hints"&gt;Resource Hints&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#critical-css"&gt;Critical CSS&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;li&gt;&lt;a href="#seo-optimization"&gt;SEO Optimization&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#conclusion"&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#resources"&gt;Resources&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+
+&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Performance is crucial for user experience and SEO. In this guide, we&amp;rsquo;ll explore various techniques to optimize your Hugo site for maximum performance.&lt;/p&gt;
+&lt;h2 id="asset-optimization"&gt;Asset Optimization&lt;/h2&gt;
+&lt;h3 id="image-optimization"&gt;Image Optimization&lt;/h3&gt;
+&lt;p&gt;Images often contribute the most to page weight. Here&amp;rsquo;s how to optimize them:&lt;/p&gt;</description></item><item><title>Optimizing Hugo Performance: Speed Up Your Site</title><link>https://www.fluxionwatt.com/en/en-us/blog/optimizing-hugo-performance/</link><pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/en/en-us/blog/optimizing-hugo-performance/</guid><description>&lt;div class="bg-gray-50 p-6 rounded-lg mb-8"&gt;
+ &lt;h2 class="text-xl font-semibold mb-4"&gt;Table of Contents&lt;/h2&gt;
+ &lt;nav id="TableOfContents"&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#introduction"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#asset-optimization"&gt;Asset Optimization&lt;/a&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#image-optimization"&gt;Image Optimization&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#css-and-javascript"&gt;CSS and JavaScript&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;li&gt;&lt;a href="#caching-strategies"&gt;Caching Strategies&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#content-delivery"&gt;Content Delivery&lt;/a&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#cdn-setup"&gt;CDN Setup&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#edge-computing"&gt;Edge Computing&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;li&gt;&lt;a href="#performance-monitoring"&gt;Performance Monitoring&lt;/a&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#key-metrics"&gt;Key Metrics&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;li&gt;&lt;a href="#advanced-optimization-techniques"&gt;Advanced Optimization Techniques&lt;/a&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#resource-hints"&gt;Resource Hints&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#critical-css"&gt;Critical CSS&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;li&gt;&lt;a href="#seo-optimization"&gt;SEO Optimization&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#conclusion"&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#resources"&gt;Resources&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+
+&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Performance is crucial for user experience and SEO. In this guide, we&amp;rsquo;ll explore various techniques to optimize your Hugo site for maximum performance.&lt;/p&gt;
+&lt;h2 id="asset-optimization"&gt;Asset Optimization&lt;/h2&gt;
+&lt;h3 id="image-optimization"&gt;Image Optimization&lt;/h3&gt;
+&lt;p&gt;Images often contribute the most to page weight. Here&amp;rsquo;s how to optimize them:&lt;/p&gt;</description></item><item><title>Optimizing Hugo Performance: Speed Up Your Site</title><link>https://www.fluxionwatt.com/en/zh-cn/blog/optimizing-hugo-performance/</link><pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/en/zh-cn/blog/optimizing-hugo-performance/</guid><description>&lt;div class="bg-gray-50 p-6 rounded-lg mb-8"&gt;
+ &lt;h2 class="text-xl font-semibold mb-4"&gt;Table of Contents&lt;/h2&gt;
+ &lt;nav id="TableOfContents"&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#introduction"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#asset-optimization"&gt;Asset Optimization&lt;/a&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#image-optimization"&gt;Image Optimization&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#css-and-javascript"&gt;CSS and JavaScript&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;li&gt;&lt;a href="#caching-strategies"&gt;Caching Strategies&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#content-delivery"&gt;Content Delivery&lt;/a&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#cdn-setup"&gt;CDN Setup&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#edge-computing"&gt;Edge Computing&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;li&gt;&lt;a href="#performance-monitoring"&gt;Performance Monitoring&lt;/a&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#key-metrics"&gt;Key Metrics&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;li&gt;&lt;a href="#advanced-optimization-techniques"&gt;Advanced Optimization Techniques&lt;/a&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#resource-hints"&gt;Resource Hints&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#critical-css"&gt;Critical CSS&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;li&gt;&lt;a href="#seo-optimization"&gt;SEO Optimization&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#conclusion"&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#resources"&gt;Resources&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+
+&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Performance is crucial for user experience and SEO. In this guide, we&amp;rsquo;ll explore various techniques to optimize your Hugo site for maximum performance.&lt;/p&gt;
+&lt;h2 id="asset-optimization"&gt;Asset Optimization&lt;/h2&gt;
+&lt;h3 id="image-optimization"&gt;Image Optimization&lt;/h3&gt;
+&lt;p&gt;Images often contribute the most to page weight. Here&amp;rsquo;s how to optimize them:&lt;/p&gt;</description></item></channel></rss>
