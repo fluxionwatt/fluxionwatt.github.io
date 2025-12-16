@@ -75,7 +75,10 @@
 &lt;li&gt;Home office setup allowance&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="how-to-apply"&gt;How to Apply&lt;/h2&gt;
-&lt;p&gt;Please send your resume, portfolio, and a brief cover letter explaining why you&amp;rsquo;d be a great fit for our team. Include links to any relevant projects or open source contributions.&lt;/p&gt;</description></item><item><title>Content Management in Hugo: Best Practices</title><link>https://www.fluxionwatt.com/en/en-us/blog/content-management-hugo/</link><pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/en/en-us/blog/content-management-hugo/</guid><description>&lt;div class="bg-gray-50 p-6 rounded-lg mb-8"&gt;
+&lt;p&gt;Please send your resume, portfolio, and a brief cover letter explaining why you&amp;rsquo;d be a great fit for our team. Include links to any relevant projects or open source contributions.&lt;/p&gt;</description></item><item><title>Content Management in Hugo: Best Practices</title><link>https://www.fluxionwatt.com/en/en-us/blog/content-management-hugo/</link><pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/en/en-us/blog/content-management-hugo/</guid><description>&lt;p&gt;+++
+translationKey = &amp;lsquo;foo&amp;rsquo;
++++&lt;/p&gt;
+&lt;div class="bg-gray-50 p-6 rounded-lg mb-8"&gt;
  &lt;h2 class="text-xl font-semibold mb-4"&gt;Table of Contents&lt;/h2&gt;
  &lt;nav id="TableOfContents"&gt;
  &lt;ul&gt;
@@ -117,10 +120,7 @@
 &lt;/div&gt;
 
 &lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Effective content management is crucial for maintaining a scalable Hugo site. This guide covers best practices for organizing and managing your content.&lt;/p&gt;
-&lt;h2 id="content-organization"&gt;Content Organization&lt;/h2&gt;
-&lt;h3 id="directory-structure"&gt;Directory Structure&lt;/h3&gt;
-&lt;p&gt;Create a logical content hierarchy:&lt;/p&gt;</description></item><item><title>Optimizing Hugo Performance: Speed Up Your Site</title><link>https://www.fluxionwatt.com/en/en-us/blog/optimizing-hugo-performance/</link><pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/en/en-us/blog/optimizing-hugo-performance/</guid><description>&lt;div class="bg-gray-50 p-6 rounded-lg mb-8"&gt;
+&lt;p&gt;Effective content management is crucial for maintaining a scalable Hugo site. This guide covers best practices for organizing and managing your content.&lt;/p&gt;</description></item><item><title>Optimizing Hugo Performance: Speed Up Your Site</title><link>https://www.fluxionwatt.com/en/en-us/blog/optimizing-hugo-performance/</link><pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/en/en-us/blog/optimizing-hugo-performance/</guid><description>&lt;div class="bg-gray-50 p-6 rounded-lg mb-8"&gt;
  &lt;h2 class="text-xl font-semibold mb-4"&gt;Table of Contents&lt;/h2&gt;
  &lt;nav id="TableOfContents"&gt;
  &lt;ul&gt;
@@ -371,7 +371,14 @@
 &lt;li&gt;Adaptive layouts&lt;/li&gt;
 &lt;li&gt;Touch-friendly interactions&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Our design system provides the perfect foundation for creating beautiful, accessible, and responsive websites that stand out from the crowd.&lt;/p&gt;</description></item><item><title>Developer Experience</title><link>https://www.fluxionwatt.com/en/en-us/features/developer-experience/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/en/en-us/features/developer-experience/</guid><description>&lt;h2 id="built-for-developers"&gt;Built for Developers&lt;/h2&gt;
+&lt;p&gt;Our design system provides the perfect foundation for creating beautiful, accessible, and responsive websites that stand out from the crowd.&lt;/p&gt;</description></item><item><title>Cloud 平台</title><link>https://www.fluxionwatt.com/en/en-us/cloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/en/en-us/cloud/</guid><description/></item><item><title>Cloud 平台</title><link>https://www.fluxionwatt.com/en/en-us/support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/en/en-us/support/</guid><description/></item><item><title>Community version vs. Enterprise version</title><link>https://www.fluxionwatt.com/en/en-us/license/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/en/en-us/license/</guid><description>&lt;h2 id="mit-license"&gt;MIT License&lt;/h2&gt;
+&lt;p&gt;Copyright (c) 2024&lt;/p&gt;
+&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &amp;ldquo;Software&amp;rdquo;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:&lt;/p&gt;</description></item><item><title>Developer Experience</title><link>https://www.fluxionwatt.com/en/en-us/features/developer-experience/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/en/en-us/features/developer-experience/</guid><description>&lt;h2 id="built-for-developers"&gt;Built for Developers&lt;/h2&gt;
 &lt;p&gt;Our theme is designed with developers in mind, providing a clean, efficient workflow that makes building websites enjoyable and productive.&lt;/p&gt;
 &lt;h3 id="development-features"&gt;Development Features&lt;/h3&gt;
 &lt;h4 id="project-structure"&gt;Project Structure&lt;/h4&gt;
@@ -428,14 +435,7 @@
 &lt;li&gt;Deployment instructions&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Our developer experience focuses on making it easy to build, customize, and maintain your website while following best practices and maintaining clean, efficient code.&lt;/p&gt;</description></item><item><title>Join Our Team</title><link>https://www.fluxionwatt.com/en/en-us/careers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/en/en-us/careers/</guid><description>&lt;p&gt;At Saasify, we believe in empowering our team members to do their best work. We foster an environment of innovation, collaboration, and continuous learning. Our culture is built on trust, transparency, and a shared commitment to excellence.&lt;/p&gt;
-&lt;p&gt;We&amp;rsquo;re looking for passionate individuals who want to make a difference and grow with us. If you&amp;rsquo;re excited about building the future of SaaS and working with cutting-edge technology, we&amp;rsquo;d love to hear from you.&lt;/p&gt;</description></item><item><title>License</title><link>https://www.fluxionwatt.com/en/en-us/license/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/en/en-us/license/</guid><description>&lt;h2 id="mit-license"&gt;MIT License&lt;/h2&gt;
-&lt;p&gt;Copyright (c) 2024&lt;/p&gt;
-&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the &amp;ldquo;Software&amp;rdquo;), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:&lt;/p&gt;</description></item><item><title>Lightning-Fast Performance</title><link>https://www.fluxionwatt.com/en/en-us/features/performance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/en/en-us/features/performance/</guid><description>&lt;h2 id="built-for-speed"&gt;Built for Speed&lt;/h2&gt;
+&lt;p&gt;We&amp;rsquo;re looking for passionate individuals who want to make a difference and grow with us. If you&amp;rsquo;re excited about building the future of SaaS and working with cutting-edge technology, we&amp;rsquo;d love to hear from you.&lt;/p&gt;</description></item><item><title>Lightning-Fast Performance</title><link>https://www.fluxionwatt.com/en/en-us/features/performance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/en/en-us/features/performance/</guid><description>&lt;h2 id="built-for-speed"&gt;Built for Speed&lt;/h2&gt;
 &lt;p&gt;Our theme is engineered from the ground up with performance in mind. By leveraging Hugo&amp;rsquo;s powerful static site generation and combining it with modern optimization techniques, we deliver websites that load instantly and run smoothly.&lt;/p&gt;
 &lt;h3 id="performance-metrics"&gt;Performance Metrics&lt;/h3&gt;
 &lt;ul&gt;
@@ -467,6 +467,91 @@ furnished to do so, subject to the following conditions:&lt;/p&gt;</description>
 &lt;li&gt;Geographic redundancy&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Our performance-first approach ensures your website not only looks great but delivers an exceptional user experience through blazing-fast load times and smooth interactions.&lt;/p&gt;</description></item><item><title>Pricing</title><link>https://www.fluxionwatt.com/en/en-us/pricing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/en/en-us/pricing/</guid><description>&lt;section class="py-16 bg-white"&gt;
+ &lt;div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"&gt;
+ 
+ &lt;div class="text-center"&gt;
+ &lt;h2 class="text-3xl font-bold text-gray-900"&gt;Designed for business teams like yours&lt;/h2&gt;
+ 
+ &lt;p class="mt-4 text-xl text-gray-600"&gt;Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.&lt;/p&gt;
+ 
+ &lt;/div&gt;
+ 
+ 
+ &lt;div class="mt-16"&gt;
+ &lt;div class="grid grid-cols-1 md:grid-cols-3 gap-8"&gt;
+ 
+ &lt;div class="w-full"&gt;
+ &lt;div class="h-full flex flex-col rounded-2xl border border-gray-200 bg-white shadow-sm hover:shadow-lg transition-shadow duration-300 relative"&gt;
+ 
+ &lt;div class="p-8 flex flex-col flex-grow"&gt;
+ &lt;div class="mb-6"&gt;
+ &lt;h3 class="text-2xl font-bold text-gray-900"&gt;Starter&lt;/h3&gt;
+ &lt;p class="mt-2 text-gray-500"&gt;Best option for personal use &amp;amp; for your next project.&lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class="mb-8"&gt;
+ &lt;p class="flex items-baseline"&gt;
+ &lt;span class="text-5xl font-bold tracking-tight text-gray-900"&gt;$29&lt;/span&gt;
+ &lt;span class="ml-2 text-gray-500"&gt;/month&lt;/span&gt;
+ &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;ul class="space-y-4 text-gray-600 flex-grow"&gt;
+ 
+ &lt;li class="flex items-start"&gt;
+ &lt;svg class="h-6 w-6 flex-shrink-0 text-blue-500" fill="currentColor" viewBox="0 0 24 24"&gt;
+ &lt;path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/&gt;
+ &lt;/svg&gt;
+ &lt;span class="ml-3"&gt;Individual configuration&lt;/span&gt;
+ &lt;/li&gt;
+ 
+ &lt;li class="flex items-start"&gt;
+ &lt;svg class="h-6 w-6 flex-shrink-0 text-blue-500" fill="currentColor" viewBox="0 0 24 24"&gt;
+ &lt;path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/&gt;
+ &lt;/svg&gt;
+ &lt;span class="ml-3"&gt;No setup, or hidden fees&lt;/span&gt;
+ &lt;/li&gt;
+ 
+ &lt;li class="flex items-start"&gt;
+ &lt;svg class="h-6 w-6 flex-shrink-0 text-blue-500" fill="currentColor" viewBox="0 0 24 24"&gt;
+ &lt;path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/&gt;
+ &lt;/svg&gt;
+ &lt;span class="ml-3"&gt;Team size: 1 developer&lt;/span&gt;
+ &lt;/li&gt;
+ 
+ &lt;li class="flex items-start"&gt;
+ &lt;svg class="h-6 w-6 flex-shrink-0 text-blue-500" fill="currentColor" viewBox="0 0 24 24"&gt;
+ &lt;path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/&gt;
+ &lt;/svg&gt;
+ &lt;span class="ml-3"&gt;Premium support: 6 months&lt;/span&gt;
+ &lt;/li&gt;
+ 
+ &lt;li class="flex items-start"&gt;
+ &lt;svg class="h-6 w-6 flex-shrink-0 text-blue-500" fill="currentColor" viewBox="0 0 24 24"&gt;
+ &lt;path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/&gt;
+ &lt;/svg&gt;
+ &lt;span class="ml-3"&gt;Free updates: 6 months&lt;/span&gt;
+ &lt;/li&gt;
+ 
+ &lt;/ul&gt;
+ &lt;div class="mt-8"&gt;
+ &lt;a href="#" class="btn btn-primary w-full"&gt;
+ Get started
+ &lt;/a&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="w-full"&gt;
+ &lt;div class="h-full flex flex-col rounded-2xl border border-gray-200 bg-white shadow-sm hover:shadow-lg transition-shadow duration-300 relative"&gt;
+ 
+ &lt;div class="absolute top-4 right-4 inline-block rounded-full bg-blue-100 px-4 py-1 text-sm font-semibold text-blue-800"&gt;
+ Popular
+ &lt;/div&gt;
+ 
+ &lt;div class="p-8 flex flex-col flex-grow"&gt;
+ &lt;div class="mb-6"&gt;
+ &lt;h3 class="text-2xl font-bold text-gray-900"&gt;Company&lt;/h3&gt;
+ &lt;p class="mt-2 text-gray-500"&gt;Relevant for multiple users, extended &amp;amp; premium support.&lt;/p&gt;</description></item><item><title>Pricing</title><link>https://www.fluxionwatt.com/en/en-us/products/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/en/en-us/products/</guid><description>&lt;section class="py-16 bg-white"&gt;
  &lt;div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"&gt;
  
  &lt;div class="text-center"&gt;
