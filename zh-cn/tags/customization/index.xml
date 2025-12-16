@@ -1,8 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Customization on FluxionWatt</title><link>https://www.fluxionwatt.com/zh-cn/tags/customization/</link><description>Recent content in Customization on FluxionWatt</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 16 Dec 2025 20:17:56 +0800</lastBuildDate><atom:link href="https://www.fluxionwatt.com/zh-cn/tags/customization/index.xml" rel="self" type="application/rss+xml"/><item><title>能源行业必须知道的电气名词解释</title><link>https://www.fluxionwatt.com/zh-cn/blog/customizing-your-hugo-theme/</link><pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/blog/customizing-your-hugo-theme/</guid><description>&lt;div class="bg-gray-50 p-6 rounded-lg mb-8"&gt;
- &lt;h2 class="text-xl font-semibold mb-4"&gt;目录&lt;/h2&gt;
- &lt;nav id="TableOfContents"&gt;&lt;/nav&gt;
-&lt;/div&gt;
-
-&lt;p&gt;1、[有功功率]—— 在交流电能的发输用过程中，用于转换成电磁形式的那部分能量叫做有功。&lt;/p&gt;
-&lt;p&gt;2、[无功功率]—— 在交流电能的发输用过程中，用于电路内电磁场交换的那部分能量叫做无功。&lt;/p&gt;
-&lt;p&gt;3、[电力系统]—— 由发电机、配电装置、升压和降压变电所、电力线路及电能用户所组成的整体称为电力系统。[中性点位移]：在三相电路中，电源[电压]三相负载对称的情况下，如果三相负荷也对称，那么不管有无中性点，中性点的电压均为零。但如果三相负载不对称，且无中性线或中性线阻抗较大，那么中性点就会出现电压，这种现象称为中性点位移现象。&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Customization on FluxionWatt</title>
+    <link>http://localhost:1313/zh-cn/tags/customization/</link>
+    <description>Recent content in Customization on FluxionWatt</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 16 Dec 2025 20:17:56 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh-cn/tags/customization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>能源行业必须知道的电气名词解释</title>
+      <link>http://localhost:1313/zh-cn/blog/customizing-your-hugo-theme/</link>
+      <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-cn/blog/customizing-your-hugo-theme/</guid>
+      <description>&lt;div class=&#34;bg-gray-50 p-6 rounded-lg mb-8&#34;&gt;&#xA;    &lt;h2 class=&#34;text-xl font-semibold mb-4&#34;&gt;目录&lt;/h2&gt;&#xA;    &lt;nav id=&#34;TableOfContents&#34;&gt;&lt;/nav&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;1、[有功功率]—— 在交流电能的发输用过程中，用于转换成电磁形式的那部分能量叫做有功。&lt;/p&gt;&#xA;&lt;p&gt;2、[无功功率]—— 在交流电能的发输用过程中，用于电路内电磁场交换的那部分能量叫做无功。&lt;/p&gt;&#xA;&lt;p&gt;3、[电力系统]—— 由发电机、配电装置、升压和降压变电所、电力线路及电能用户所组成的整体称为电力系统。[中性点位移]：在三相电路中，电源[电压]三相负载对称的情况下，如果三相负荷也对称，那么不管有无中性点，中性点的电压均为零。但如果三相负载不对称，且无中性线或中性线阻抗较大，那么中性点就会出现电压，这种现象称为中性点位移现象。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
