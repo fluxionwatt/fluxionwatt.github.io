@@ -1,19 +1,55 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Workflow on FluxionWatt</title>
-    <link>http://localhost:1313/zh-cn/tags/workflow/</link>
-    <description>Recent content in Workflow on FluxionWatt</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 16 Dec 2025 20:17:56 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/zh-cn/tags/workflow/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Modbus协议介绍</title>
-      <link>http://localhost:1313/zh-cn/blog/introduction-to-modbus-protocol/</link>
-      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh-cn/blog/introduction-to-modbus-protocol/</guid>
-      <description>&lt;div class=&#34;bg-gray-50 p-6 rounded-lg mb-8&#34;&gt;&#xA;    &lt;h2 class=&#34;text-xl font-semibold mb-4&#34;&gt;目录&lt;/h2&gt;&#xA;    &lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#modbus的历史发展&#34;&gt;Modbus的历史发展&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#modbus设计&#34;&gt;Modbus设计&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#modbus数据传输&#34;&gt;Modbus数据传输&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#地址和功能码&#34;&gt;地址和功能码&lt;/a&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#设备地址&#34;&gt;设备地址&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#寄存器地址&#34;&gt;寄存器地址&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#功能码&#34;&gt;功能码&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#modbus-的三种实现&#34;&gt;Modbus 的三种实现&lt;/a&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#modbus-rtu&#34;&gt;Modbus RTU&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#modbus-ascii&#34;&gt;Modbus ASCII&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#modbus-tcp拥抱以太网&#34;&gt;Modbus TCP：拥抱以太网&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#modbus为什么能成功&#34;&gt;Modbus为什么能成功&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/nav&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;在工业自动化领域，Modbus绝对是个绕不开的名字。作为一个从上世纪70年代末就诞生的通信协议，历久弥坚，默默支撑着无数工厂和设备的互联互通。今天咱们就来聊聊Modbus这个工业通信的元老级协议。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;modbus的历史发展&#34;&gt;Modbus的历史发展&lt;/h2&gt;&#xA;&lt;p&gt;1979年，Modicon公司（也就是现在的施耐德电气前身）推出了一款专为可编程逻辑控制器（&lt;a href=&#34;https://zhida.zhihu.com/search?content_id=259799099&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=PLC&amp;amp;zhida_source=entity&#34;&gt;PLC&lt;/a&gt;）设计的通信协议，这就是Modbus。当时的工业现场，设备之间的通信还停留在电压或电流信号的原始阶段，比如用高低电平表示开关状态，或者用0-10V、4-20mA来传递模拟量数据。Modbus的出现，就像给这些设备装上了翻译器，让PLC和现场设备能更高效地对话。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://pica.zhimg.com/v2-409dd9793660c250081028fed8ab50a8_1440w.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Modbus协议发展时间线&lt;/p&gt;&#xA;&lt;p&gt;Modbus是&lt;a href=&#34;https://zhida.zhihu.com/search?content_id=259799099&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=%E7%8E%B0%E5%9C%BA%E6%80%BB%E7%BA%BF&amp;amp;zhida_source=entity&#34;&gt;现场总线&lt;/a&gt;（Fieldbus）协议的鼻祖。现场总线是什么？简单来说，它就是工业网络的通信方式，能让多个设备通过一对线缆连接到控制器，省去了点对点接线的麻烦。过去每加一个传感器就得拉一根线，布线成本和复杂度跟蜘蛛网似的，而现场总线就有点像WiFi，把设备们都连到一个网络里，省时省力。&lt;/p&gt;&#xA;&lt;p&gt;除了Modbus，工业领域还有&lt;a href=&#34;https://zhida.zhihu.com/search?content_id=259799099&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=Profibus&amp;amp;zhida_source=entity&#34;&gt;Profibus&lt;/a&gt;、&lt;a href=&#34;https://zhida.zhihu.com/search?content_id=259799099&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=DeviceNet&amp;amp;zhida_source=entity&#34;&gt;DeviceNet&lt;/a&gt;、ControlNet等一堆现场总线协议，但Modbus凭着简单易用、开源免费的特点，成了最普及的工业协议之一，至今在全球工厂里依然随处可见。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;modbus设计&#34;&gt;Modbus设计&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://pic4.zhimg.com/v2-db3a72072776678ac0de161b684af611_1440w.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Modbus主从通信模型&lt;/p&gt;&#xA;&lt;p&gt;Modbus的设计初衷是让PLC和现场设备顺畅交流。最初它跑在串口通信上，比如RS-232或RS-485，速度慢但够稳定。后来随着网络技术发展，Modbus也升级成了支持TCP/IP和以太网的Modbus TCP，适应了现代工业网络的需求。&lt;/p&gt;&#xA;&lt;p&gt;Modbus 的核心是个 &lt;strong&gt;主从通信模型&lt;/strong&gt;：一个主设备（Master）发号施令，多个从设备（Slave）老老实实响应。主设备可以是 PLC、SCADA 系统或者一台工控机，从设备可能是传感器、变频器或者其他智能仪表。主设备主动发起请求，比如读取数据或发送控制命令，从设备根据请求返回数据或执行操作，整个过程清晰明了。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://pic2.zhimg.com/v2-40212528bd7f3bac19ecee187fb0da29_1440w.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Modbus数据类型&lt;/p&gt;&#xA;&lt;p&gt;数据方面，Modbus 支持两种基本格式：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;离散量&lt;/strong&gt;：也就是单个 bit，表示开关状态，比如 0/1、真/假。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;寄存器&lt;/strong&gt;：16 位字，通常存数值，比如温度、压力，或者其他需要表达的复杂数据。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;这种简单的数据组织方式，让 Modbus 既能应对简单的开关控制，也能处理复杂的数值传输，适应性极强。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;modbus数据传输&#34;&gt;Modbus数据传输&lt;/h2&gt;&#xA;&lt;p&gt;Modbus 的数据传输有自己的套路，了解这些细节对调试和排错至关重要。拿最基础的位传输来说，Modbus 按 &lt;strong&gt;先低位后高位&lt;/strong&gt; 的顺序发送比特（LSB to MSB）。比如有个字节是 11010010，实际传输时会拆成单个比特，按 0、1、0、0、1、0、1、1 的顺序依次发送。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://pic1.zhimg.com/v2-eb522fa7214fff037912cca1f0d484f8_1440w.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;位传输顺序 (LSB to MSB)&lt;/p&gt;&#xA;&lt;p&gt;为什么要这么讲究？因为接收端得按同样的规则解码，才能确保数据不乱套。这就像调试串口时得先确认波特率、奇偶校验和停止位一样，Modbus 的位序就是类似的基础约定。&lt;/p&gt;&#xA;&lt;p&gt;至于字节传输，Modbus 根据具体实现方式（RTU、ASCII 或 TCP）会有不同处理，待会我们会细聊。&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Workflow on FluxionWatt</title><link>https://www.fluxionwatt.com/zh-cn/tags/workflow/</link><description>Recent content in Workflow on FluxionWatt</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 16 Dec 2025 20:17:56 +0800</lastBuildDate><atom:link href="https://www.fluxionwatt.com/zh-cn/tags/workflow/index.xml" rel="self" type="application/rss+xml"/><item><title>Modbus协议介绍</title><link>https://www.fluxionwatt.com/zh-cn/blog/introduction-to-modbus-protocol/</link><pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/blog/introduction-to-modbus-protocol/</guid><description>&lt;div class="bg-gray-50 p-6 rounded-lg mb-8"&gt;
+ &lt;h2 class="text-xl font-semibold mb-4"&gt;目录&lt;/h2&gt;
+ &lt;nav id="TableOfContents"&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#modbus的历史发展"&gt;Modbus的历史发展&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#modbus设计"&gt;Modbus设计&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#modbus数据传输"&gt;Modbus数据传输&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#地址和功能码"&gt;地址和功能码&lt;/a&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#设备地址"&gt;设备地址&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#寄存器地址"&gt;寄存器地址&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#功能码"&gt;功能码&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;li&gt;&lt;a href="#modbus-的三种实现"&gt;Modbus 的三种实现&lt;/a&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#modbus-rtu"&gt;Modbus RTU&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#modbus-ascii"&gt;Modbus ASCII&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#modbus-tcp拥抱以太网"&gt;Modbus TCP：拥抱以太网&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;li&gt;&lt;a href="#modbus为什么能成功"&gt;Modbus为什么能成功&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+
+&lt;p&gt;在工业自动化领域，Modbus绝对是个绕不开的名字。作为一个从上世纪70年代末就诞生的通信协议，历久弥坚，默默支撑着无数工厂和设备的互联互通。今天咱们就来聊聊Modbus这个工业通信的元老级协议。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="modbus的历史发展"&gt;Modbus的历史发展&lt;/h2&gt;
+&lt;p&gt;1979年，Modicon公司（也就是现在的施耐德电气前身）推出了一款专为可编程逻辑控制器（&lt;a href="https://zhida.zhihu.com/search?content_id=259799099&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=PLC&amp;amp;zhida_source=entity"&gt;PLC&lt;/a&gt;）设计的通信协议，这就是Modbus。当时的工业现场，设备之间的通信还停留在电压或电流信号的原始阶段，比如用高低电平表示开关状态，或者用0-10V、4-20mA来传递模拟量数据。Modbus的出现，就像给这些设备装上了翻译器，让PLC和现场设备能更高效地对话。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://pica.zhimg.com/v2-409dd9793660c250081028fed8ab50a8_1440w.jpg" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;Modbus协议发展时间线&lt;/p&gt;
+&lt;p&gt;Modbus是&lt;a href="https://zhida.zhihu.com/search?content_id=259799099&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=%E7%8E%B0%E5%9C%BA%E6%80%BB%E7%BA%BF&amp;amp;zhida_source=entity"&gt;现场总线&lt;/a&gt;（Fieldbus）协议的鼻祖。现场总线是什么？简单来说，它就是工业网络的通信方式，能让多个设备通过一对线缆连接到控制器，省去了点对点接线的麻烦。过去每加一个传感器就得拉一根线，布线成本和复杂度跟蜘蛛网似的，而现场总线就有点像WiFi，把设备们都连到一个网络里，省时省力。&lt;/p&gt;
+&lt;p&gt;除了Modbus，工业领域还有&lt;a href="https://zhida.zhihu.com/search?content_id=259799099&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=Profibus&amp;amp;zhida_source=entity"&gt;Profibus&lt;/a&gt;、&lt;a href="https://zhida.zhihu.com/search?content_id=259799099&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=DeviceNet&amp;amp;zhida_source=entity"&gt;DeviceNet&lt;/a&gt;、ControlNet等一堆现场总线协议，但Modbus凭着简单易用、开源免费的特点，成了最普及的工业协议之一，至今在全球工厂里依然随处可见。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="modbus设计"&gt;Modbus设计&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://pic4.zhimg.com/v2-db3a72072776678ac0de161b684af611_1440w.jpg" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;Modbus主从通信模型&lt;/p&gt;
+&lt;p&gt;Modbus的设计初衷是让PLC和现场设备顺畅交流。最初它跑在串口通信上，比如RS-232或RS-485，速度慢但够稳定。后来随着网络技术发展，Modbus也升级成了支持TCP/IP和以太网的Modbus TCP，适应了现代工业网络的需求。&lt;/p&gt;
+&lt;p&gt;Modbus 的核心是个 &lt;strong&gt;主从通信模型&lt;/strong&gt;：一个主设备（Master）发号施令，多个从设备（Slave）老老实实响应。主设备可以是 PLC、SCADA 系统或者一台工控机，从设备可能是传感器、变频器或者其他智能仪表。主设备主动发起请求，比如读取数据或发送控制命令，从设备根据请求返回数据或执行操作，整个过程清晰明了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://pic2.zhimg.com/v2-40212528bd7f3bac19ecee187fb0da29_1440w.jpg" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;Modbus数据类型&lt;/p&gt;
+&lt;p&gt;数据方面，Modbus 支持两种基本格式：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;离散量&lt;/strong&gt;：也就是单个 bit，表示开关状态，比如 0/1、真/假。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;寄存器&lt;/strong&gt;：16 位字，通常存数值，比如温度、压力，或者其他需要表达的复杂数据。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这种简单的数据组织方式，让 Modbus 既能应对简单的开关控制，也能处理复杂的数值传输，适应性极强。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="modbus数据传输"&gt;Modbus数据传输&lt;/h2&gt;
+&lt;p&gt;Modbus 的数据传输有自己的套路，了解这些细节对调试和排错至关重要。拿最基础的位传输来说，Modbus 按 &lt;strong&gt;先低位后高位&lt;/strong&gt; 的顺序发送比特（LSB to MSB）。比如有个字节是 11010010，实际传输时会拆成单个比特，按 0、1、0、0、1、0、1、1 的顺序依次发送。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://pic1.zhimg.com/v2-eb522fa7214fff037912cca1f0d484f8_1440w.jpg" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;位传输顺序 (LSB to MSB)&lt;/p&gt;
+&lt;p&gt;为什么要这么讲究？因为接收端得按同样的规则解码，才能确保数据不乱套。这就像调试串口时得先确认波特率、奇偶校验和停止位一样，Modbus 的位序就是类似的基础约定。&lt;/p&gt;
+&lt;p&gt;至于字节传输，Modbus 根据具体实现方式（RTU、ASCII 或 TCP）会有不同处理，待会我们会细聊。&lt;/p&gt;</description></item></channel></rss>
