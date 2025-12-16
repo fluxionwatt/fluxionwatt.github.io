@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    presets: [require('./themes/hugo-saasify-theme/tailwind.config.js')],
+    presets: [require('./themes/fc-theme/tailwind.config.js')],
     content: [
-      "./themes/hugo-saasify-theme/layouts/**/*.html",
+      "./themes/fc-theme/layouts/**/*.html",
       "./layouts/**/*.html",
       "./content/**/*.{html,md}"
     ],

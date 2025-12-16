@@ -5,8 +5,8 @@
   "author": "Chaoming Li",
   "license": "MIT",
   "scripts": {
-    "start": "concurrently \"npx tailwindcss -i themes/hugo-saasify-theme/assets/css/main.css -o static/css/style.css --watch\" \"hugo server -D\"",
-    "build": "tailwindcss -i themes/hugo-saasify-theme/assets/css/main.css -o static/css/style.css --minify && hugo --minify && cd gridbeat && yarn docs:build && cd ../",
+    "start": "concurrently \"npx tailwindcss -i themes/fc-theme/assets/css/main.css -o static/css/style.css --watch\" \"hugo server -D\"",
+    "build": "tailwindcss -i themes/fc-theme/assets/css/main.css -o static/css/style.css --minify && hugo --minify && cd gridbeat && yarn docs:build && cd ../",
     "deploy": "gh-pages -d ./public/ -b gh-pages"
   },
   "devDependencies": {

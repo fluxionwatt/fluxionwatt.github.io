@@ -1,5 +1,5 @@
 ---
-title: "License"
+title: "社区版本与企业版本对比"
 layout: "simple"
 ---
 

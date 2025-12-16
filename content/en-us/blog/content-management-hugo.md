@@ -8,6 +8,10 @@ tags: ["hugo", "content-management", "organization", "workflow"]
 featured_image: "/images/blog/blog-5.jpg"
 ---
 
++++
+translationKey = 'foo'
++++
+
 {{< toc >}}
 
 ## Introduction

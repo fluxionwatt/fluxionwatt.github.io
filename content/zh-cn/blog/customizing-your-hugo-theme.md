@@ -1,5 +1,5 @@
 ---
-title: "Customizing Your Hugo Theme: A Deep Dive"
+title: "能源行业必须知道的电气名词解释"
 date: 2023-07-21
 author: "Jane Smith"
 description: "Learn how to customize your Hugo theme to create a unique website that matches your brand and requirements."
@@ -10,112 +10,9 @@ featured_image: "/images/blog/blog-2.webp"
 
 {{< toc >}}
 
-## Introduction
 
-While Hugo comes with many beautiful themes, you'll often want to customize them to match your specific needs. This guide will walk you through the process of customizing your Hugo theme effectively.
+1、[有功功率]—— 在交流电能的发输用过程中，用于转换成电磁形式的那部分能量叫做有功。
 
-## Understanding Hugo's Theme Structure
+2、[无功功率]—— 在交流电能的发输用过程中，用于电路内电磁场交换的那部分能量叫做无功。
 
-Before diving into customization, it's important to understand how Hugo themes are structured.
-
-## Basic Theme Customization
-
-### 1. Colors and Typography
-
-The easiest way to start customizing your theme is by modifying the CSS:
-
-{{< code css "assets/css/main.css" >}}
-:root {
-    --primary-color: #007bff;
-    --secondary-color: #6c757d;
-    --font-family: 'Inter', sans-serif;
-}
-
-body {
-    font-family: var(--font-family);
-    color: #333;
-}
-{{< /code >}}
-
-### 2. Layout Modifications
-
-You can override any layout file from the theme by creating a matching file in your site's layouts directory.
-
-## Advanced Customization Techniques
-
-### Creating Custom Shortcodes
-
-Shortcodes are a powerful way to add custom functionality:
-
-{{< code html "layouts/shortcodes/custom-alert.html" >}}
-<div class="alert alert-{{ .Get 0 }}">
-    {{ .Inner | markdownify }}
-</div>
-{{< /code >}}
-
-### Working with Partials
-
-Partials help keep your code DRY and maintainable:
-
-{{< code html "layouts/partials/custom-header.html" >}}
-<header class="site-header">
-    <nav>
-        {{ range .Site.Menus.main }}
-            <a href="{{ .URL }}">{{ .Name }}</a>
-        {{ end }}
-    </nav>
-</header>
-{{< /code >}}
-
-## Best Practices
-
-1. **Don't Edit Theme Files Directly**
-   - Create overrides in your site directory
-   - Use Hugo's lookup order to your advantage
-
-2. **Maintain Compatibility**
-   - Test your customizations across different devices
-   - Keep accessibility in mind
-
-3. **Performance Considerations**
-   - Optimize images and assets
-   - Minimize CSS and JavaScript
-
-## Common Customization Examples
-
-### Custom Homepage Layout
-
-{{< code html "layouts/index.html" >}}
-{{ define "main" }}
-<div class="homepage">
-    {{ partial "hero.html" . }}
-    {{ partial "featured-posts.html" . }}
-    {{ partial "newsletter.html" . }}
-</div>
-{{ end }}
-{{< /code >}}
-
-### Custom Taxonomy Pages
-
-{{< code html "layouts/taxonomy/category.html" >}}
-{{ define "main" }}
-<div class="category-page">
-    <h1>{{ .Title }}</h1>
-    <div class="posts-grid">
-        {{ range .Pages }}
-            {{ partial "post-card.html" . }}
-        {{ end }}
-    </div>
-</div>
-{{ end }}
-{{< /code >}}
-
-## Conclusion
-
-Customizing your Hugo theme allows you to create a unique website that stands out. By understanding Hugo's structure and following best practices, you can make modifications that are both effective and maintainable.
-
-## Further Resources
-
-- [Hugo Documentation](https://gohugo.io/documentation/)
-- [Hugo Forums](https://discourse.gohugo.io/)
-- [Hugo Theme Components](https://themes.gohugo.io/tags/components/)
+3、[电力系统]—— 由发电机、配电装置、升压和降压变电所、电力线路及电能用户所组成的整体称为电力系统。[中性点位移]：在三相电路中，电源[电压]三相负载对称的情况下，如果三相负荷也对称，那么不管有无中性点，中性点的电压均为零。但如果三相负载不对称，且无中性线或中性线阻抗较大，那么中性点就会出现电压，这种现象称为中性点位移现象。

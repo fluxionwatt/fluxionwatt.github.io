@@ -1,5 +1,5 @@
 ---
-title: "License"
+title: "Community version vs. Enterprise version"
 layout: "simple"
 ---
 

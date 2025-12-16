@@ -1,8 +1,8 @@
 ---
-title: "Optimizing Hugo Performance: Speed Up Your Site"
+title: "新能源之储能BMS芯片选型浅析"
 date: 2023-07-23
 author: "Sarah Chen"
-description: "Learn advanced techniques to optimize your Hugo site for better performance, faster load times, and improved user experience."
+description: "作为新能源技术的重要组成部分，储能技术也正逐渐受到广泛关注。而储能技术的核心在于储能BMS（电池管理系统）芯片。本文将对新能源之储能BMS芯片选型进行深入分析。"
 categories: ["Performance"]
 tags: ["hugo", "optimization", "performance", "seo"]
 featured_image: "/images/blog/blog-4.jpg"
@@ -10,110 +10,74 @@ featured_image: "/images/blog/blog-4.jpg"
 
 {{< toc >}}
 
-## Introduction
+完整的电化学储能系统主要包括以下组成部分：
 
-Performance is crucial for user experience and SEO. In this guide, we'll explore various techniques to optimize your Hugo site for maximum performance.
+1\. 电池组：这是储能系统的核心部分，负责储存和释放能量。
 
-## Asset Optimization
+2\. [电池管理系统](https://zhida.zhihu.com/search?content_id=232250468&content_type=Article&match_order=1&q=%E7%94%B5%E6%B1%A0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F&zhida_source=entity)（BMS）：该系统负责对电池组进行监控、管理和保护，确保其正常运行和安全性。
 
-### Image Optimization
+3\. [能量管理系统](https://zhida.zhihu.com/search?content_id=232250468&content_type=Article&match_order=1&q=%E8%83%BD%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F&zhida_source=entity)（EMS）：该系统负责整个储能系统的能量调度和管理，实现能源的有效利用。
 
-Images often contribute the most to page weight. Here's how to optimize them:
+4\. 储能变流器（PCS）：该设备负责能量的转换和传输，可以将电池输出的直流电转换为交流电，或者将交流电转换为直流电。
 
-{{< code html "layouts/shortcodes/optimized-image.html" >}}
-{{ $image := .Page.Resources.GetMatch (printf "%s" (.Get "src")) }}
-{{ $options := dict "targetWidth" 800 "quality" 85 }}
-{{ $processed := $image.Process "resize 800x webp q85" }}
-<img src="{{ $processed.RelPermalink }}" 
-     alt="{{ .Get "alt" }}"
-     loading="lazy"
-     class="rounded-lg shadow-lg">
-{{< /code >}}
+5\. 其他电气设备：这包括一些支持系统运行的其他电气设备，例如充电器、放电设备等。
 
-### CSS and JavaScript
+![](https://pic4.zhimg.com/v2-3a038e6d7cb4078511bebe5b164f6fdb_1440w.jpg)
 
-Minimize your asset footprint:
-- Minify CSS and JavaScript
-- Bundle assets appropriately
-- Remove unused code
+图1、电化学储能系统结构简图
 
-## Caching Strategies
+在一套完整的电化学储能系统中，各部分成本占比如下：电池组成本最高，达到60%；其次是储能逆变器，占20%；能量管理系统成本占比为10%；电池管理系统和其他电气设备的成本各占5%。
 
-1. **Browser Caching**
-   - Set appropriate cache headers
-   - Use versioned assets
-   - Implement service workers
+![](https://pic4.zhimg.com/v2-4b46d1022393ce679e4651ea49081633_1440w.jpg)
 
-2. **Hugo Caching**
-   - Use `.Scratch` for expensive operations
-   - Cache partial results
-   - Implement memoization
+图2、储能系统成本和技术简况
 
-## Content Delivery
+电池组是储能系统最重要的组成部分。通常，电池组采用模块化的结构，由电芯组成模组，然后将模组放置在电箱内，再由多个电箱组成电池柜，形成一个储能单元。能量型电池是储能系统所使用的电池类型，其特点是能量密度高，因此一次充电可以提供更长的使用时间。此外，能量型电池的寿命较长，这对储能系统而言非常重要。消除昼夜峰谷差是储能系统的主要应用场景。产品的使用时间直接影响到项目的收益。一些主要的电池组供应商包括[宁德时代](https://zhida.zhihu.com/search?content_id=232250468&content_type=Article&match_order=1&q=%E5%AE%81%E5%BE%B7%E6%97%B6%E4%BB%A3&zhida_source=entity)、[比亚迪](https://zhida.zhihu.com/search?content_id=232250468&content_type=Article&match_order=1&q=%E6%AF%94%E4%BA%9A%E8%BF%AA&zhida_source=entity)、[LG新能源](https://zhida.zhihu.com/search?content_id=232250468&content_type=Article&match_order=1&q=LG%E6%96%B0%E8%83%BD%E6%BA%90&zhida_source=entity)、[松下](https://zhida.zhihu.com/search?content_id=232250468&content_type=Article&match_order=1&q=%E6%9D%BE%E4%B8%8B&zhida_source=entity)、[三星SDI](https://zhida.zhihu.com/search?content_id=232250468&content_type=Article&match_order=1&q=%E4%B8%89%E6%98%9FSDI&zhida_source=entity)、[SK On](https://zhida.zhihu.com/search?content_id=232250468&content_type=Article&match_order=1&q=SK+On&zhida_source=entity)、[中创新航](https://zhida.zhihu.com/search?content_id=232250468&content_type=Article&match_order=1&q=%E4%B8%AD%E5%88%9B%E6%96%B0%E8%88%AA&zhida_source=entity)、[亿纬锂能](https://zhida.zhihu.com/search?content_id=232250468&content_type=Article&match_order=1&q=%E4%BA%BF%E7%BA%AC%E9%94%82%E8%83%BD&zhida_source=entity)、[国轩高科](https://zhida.zhihu.com/search?content_id=232250468&content_type=Article&match_order=1&q=%E5%9B%BD%E8%BD%A9%E9%AB%98%E7%A7%91&zhida_source=entity)、[欣旺达](https://zhida.zhihu.com/search?content_id=232250468&content_type=Article&match_order=1&q=%E6%AC%A3%E6%97%BA%E8%BE%BE&zhida_source=entity)等。
 
-### CDN Setup
+![](https://pica.zhimg.com/v2-cfbb595c4b0a131c2e6f4f2ae613b692_1440w.jpg)
 
-{{< code toml "config.toml" >}}
-[params.cdn]
-  enable = true
-  provider = "cloudfront"
-  domain = "cdn.example.com"
-{{< /code >}}
+图3、电池组结构简图
 
-### Edge Computing
+储能变流器可以控制储能电池组的充电和放电过程，进行交直流的变换。
 
-Leverage edge computing for faster content delivery:
-- Deploy to multiple regions
-- Use edge functions when needed
-- Implement geo-routing
+![](https://picx.zhimg.com/v2-5f561e88197e768c9da8ef61be05cb37_1440w.jpg)
 
-## Performance Monitoring
+图4、储能变流器工作流
 
-### Key Metrics
+能量管理系统(EMS)，即Energy Management System，主要功能包括储能系统设备(PCS、BMS、电表、消防、空调等)数据采集、数据分析展示以及能量调度(主要体现为运行经济运行策略及安全保护策略)。能量管理系统负责数据采集、网络监控和能量调度等，是电池组、电池管理系统以及储能变流器之间的连接纽带，还负责电池管理系统(BMS)与配电网调度系统接口，接受调度指令，完成诸如蓄电池充放电控制、独立离网系统支持、削峰填谷以及新能源发电平滑输出等电网实际应用。EMS主要用于微电网内部能量控制，维持微电网功率平衡，保证微电网正常运行；需求和应用场景多种多样，软件系统的工作量极大；可满足中小型商用级储能系统的现场能量调度需求，大型储能系统会涉及到电网侧的调度。
 
-1. **Core Web Vitals**
-   - Largest Contentful Paint (LCP)
-   - First Input Delay (FID)
-   - Cumulative Layout Shift (CLS)
+![](https://pic4.zhimg.com/v2-ca8b468d9c5c5ad9e390abec0ce5242b_1440w.jpg)
 
-2. **Additional Metrics**
-   - Time to First Byte (TTFB)
-   - First Contentful Paint (FCP)
-   - Total Blocking Time (TBT)
+图5、决策层的EMS
 
-## Advanced Optimization Techniques
+电池管理系统(BMS)负责电池的监测、评估、保护以及均衡等，通过通讯的方式上传电池相关信息和状态，防止电池的过充与过放，占整套电化学储能系统的成本比例约为5%，由于这个环节比较独立，可以做到单体利润最大化，颇具市场潜力。BMS在整个电化学储能系统中起至关重要作用。储能的BMS还需要与电网进行通讯，控制谐波、频率等关键参数，并实现与储能变流器(PCS)以及能量管理系统(EMS)的信息交互，PCS控制器通过CAN接口与BMS通讯获取电池组状态信息，可实现对电池的保护性充放电，确保电池运行安全。
 
-### Resource Hints
+![](https://pic4.zhimg.com/v2-e1f9d9eeb251920c413ee73423ff69b7_1440w.jpg)
 
-{{< code html "layouts/partials/head.html" >}}
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preload" href="/fonts/main.woff2" as="font" type="font/woff2" crossorigin>
-{{< /code >}}
+图5、BMS的三层架构
 
-### Critical CSS
+BMS主要由电池阵列管理单元（BAMS）、电池蔟管理单元(BCMS)以及电池管理单元（BMU）组成。电池阵列管理单元是BMS中的“上位机”，负责对整个BMS系统的数据进行收集和分析判断、控制，具备完善的事件记录及历史数据存储，包括电池系统充放电、运行参数设定等。电池簇管理单元负责对电池管理单元进行监测、控制，包括电池故障诊断，均衡控制策略、剩余电量预估等。电池管理单元负责对电池模组的电压、温度进行采集和上传，并实现电池单体间电量双向高效主动平衡。
 
-Inline critical styles for faster rendering:
+![](https://pic1.zhimg.com/v2-4412eaa811a7e63f487fa5fcc743899a_1440w.jpg)
 
-{{< code html "layouts/partials/critical-css.html" >}}
-<style>
-  /* Critical CSS here */
-  .hero { /* ... */ }
-  .nav { /* ... */ }
-</style>
-{{< /code >}}
+图6、BMS的结构组成简图
 
-## SEO Optimization
+BMS中的核心器件之一是电池管理芯片，属于电源管理细分赛道，电池计量芯片用于确定电池的电量状态（SoC）和健康状态（SoH），进行电池荷电状态估算；电池安全芯片主要分为电池监测、电池保护和电池均衡芯片，避免出现过充、过放、过流和短路等故障；充电管理类芯片用于完成电压转换、调节，电池充电管理以及过压过流保护等功能。假设每个电池簇参数为48V/280Ah，对应需要一颗16颗AFE采样芯片。储能电站均采用主动均衡策略，每个电池簇需要16颗主动均衡芯片。在旺盛的市场需求驱动下，2023年预计能实现在储能应用领域量产电池均衡芯片、电池计量芯片的企业出货量会增加明显。各个电池簇的信息再经由隔离通讯接口上传至中枢MCU，进行统一调配。电池管理芯片原厂有德州仪器、亚德诺/凌力尔特、亚德诺/美信、微芯/爱特梅尔、英飞凌、恩智浦、瑞萨/英特矽尔、松下、意法半导体、安森美、罗姆、TELECHIPS、Dukosi、MPS、凹凸科技、航天民芯、必易微、中微半导、赛微微电、圣邦、微源、南芯、集澈、纳芯微、创芯微、赛芯电子、猿芯半导体、钰泰、杰华特、华泰半导体、矽力杰、稳先微、比亚迪半导体、琪埔维、上海博通、中颖、芯海、禹创、英锐芯、芯朋、英集芯、思瑞浦、希荻微、鸿翼芯、力芯微、意瑞、中科阿尔法、芯进等。
 
-1. **Structured Data**
-2. **XML Sitemaps**
-3. **Meta Tags**
+![](https://pic1.zhimg.com/v2-3a33a065782becaff28b0d98ac1d274a_1440w.jpg)
 
-## Conclusion
+图7、AFE采样芯片主要型号和市场价格
 
-Optimizing your Hugo site is an ongoing process. Regular monitoring and adjustments ensure your site maintains peak performance.
+BMS中的另一个核心器件是MCU，负责电流采集和电池包的总压采集、充放电逻辑控制、电池健康状态计算、对外通信 (通常需要CAN通信隔离收发器)等。MCU的供电一般采用隔离供电，电池经过隔离DC-DC降压变换器给MCU供电以及控制充放电MOS电路进行电池包的充放电管理。MCU芯片供应商主要有德州仪器、意法半导体、恩智浦、英飞凌、瑞萨、中颖、雅特力、兆易创新、君正、芯海、国民技术、紫光国微、极海、新唐、乐鑫、航芯、博通集成、复微、锐能微等。
 
-## Resources
+![](https://pic1.zhimg.com/v2-a1eaa7fb1049d5c6f4ddded6310d69ec_1440w.jpg)
 
-- [Hugo Performance Documentation](https://gohugo.io/documentation/)
-- [Web.dev Performance Guide](https://web.dev/performance/)
-- [PageSpeed Insights](https://pagespeed.web.dev/)
+图8、BMS硬件简图
+
+BMS中的电池电流采集后，需要使用ADC芯片将模拟信号转换成数字信号。ADC芯片供应商包括德州仪器、意法半导体、亚德诺、瑞萨、贝岭、思瑞浦、圣邦微、芯海、必易微、晶华微、芯佰微、迅芯微、治精微、类比、智毅聚芯等。
+
+数字隔离方面，主要应用于高低压之间的数字通信，例如BMS主控板上的高压采样与MCU之间的SPI通信，以及采样板AFE与MCU的SPI通信。数字隔离芯片可以分为数字隔离器、隔离通讯接口（如CAN、LIN、485等）。数字隔离器主要用于将输入信号传递到与输入隔离的输出端口，隔离通讯接口则加入了通讯协议的解析功能，可以将通讯链路上的信号转化成MCU/SoC易处理的格式。等。
+
+除了使用数字隔离器外，还可以使用光耦、或者变压器隔离方案。光耦厂商包括安森美、东芝、博通、ISOCOM、亿光、光宝、奥伦德、先进光半导体、国晶微、华联等；变压器原厂有国巨/普思、TDK、胜美达、田村、台达、光宝、京泉华、可立克、顺络电子、铭普光磁、麦捷科技、伊戈尔、永创星科技、中富电路、阿图姆、维胜科技、柔性磁电、格利尔、菲力克斯、云创电子、大忠、慧华电子、利通、鸿华、贝塔、麦新、辉烨、海能达、普奥、立一、星火电子、中策亿特、舜大、裕正、立强、三盛源、达鑫、经纬达、宜兴文达、恒升、德珑、安登利、科德电子、联泰兴、创世富尔、鸿润恒一、雅玛西等。
+
+BMS中使用了CAN、LIN、485等通讯方式，这些通讯方式需要芯片支持。相关芯片供应商包括微芯、英飞凌、亚德诺、恩智浦、意法半导体、芯力特、思瑞浦、纳芯微、川土微、致远、金升阳、维安、格励微、贝岭、中微爱芯等。
