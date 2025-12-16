@@ -690,9 +690,6 @@
     <loc>http://localhost:1313/en/en-us/pricing/</loc>
     <lastmod>2025-12-14T09:08:05+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/en-us/products/</loc>
-    <lastmod>2025-12-16T20:17:56+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/en/pricing/</loc>
     <lastmod>2025-12-14T09:08:05+08:00</lastmod>
     <xhtml:link
@@ -706,24 +703,8 @@
                 href="http://localhost:1313/en/pricing/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/products/</loc>
-    <lastmod>2025-12-16T20:17:56+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="http://localhost:1313/zh-cn/products/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/products/"
-                />
-  </url><url>
     <loc>http://localhost:1313/en/zh-cn/pricing/</loc>
     <lastmod>2025-12-14T09:08:05+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/zh-cn/products/</loc>
-    <lastmod>2025-12-16T20:17:56+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/en-us/privacy/</loc>
     <lastmod>2025-12-14T09:08:05+08:00</lastmod>
@@ -739,6 +720,18 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="http://localhost:1313/en/privacy/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/products/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/zh-cn/products/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/products/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/zh-cn/about/</loc>
