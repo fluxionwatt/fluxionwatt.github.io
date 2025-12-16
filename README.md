@@ -10,15 +10,9 @@ yarn run build
 
 ```
 # Start development server (builds TailwindCSS and runs Hugo server)
-npm run start
+yarn run start
 
 # Your site will be available at http://localhost:1313
-```
-
-### Build
-
-```
-yarn docs:build
 ```
 
 ### Deployment

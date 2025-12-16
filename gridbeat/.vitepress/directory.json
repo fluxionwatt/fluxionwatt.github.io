@@ -42,7 +42,7 @@
             },
             {
               "title": "其他 Linux",
-              "path": "installation/tar.gz"
+              "path": "installation/other-linux"
             },
             {
               "title": "Docker",
@@ -782,7 +782,7 @@
             },
             {
               "title": "Other Linux",
-              "path": "installation/tar.gz"
+              "path": "installation/other-linux"
             },
             {
               "title": "Docker",

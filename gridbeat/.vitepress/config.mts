@@ -11,7 +11,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
+        { text: 'Back to Home', link: 'https://www.fluxionwatt.com/en/' },
     ],
     logo: '/static/img/logo.png',
     sidebar: sidebarEn,
@@ -36,7 +36,7 @@ export default defineConfig({
       themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
       nav: [
-        { text: 'Home', link: '/' },
+        { text: '回到主站', link: 'https://www.fluxionwatt.com/zh-cn/' },
       ],
       sidebar: sidebarCn,
       socialLinks: [
