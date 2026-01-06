@@ -1,34 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tutorials on FluxionWatt</title><link>https://www.fluxionwatt.com/zh-cn/categories/tutorials/</link><description>Recent content in Tutorials on FluxionWatt</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 16 Dec 2025 20:17:56 +0800</lastBuildDate><atom:link href="https://www.fluxionwatt.com/zh-cn/categories/tutorials/index.xml" rel="self" type="application/rss+xml"/><item><title>GridBeat 1.0.0 新版发布</title><link>https://www.fluxionwatt.com/zh-cn/blog/gridbeat-ann-1.0.0/</link><pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/blog/gridbeat-ann-1.0.0/</guid><description>&lt;h2 id="发布"&gt;发布&lt;/h2&gt;
-&lt;p&gt;基于正式发布。&lt;/p&gt;
-&lt;h2 id="致谢"&gt;致谢&lt;/h2&gt;
-&lt;p&gt;向我们所有开发人员，赞助者和贡献者表示特别的感谢！&lt;/p&gt;
-&lt;h2 id="完整-changelog"&gt;完整 Changelog&lt;/h2&gt;
-&lt;p&gt;自最新发布以来所有的变更历史，都可以浏览这个页面 。&lt;/p&gt;
-&lt;h2 id="反馈"&gt;反馈&lt;/h2&gt;
-&lt;p&gt;欢迎给本版本提供反馈。欢迎到 GitHub issues 创建新 issue 或者给我们的邮件列表之一发送邮件， 或者到我们新建立的 bbs 讨论。&lt;/p&gt;
-&lt;h2 id="下一个版本"&gt;下一个版本&lt;/h2&gt;
-&lt;p&gt;下一个版本的 计划在十月初发布。向所有的支持者、贡献者和用户表示感谢！&lt;/p&gt;</description></item><item><title>储能EMS管理软件的设计方案</title><link>https://www.fluxionwatt.com/zh-cn/blog/getting-started-with-hugo/</link><pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/blog/getting-started-with-hugo/</guid><description>&lt;div class="bg-gray-50 p-6 rounded-lg mb-8"&gt;
- &lt;h2 class="text-xl font-semibold mb-4"&gt;目录&lt;/h2&gt;
- &lt;nav id="TableOfContents"&gt;
- &lt;ul&gt;
- &lt;li&gt;&lt;a href="#集中式储能ems管理软件"&gt;集中式储能EMS管理软件：&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#分散式储能ems管理软件"&gt;分散式储能EMS管理软件：&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#云端储能ems管理软件"&gt;云端储能EMS管理软件：&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#嵌入式储能ems管理软件"&gt;嵌入式储能EMS管理软件：&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#可定制化储能ems管理软件"&gt;可定制化储能EMS管理软件：&lt;/a&gt;&lt;/li&gt;
- &lt;/ul&gt;
-&lt;/nav&gt;
-&lt;/div&gt;
-
-&lt;p&gt;储能EMS管理软件的设计方案可以根据不同的应用场景和需求而有所不同，以下是一些常见的设计方案：&lt;/p&gt;
-&lt;h2 id="集中式储能ems管理软件"&gt;集中式储能EMS管理软件：&lt;/h2&gt;
-&lt;p&gt;这种方案适用于大型能源系统，例如风力发电、太阳能发电等，可以将多个储能子系统集中管理和监控。该软件可以实时监测各储能子系统的运行状态、能量存储量、充放电状态等，并可以集中控制充放电策略、能量调度等。&lt;/p&gt;
-&lt;h2 id="分散式储能ems管理软件"&gt;分散式储能EMS管理软件：&lt;/h2&gt;
-&lt;p&gt;这种方案适用于分布式能源系统，例如商业和工业领域的储能系统，可以针对不同的能源子系统进行管理和监控。该软件可以实现本地控制和远程监控，方便用户对储能系统进行日常维护和故障处理。&lt;/p&gt;
-&lt;h2 id="云端储能ems管理软件"&gt;云端储能EMS管理软件：&lt;/h2&gt;
-&lt;p&gt;这种方案适用于各种规模的能源系统，可以利用云计算技术实现储能系统的远程管理和监控。该软件可以通过互联网与多个储能系统连接，实现数据的实时采集、分析和优化，并可以提供开放式的API接口，方便用户进行二次开发。&lt;/p&gt;
-&lt;h2 id="嵌入式储能ems管理软件"&gt;嵌入式储能EMS管理软件：&lt;/h2&gt;
-&lt;p&gt;这种方案适用于小型能源系统，例如电动汽车、移动电源等，可以将储能系统与电力管理系统集成在一起。该软件可以实现能量的实时监测、控制和保护，并可以与智能家居、智能交通等其他系统进行集成。&lt;/p&gt;
-&lt;h2 id="可定制化储能ems管理软件"&gt;可定制化储能EMS管理软件：&lt;/h2&gt;
-&lt;p&gt;这种方案可以根据用户的需求进行定制化开发，可以满足不同用户对储能系统的特殊需求。该软件可以根据用户的需求设计充放电策略、数据处理和分析方法等，并可以提供可视化界面和报表工具等，方便用户进行数据分析和决策。&lt;/p&gt;
-&lt;p&gt;以上是常见的储能EMS管理软件设计方案，选择合适的设计方案需要根据具体的场景和需求进行评估和选择。&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorials on FluxionWatt</title>
+    <link>http://localhost:1313/zh-cn/categories/tutorials/</link>
+    <description>Recent content in Tutorials on FluxionWatt</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 20 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh-cn/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GridBeat 1.0.0 新版发布</title>
+      <link>http://localhost:1313/zh-cn/blog/gridbeat-ann-1.0.0/</link>
+      <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-cn/blog/gridbeat-ann-1.0.0/</guid>
+      <description>&lt;h2 id=&#34;发布&#34;&gt;发布&lt;/h2&gt;&#xA;&lt;p&gt;基于正式发布。&lt;/p&gt;&#xA;&lt;h2 id=&#34;致谢&#34;&gt;致谢&lt;/h2&gt;&#xA;&lt;p&gt;向我们所有开发人员，赞助者和贡献者表示特别的感谢！&lt;/p&gt;&#xA;&lt;h2 id=&#34;完整-changelog&#34;&gt;完整 Changelog&lt;/h2&gt;&#xA;&lt;p&gt;自最新发布以来所有的变更历史，都可以浏览这个页面 。&lt;/p&gt;&#xA;&lt;h2 id=&#34;反馈&#34;&gt;反馈&lt;/h2&gt;&#xA;&lt;p&gt;欢迎给本版本提供反馈。欢迎到 GitHub issues 创建新 issue 或者给我们的邮件列表之一发送邮件， 或者到我们新建立的 bbs 讨论。&lt;/p&gt;&#xA;&lt;h2 id=&#34;下一个版本&#34;&gt;下一个版本&lt;/h2&gt;&#xA;&lt;p&gt;下一个版本的 计划在十月初发布。向所有的支持者、贡献者和用户表示感谢！&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>储能EMS管理软件的设计方案</title>
+      <link>http://localhost:1313/zh-cn/blog/getting-started-with-hugo/</link>
+      <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-cn/blog/getting-started-with-hugo/</guid>
+      <description>&lt;div class=&#34;bg-gray-50 p-6 rounded-lg mb-8&#34;&gt;&#xA;    &lt;h2 class=&#34;text-xl font-semibold mb-4&#34;&gt;目录&lt;/h2&gt;&#xA;    &lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#集中式储能ems管理软件&#34;&gt;集中式储能EMS管理软件：&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#分散式储能ems管理软件&#34;&gt;分散式储能EMS管理软件：&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#云端储能ems管理软件&#34;&gt;云端储能EMS管理软件：&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#嵌入式储能ems管理软件&#34;&gt;嵌入式储能EMS管理软件：&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#可定制化储能ems管理软件&#34;&gt;可定制化储能EMS管理软件：&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/nav&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;储能EMS管理软件的设计方案可以根据不同的应用场景和需求而有所不同，以下是一些常见的设计方案：&lt;/p&gt;&#xA;&lt;h2 id=&#34;集中式储能ems管理软件&#34;&gt;集中式储能EMS管理软件：&lt;/h2&gt;&#xA;&lt;p&gt;这种方案适用于大型能源系统，例如风力发电、太阳能发电等，可以将多个储能子系统集中管理和监控。该软件可以实时监测各储能子系统的运行状态、能量存储量、充放电状态等，并可以集中控制充放电策略、能量调度等。&lt;/p&gt;&#xA;&lt;h2 id=&#34;分散式储能ems管理软件&#34;&gt;分散式储能EMS管理软件：&lt;/h2&gt;&#xA;&lt;p&gt;这种方案适用于分布式能源系统，例如商业和工业领域的储能系统，可以针对不同的能源子系统进行管理和监控。该软件可以实现本地控制和远程监控，方便用户对储能系统进行日常维护和故障处理。&lt;/p&gt;&#xA;&lt;h2 id=&#34;云端储能ems管理软件&#34;&gt;云端储能EMS管理软件：&lt;/h2&gt;&#xA;&lt;p&gt;这种方案适用于各种规模的能源系统，可以利用云计算技术实现储能系统的远程管理和监控。该软件可以通过互联网与多个储能系统连接，实现数据的实时采集、分析和优化，并可以提供开放式的API接口，方便用户进行二次开发。&lt;/p&gt;&#xA;&lt;h2 id=&#34;嵌入式储能ems管理软件&#34;&gt;嵌入式储能EMS管理软件：&lt;/h2&gt;&#xA;&lt;p&gt;这种方案适用于小型能源系统，例如电动汽车、移动电源等，可以将储能系统与电力管理系统集成在一起。该软件可以实现能量的实时监测、控制和保护，并可以与智能家居、智能交通等其他系统进行集成。&lt;/p&gt;&#xA;&lt;h2 id=&#34;可定制化储能ems管理软件&#34;&gt;可定制化储能EMS管理软件：&lt;/h2&gt;&#xA;&lt;p&gt;这种方案可以根据用户的需求进行定制化开发，可以满足不同用户对储能系统的特殊需求。该软件可以根据用户的需求设计充放电策略、数据处理和分析方法等，并可以提供可视化界面和报表工具等，方便用户进行数据分析和决策。&lt;/p&gt;&#xA;&lt;p&gt;以上是常见的储能EMS管理软件设计方案，选择合适的设计方案需要根据具体的场景和需求进行评估和选择。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

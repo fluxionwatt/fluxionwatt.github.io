@@ -1,660 +1,159 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on FluxionWatt</title><link>https://www.fluxionwatt.com/zh-cn/</link><description>Recent content in Home on FluxionWatt</description><generator>Hugo</generator><language>zh-cn</language><atom:link href="https://www.fluxionwatt.com/zh-cn/index.xml" rel="self" type="application/rss+xml"/><item><title>为什么储能行业充放电倍率都是 0.5C</title><link>https://www.fluxionwatt.com/zh-cn/blog/why-charge-discharge-storage-50c/</link><pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/blog/why-charge-discharge-storage-50c/</guid><description>&lt;h1 id="为什么储能行业充放电倍率都爱用05c"&gt;为什么储能行业充放电倍率“都爱用”0.5C？&lt;/h1&gt;
-&lt;p&gt;很多电化学储能项目（尤其是电网侧、工商业侧的大型电池储能系统 BESS）在参数表上都会出现一个熟悉的数字：&lt;strong&gt;0.5C 充放电倍率&lt;/strong&gt;。看起来好像整个行业都默认了 0.5C，这背后其实是 &lt;strong&gt;电芯特性、寿命成本、安全和电网应用场景多方面权衡的结果&lt;/strong&gt;。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;先简单回顾：&lt;br&gt;
-&lt;strong&gt;0.5C 的含义&lt;/strong&gt;：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;对于容量为 &lt;em&gt;100Ah&lt;/em&gt; 的电池，0.5C 放电电流就是 &lt;em&gt;50A&lt;/em&gt;；&lt;/li&gt;
-&lt;li&gt;理论上 2 小时充满或放空，所以 0.5C 往往对应“2 小时制”储能系统。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;下面从几个维度拆开讲。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="一电芯物理特性05c-是寿命安全与效率的甜点位"&gt;一、电芯物理特性：0.5C 是寿命、安全与效率的“甜点位”&lt;/h2&gt;
-&lt;p&gt;大型储能现在主流用的是 &lt;strong&gt;磷酸铁锂（LFP）能量型电芯&lt;/strong&gt;，不是动力电池那种高 C 倍率“暴力玩家”。对这类能量型电芯来说：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;寿命在 0.5C 附近最划算&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;0.25C～0.5C：循环寿命可以轻松做到 6000–10000 次甚至更多；&lt;/li&gt;
-&lt;li&gt;拉到 1C：同样的电芯体系下，容量衰减明显加快，寿命可能直接打个 7 折甚至更低。&lt;br&gt;
-对于要求 10 年、15 年的电站来说，&lt;strong&gt;寿命一旦缩短就是实打实的度电成本上升&lt;/strong&gt;，所以大家自然会往 0.5C 附近靠。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;发热少，热管理简单、安全边际大&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;大电流意味着 &lt;strong&gt;I²R 损耗急剧放大&lt;/strong&gt;，发热上去，就要：
-&lt;ul&gt;
-&lt;li&gt;更复杂、更贵的冷却系统；&lt;/li&gt;
-&lt;li&gt;更苛刻的安全设计（热失控防护、绝缘距、电气间隙等）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;0.5C 下发热可控，&lt;strong&gt;空调 / 液冷系统压力小很多&lt;/strong&gt;，安全冗余更宽松，整个系统 CAPEX 也更友好。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;效率更高&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;低 C 倍率下，内阻损耗小一大截，系统往返效率更高。&lt;/li&gt;
-&lt;li&gt;对于以“搬运能量”为主的储能（削峰填谷、调峰），&lt;strong&gt;效率比瞬时大功率更重要&lt;/strong&gt;——多赚一点度电收益，远比瞬时多一点峰值功率划算。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;综合下来：&lt;br&gt;
-&lt;strong&gt;0.5C 是“物理上电芯比较舒服”的点&lt;/strong&gt;，再高就开始明显吃寿命和安全冗余了。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="二电网应用场景2-小时--4-小时制天然推导出-05c"&gt;二、电网应用场景：2 小时 / 4 小时制天然推导出 0.5C&lt;/h2&gt;
-&lt;p&gt;再看应用侧。&lt;/p&gt;</description></item><item><title>Product Manager</title><link>https://www.fluxionwatt.com/zh-cn/jobs/product-manager/</link><pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/jobs/product-manager/</guid><description>&lt;p&gt;We&amp;rsquo;re looking for a Product Manager to join our team and help shape the future of our product.&lt;/p&gt;
-&lt;h2 id="about-the-role"&gt;About the Role&lt;/h2&gt;
-&lt;p&gt;As a Product Manager, you&amp;rsquo;ll be responsible for:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Defining and executing the product strategy and roadmap&lt;/li&gt;
-&lt;li&gt;Working closely with engineering, design, and marketing teams&lt;/li&gt;
-&lt;li&gt;Conducting user research and gathering customer feedback&lt;/li&gt;
-&lt;li&gt;Analyzing market trends and competitive landscape&lt;/li&gt;
-&lt;li&gt;Prioritizing features and managing the product backlog&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="requirements"&gt;Requirements&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;4+ years of product management experience in SaaS&lt;/li&gt;
-&lt;li&gt;Strong analytical and problem-solving skills&lt;/li&gt;
-&lt;li&gt;Excellent communication and stakeholder management abilities&lt;/li&gt;
-&lt;li&gt;Experience with agile development methodologies&lt;/li&gt;
-&lt;li&gt;Data-driven decision making mindset&lt;/li&gt;
-&lt;li&gt;Technical background or ability to work closely with technical teams&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="nice-to-have"&gt;Nice to Have&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;MBA or relevant advanced degree&lt;/li&gt;
-&lt;li&gt;Experience with B2B SaaS products&lt;/li&gt;
-&lt;li&gt;Background in UX design or software development&lt;/li&gt;
-&lt;li&gt;Experience with product analytics tools&lt;/li&gt;
-&lt;li&gt;Public speaking or presentation experience&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="benefits"&gt;Benefits&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Competitive salary and equity package&lt;/li&gt;
-&lt;li&gt;Comprehensive health, dental, and vision insurance&lt;/li&gt;
-&lt;li&gt;401(k) matching&lt;/li&gt;
-&lt;li&gt;Flexible PTO policy&lt;/li&gt;
-&lt;li&gt;Professional development budget&lt;/li&gt;
-&lt;li&gt;Wellness programs&lt;/li&gt;
-&lt;li&gt;Company-sponsored events&lt;/li&gt;
-&lt;li&gt;Office perks and snacks&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="how-to-apply"&gt;How to Apply&lt;/h2&gt;
-&lt;p&gt;Please send your resume and a cover letter detailing your product management experience and why you&amp;rsquo;re interested in joining our team. Include examples of products you&amp;rsquo;ve managed and their impact.&lt;/p&gt;</description></item><item><title>Senior Frontend Developer</title><link>https://www.fluxionwatt.com/zh-cn/jobs/senior-frontend-developer/</link><pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/jobs/senior-frontend-developer/</guid><description>&lt;p&gt;We&amp;rsquo;re looking for a Senior Frontend Developer to join our growing team and help shape the future of our SaaS platform.&lt;/p&gt;
-&lt;h2 id="about-the-role"&gt;About the Role&lt;/h2&gt;
-&lt;p&gt;As a Senior Frontend Developer, you&amp;rsquo;ll be responsible for:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Building and maintaining high-quality, reusable UI components&lt;/li&gt;
-&lt;li&gt;Collaborating with designers to implement pixel-perfect interfaces&lt;/li&gt;
-&lt;li&gt;Optimizing application performance and accessibility&lt;/li&gt;
-&lt;li&gt;Mentoring junior developers and reviewing code&lt;/li&gt;
-&lt;li&gt;Contributing to technical architecture decisions&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="requirements"&gt;Requirements&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;5+ years of experience in frontend development&lt;/li&gt;
-&lt;li&gt;Expert knowledge of modern JavaScript, HTML, and CSS&lt;/li&gt;
-&lt;li&gt;Strong experience with React or Vue.js&lt;/li&gt;
-&lt;li&gt;Understanding of modern frontend build tools and workflows&lt;/li&gt;
-&lt;li&gt;Experience with responsive design and cross-browser compatibility&lt;/li&gt;
-&lt;li&gt;Strong communication skills and ability to work in a remote team&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="nice-to-have"&gt;Nice to Have&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Experience with TypeScript&lt;/li&gt;
-&lt;li&gt;Knowledge of testing frameworks (Jest, Cypress)&lt;/li&gt;
-&lt;li&gt;Contributions to open source projects&lt;/li&gt;
-&lt;li&gt;Experience with design systems&lt;/li&gt;
-&lt;li&gt;Understanding of backend technologies&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="benefits"&gt;Benefits&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Competitive salary and equity package&lt;/li&gt;
-&lt;li&gt;Flexible working hours&lt;/li&gt;
-&lt;li&gt;Remote-first culture&lt;/li&gt;
-&lt;li&gt;Health insurance&lt;/li&gt;
-&lt;li&gt;Learning and development budget&lt;/li&gt;
-&lt;li&gt;Annual team retreats&lt;/li&gt;
-&lt;li&gt;Home office setup allowance&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="how-to-apply"&gt;How to Apply&lt;/h2&gt;
-&lt;p&gt;Please send your resume, portfolio, and a brief cover letter explaining why you&amp;rsquo;d be a great fit for our team. Include links to any relevant projects or open source contributions.&lt;/p&gt;</description></item><item><title>Modbus协议介绍</title><link>https://www.fluxionwatt.com/zh-cn/blog/introduction-to-modbus-protocol/</link><pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/blog/introduction-to-modbus-protocol/</guid><description>&lt;div class="bg-gray-50 p-6 rounded-lg mb-8"&gt;
- &lt;h2 class="text-xl font-semibold mb-4"&gt;目录&lt;/h2&gt;
- &lt;nav id="TableOfContents"&gt;
- &lt;ul&gt;
- &lt;li&gt;&lt;a href="#modbus的历史发展"&gt;Modbus的历史发展&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#modbus设计"&gt;Modbus设计&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#modbus数据传输"&gt;Modbus数据传输&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#地址和功能码"&gt;地址和功能码&lt;/a&gt;
- &lt;ul&gt;
- &lt;li&gt;&lt;a href="#设备地址"&gt;设备地址&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#寄存器地址"&gt;寄存器地址&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#功能码"&gt;功能码&lt;/a&gt;&lt;/li&gt;
- &lt;/ul&gt;
- &lt;/li&gt;
- &lt;li&gt;&lt;a href="#modbus-的三种实现"&gt;Modbus 的三种实现&lt;/a&gt;
- &lt;ul&gt;
- &lt;li&gt;&lt;a href="#modbus-rtu"&gt;Modbus RTU&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#modbus-ascii"&gt;Modbus ASCII&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#modbus-tcp拥抱以太网"&gt;Modbus TCP：拥抱以太网&lt;/a&gt;&lt;/li&gt;
- &lt;/ul&gt;
- &lt;/li&gt;
- &lt;li&gt;&lt;a href="#modbus为什么能成功"&gt;Modbus为什么能成功&lt;/a&gt;&lt;/li&gt;
- &lt;/ul&gt;
-&lt;/nav&gt;
-&lt;/div&gt;
-
-&lt;p&gt;在工业自动化领域，Modbus绝对是个绕不开的名字。作为一个从上世纪70年代末就诞生的通信协议，历久弥坚，默默支撑着无数工厂和设备的互联互通。今天咱们就来聊聊Modbus这个工业通信的元老级协议。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="modbus的历史发展"&gt;Modbus的历史发展&lt;/h2&gt;
-&lt;p&gt;1979年，Modicon公司（也就是现在的施耐德电气前身）推出了一款专为可编程逻辑控制器（&lt;a href="https://zhida.zhihu.com/search?content_id=259799099&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=PLC&amp;amp;zhida_source=entity"&gt;PLC&lt;/a&gt;）设计的通信协议，这就是Modbus。当时的工业现场，设备之间的通信还停留在电压或电流信号的原始阶段，比如用高低电平表示开关状态，或者用0-10V、4-20mA来传递模拟量数据。Modbus的出现，就像给这些设备装上了翻译器，让PLC和现场设备能更高效地对话。&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://pica.zhimg.com/v2-409dd9793660c250081028fed8ab50a8_1440w.jpg" alt=""&gt;&lt;/p&gt;
-&lt;p&gt;Modbus协议发展时间线&lt;/p&gt;
-&lt;p&gt;Modbus是&lt;a href="https://zhida.zhihu.com/search?content_id=259799099&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=%E7%8E%B0%E5%9C%BA%E6%80%BB%E7%BA%BF&amp;amp;zhida_source=entity"&gt;现场总线&lt;/a&gt;（Fieldbus）协议的鼻祖。现场总线是什么？简单来说，它就是工业网络的通信方式，能让多个设备通过一对线缆连接到控制器，省去了点对点接线的麻烦。过去每加一个传感器就得拉一根线，布线成本和复杂度跟蜘蛛网似的，而现场总线就有点像WiFi，把设备们都连到一个网络里，省时省力。&lt;/p&gt;
-&lt;p&gt;除了Modbus，工业领域还有&lt;a href="https://zhida.zhihu.com/search?content_id=259799099&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=Profibus&amp;amp;zhida_source=entity"&gt;Profibus&lt;/a&gt;、&lt;a href="https://zhida.zhihu.com/search?content_id=259799099&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=DeviceNet&amp;amp;zhida_source=entity"&gt;DeviceNet&lt;/a&gt;、ControlNet等一堆现场总线协议，但Modbus凭着简单易用、开源免费的特点，成了最普及的工业协议之一，至今在全球工厂里依然随处可见。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="modbus设计"&gt;Modbus设计&lt;/h2&gt;
-&lt;p&gt;&lt;img src="https://pic4.zhimg.com/v2-db3a72072776678ac0de161b684af611_1440w.jpg" alt=""&gt;&lt;/p&gt;
-&lt;p&gt;Modbus主从通信模型&lt;/p&gt;
-&lt;p&gt;Modbus的设计初衷是让PLC和现场设备顺畅交流。最初它跑在串口通信上，比如RS-232或RS-485，速度慢但够稳定。后来随着网络技术发展，Modbus也升级成了支持TCP/IP和以太网的Modbus TCP，适应了现代工业网络的需求。&lt;/p&gt;
-&lt;p&gt;Modbus 的核心是个 &lt;strong&gt;主从通信模型&lt;/strong&gt;：一个主设备（Master）发号施令，多个从设备（Slave）老老实实响应。主设备可以是 PLC、SCADA 系统或者一台工控机，从设备可能是传感器、变频器或者其他智能仪表。主设备主动发起请求，比如读取数据或发送控制命令，从设备根据请求返回数据或执行操作，整个过程清晰明了。&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://pic2.zhimg.com/v2-40212528bd7f3bac19ecee187fb0da29_1440w.jpg" alt=""&gt;&lt;/p&gt;
-&lt;p&gt;Modbus数据类型&lt;/p&gt;
-&lt;p&gt;数据方面，Modbus 支持两种基本格式：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;离散量&lt;/strong&gt;：也就是单个 bit，表示开关状态，比如 0/1、真/假。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;寄存器&lt;/strong&gt;：16 位字，通常存数值，比如温度、压力，或者其他需要表达的复杂数据。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;这种简单的数据组织方式，让 Modbus 既能应对简单的开关控制，也能处理复杂的数值传输，适应性极强。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="modbus数据传输"&gt;Modbus数据传输&lt;/h2&gt;
-&lt;p&gt;Modbus 的数据传输有自己的套路，了解这些细节对调试和排错至关重要。拿最基础的位传输来说，Modbus 按 &lt;strong&gt;先低位后高位&lt;/strong&gt; 的顺序发送比特（LSB to MSB）。比如有个字节是 11010010，实际传输时会拆成单个比特，按 0、1、0、0、1、0、1、1 的顺序依次发送。&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://pic1.zhimg.com/v2-eb522fa7214fff037912cca1f0d484f8_1440w.jpg" alt=""&gt;&lt;/p&gt;
-&lt;p&gt;位传输顺序 (LSB to MSB)&lt;/p&gt;
-&lt;p&gt;为什么要这么讲究？因为接收端得按同样的规则解码，才能确保数据不乱套。这就像调试串口时得先确认波特率、奇偶校验和停止位一样，Modbus 的位序就是类似的基础约定。&lt;/p&gt;
-&lt;p&gt;至于字节传输，Modbus 根据具体实现方式（RTU、ASCII 或 TCP）会有不同处理，待会我们会细聊。&lt;/p&gt;</description></item><item><title>新能源之储能BMS芯片选型浅析</title><link>https://www.fluxionwatt.com/zh-cn/blog/optimizing-hugo-performance/</link><pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/blog/optimizing-hugo-performance/</guid><description>&lt;div class="bg-gray-50 p-6 rounded-lg mb-8"&gt;
- &lt;h2 class="text-xl font-semibold mb-4"&gt;目录&lt;/h2&gt;
- &lt;nav id="TableOfContents"&gt;&lt;/nav&gt;
-&lt;/div&gt;
-
-&lt;p&gt;完整的电化学储能系统主要包括以下组成部分：&lt;/p&gt;
-&lt;p&gt;1. 电池组：这是储能系统的核心部分，负责储存和释放能量。&lt;/p&gt;
-&lt;p&gt;2. &lt;a href="https://zhida.zhihu.com/search?content_id=232250468&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=%E7%94%B5%E6%B1%A0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F&amp;amp;zhida_source=entity"&gt;电池管理系统&lt;/a&gt;（BMS）：该系统负责对电池组进行监控、管理和保护，确保其正常运行和安全性。&lt;/p&gt;
-&lt;p&gt;3. &lt;a href="https://zhida.zhihu.com/search?content_id=232250468&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=%E8%83%BD%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F&amp;amp;zhida_source=entity"&gt;能量管理系统&lt;/a&gt;（EMS）：该系统负责整个储能系统的能量调度和管理，实现能源的有效利用。&lt;/p&gt;
-&lt;p&gt;4. 储能变流器（PCS）：该设备负责能量的转换和传输，可以将电池输出的直流电转换为交流电，或者将交流电转换为直流电。&lt;/p&gt;
-&lt;p&gt;5. 其他电气设备：这包括一些支持系统运行的其他电气设备，例如充电器、放电设备等。&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://pic4.zhimg.com/v2-3a038e6d7cb4078511bebe5b164f6fdb_1440w.jpg" alt=""&gt;&lt;/p&gt;
-&lt;p&gt;图1、电化学储能系统结构简图&lt;/p&gt;
-&lt;p&gt;在一套完整的电化学储能系统中，各部分成本占比如下：电池组成本最高，达到60%；其次是储能逆变器，占20%；能量管理系统成本占比为10%；电池管理系统和其他电气设备的成本各占5%。&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://pic4.zhimg.com/v2-4b46d1022393ce679e4651ea49081633_1440w.jpg" alt=""&gt;&lt;/p&gt;
-&lt;p&gt;图2、储能系统成本和技术简况&lt;/p&gt;
-&lt;p&gt;电池组是储能系统最重要的组成部分。通常，电池组采用模块化的结构，由电芯组成模组，然后将模组放置在电箱内，再由多个电箱组成电池柜，形成一个储能单元。能量型电池是储能系统所使用的电池类型，其特点是能量密度高，因此一次充电可以提供更长的使用时间。此外，能量型电池的寿命较长，这对储能系统而言非常重要。消除昼夜峰谷差是储能系统的主要应用场景。产品的使用时间直接影响到项目的收益。一些主要的电池组供应商包括&lt;a href="https://zhida.zhihu.com/search?content_id=232250468&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=%E5%AE%81%E5%BE%B7%E6%97%B6%E4%BB%A3&amp;amp;zhida_source=entity"&gt;宁德时代&lt;/a&gt;、&lt;a href="https://zhida.zhihu.com/search?content_id=232250468&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=%E6%AF%94%E4%BA%9A%E8%BF%AA&amp;amp;zhida_source=entity"&gt;比亚迪&lt;/a&gt;、&lt;a href="https://zhida.zhihu.com/search?content_id=232250468&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=LG%E6%96%B0%E8%83%BD%E6%BA%90&amp;amp;zhida_source=entity"&gt;LG新能源&lt;/a&gt;、&lt;a href="https://zhida.zhihu.com/search?content_id=232250468&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=%E6%9D%BE%E4%B8%8B&amp;amp;zhida_source=entity"&gt;松下&lt;/a&gt;、&lt;a href="https://zhida.zhihu.com/search?content_id=232250468&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=%E4%B8%89%E6%98%9FSDI&amp;amp;zhida_source=entity"&gt;三星SDI&lt;/a&gt;、&lt;a href="https://zhida.zhihu.com/search?content_id=232250468&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=SK&amp;#43;On&amp;amp;zhida_source=entity"&gt;SK On&lt;/a&gt;、&lt;a href="https://zhida.zhihu.com/search?content_id=232250468&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=%E4%B8%AD%E5%88%9B%E6%96%B0%E8%88%AA&amp;amp;zhida_source=entity"&gt;中创新航&lt;/a&gt;、&lt;a href="https://zhida.zhihu.com/search?content_id=232250468&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=%E4%BA%BF%E7%BA%AC%E9%94%82%E8%83%BD&amp;amp;zhida_source=entity"&gt;亿纬锂能&lt;/a&gt;、&lt;a href="https://zhida.zhihu.com/search?content_id=232250468&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=%E5%9B%BD%E8%BD%A9%E9%AB%98%E7%A7%91&amp;amp;zhida_source=entity"&gt;国轩高科&lt;/a&gt;、&lt;a href="https://zhida.zhihu.com/search?content_id=232250468&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=%E6%AC%A3%E6%97%BA%E8%BE%BE&amp;amp;zhida_source=entity"&gt;欣旺达&lt;/a&gt;等。&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://pica.zhimg.com/v2-cfbb595c4b0a131c2e6f4f2ae613b692_1440w.jpg" alt=""&gt;&lt;/p&gt;
-&lt;p&gt;图3、电池组结构简图&lt;/p&gt;
-&lt;p&gt;储能变流器可以控制储能电池组的充电和放电过程，进行交直流的变换。&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://picx.zhimg.com/v2-5f561e88197e768c9da8ef61be05cb37_1440w.jpg" alt=""&gt;&lt;/p&gt;
-&lt;p&gt;图4、储能变流器工作流&lt;/p&gt;
-&lt;p&gt;能量管理系统(EMS)，即Energy Management System，主要功能包括储能系统设备(PCS、BMS、电表、消防、空调等)数据采集、数据分析展示以及能量调度(主要体现为运行经济运行策略及安全保护策略)。能量管理系统负责数据采集、网络监控和能量调度等，是电池组、电池管理系统以及储能变流器之间的连接纽带，还负责电池管理系统(BMS)与配电网调度系统接口，接受调度指令，完成诸如蓄电池充放电控制、独立离网系统支持、削峰填谷以及新能源发电平滑输出等电网实际应用。EMS主要用于微电网内部能量控制，维持微电网功率平衡，保证微电网正常运行；需求和应用场景多种多样，软件系统的工作量极大；可满足中小型商用级储能系统的现场能量调度需求，大型储能系统会涉及到电网侧的调度。&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://pic4.zhimg.com/v2-ca8b468d9c5c5ad9e390abec0ce5242b_1440w.jpg" alt=""&gt;&lt;/p&gt;
-&lt;p&gt;图5、决策层的EMS&lt;/p&gt;
-&lt;p&gt;电池管理系统(BMS)负责电池的监测、评估、保护以及均衡等，通过通讯的方式上传电池相关信息和状态，防止电池的过充与过放，占整套电化学储能系统的成本比例约为5%，由于这个环节比较独立，可以做到单体利润最大化，颇具市场潜力。BMS在整个电化学储能系统中起至关重要作用。储能的BMS还需要与电网进行通讯，控制谐波、频率等关键参数，并实现与储能变流器(PCS)以及能量管理系统(EMS)的信息交互，PCS控制器通过CAN接口与BMS通讯获取电池组状态信息，可实现对电池的保护性充放电，确保电池运行安全。&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://pic4.zhimg.com/v2-e1f9d9eeb251920c413ee73423ff69b7_1440w.jpg" alt=""&gt;&lt;/p&gt;
-&lt;p&gt;图5、BMS的三层架构&lt;/p&gt;
-&lt;p&gt;BMS主要由电池阵列管理单元（BAMS）、电池蔟管理单元(BCMS)以及电池管理单元（BMU）组成。电池阵列管理单元是BMS中的“上位机”，负责对整个BMS系统的数据进行收集和分析判断、控制，具备完善的事件记录及历史数据存储，包括电池系统充放电、运行参数设定等。电池簇管理单元负责对电池管理单元进行监测、控制，包括电池故障诊断，均衡控制策略、剩余电量预估等。电池管理单元负责对电池模组的电压、温度进行采集和上传，并实现电池单体间电量双向高效主动平衡。&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://pic1.zhimg.com/v2-4412eaa811a7e63f487fa5fcc743899a_1440w.jpg" alt=""&gt;&lt;/p&gt;
-&lt;p&gt;图6、BMS的结构组成简图&lt;/p&gt;
-&lt;p&gt;BMS中的核心器件之一是电池管理芯片，属于电源管理细分赛道，电池计量芯片用于确定电池的电量状态（SoC）和健康状态（SoH），进行电池荷电状态估算；电池安全芯片主要分为电池监测、电池保护和电池均衡芯片，避免出现过充、过放、过流和短路等故障；充电管理类芯片用于完成电压转换、调节，电池充电管理以及过压过流保护等功能。假设每个电池簇参数为48V/280Ah，对应需要一颗16颗AFE采样芯片。储能电站均采用主动均衡策略，每个电池簇需要16颗主动均衡芯片。在旺盛的市场需求驱动下，2023年预计能实现在储能应用领域量产电池均衡芯片、电池计量芯片的企业出货量会增加明显。各个电池簇的信息再经由隔离通讯接口上传至中枢MCU，进行统一调配。电池管理芯片原厂有德州仪器、亚德诺/凌力尔特、亚德诺/美信、微芯/爱特梅尔、英飞凌、恩智浦、瑞萨/英特矽尔、松下、意法半导体、安森美、罗姆、TELECHIPS、Dukosi、MPS、凹凸科技、航天民芯、必易微、中微半导、赛微微电、圣邦、微源、南芯、集澈、纳芯微、创芯微、赛芯电子、猿芯半导体、钰泰、杰华特、华泰半导体、矽力杰、稳先微、比亚迪半导体、琪埔维、上海博通、中颖、芯海、禹创、英锐芯、芯朋、英集芯、思瑞浦、希荻微、鸿翼芯、力芯微、意瑞、中科阿尔法、芯进等。&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://pic1.zhimg.com/v2-3a33a065782becaff28b0d98ac1d274a_1440w.jpg" alt=""&gt;&lt;/p&gt;
-&lt;p&gt;图7、AFE采样芯片主要型号和市场价格&lt;/p&gt;
-&lt;p&gt;BMS中的另一个核心器件是MCU，负责电流采集和电池包的总压采集、充放电逻辑控制、电池健康状态计算、对外通信 (通常需要CAN通信隔离收发器)等。MCU的供电一般采用隔离供电，电池经过隔离DC-DC降压变换器给MCU供电以及控制充放电MOS电路进行电池包的充放电管理。MCU芯片供应商主要有德州仪器、意法半导体、恩智浦、英飞凌、瑞萨、中颖、雅特力、兆易创新、君正、芯海、国民技术、紫光国微、极海、新唐、乐鑫、航芯、博通集成、复微、锐能微等。&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://pic1.zhimg.com/v2-a1eaa7fb1049d5c6f4ddded6310d69ec_1440w.jpg" alt=""&gt;&lt;/p&gt;
-&lt;p&gt;图8、BMS硬件简图&lt;/p&gt;
-&lt;p&gt;BMS中的电池电流采集后，需要使用ADC芯片将模拟信号转换成数字信号。ADC芯片供应商包括德州仪器、意法半导体、亚德诺、瑞萨、贝岭、思瑞浦、圣邦微、芯海、必易微、晶华微、芯佰微、迅芯微、治精微、类比、智毅聚芯等。&lt;/p&gt;
-&lt;p&gt;数字隔离方面，主要应用于高低压之间的数字通信，例如BMS主控板上的高压采样与MCU之间的SPI通信，以及采样板AFE与MCU的SPI通信。数字隔离芯片可以分为数字隔离器、隔离通讯接口（如CAN、LIN、485等）。数字隔离器主要用于将输入信号传递到与输入隔离的输出端口，隔离通讯接口则加入了通讯协议的解析功能，可以将通讯链路上的信号转化成MCU/SoC易处理的格式。等。&lt;/p&gt;
-&lt;p&gt;除了使用数字隔离器外，还可以使用光耦、或者变压器隔离方案。光耦厂商包括安森美、东芝、博通、ISOCOM、亿光、光宝、奥伦德、先进光半导体、国晶微、华联等；变压器原厂有国巨/普思、TDK、胜美达、田村、台达、光宝、京泉华、可立克、顺络电子、铭普光磁、麦捷科技、伊戈尔、永创星科技、中富电路、阿图姆、维胜科技、柔性磁电、格利尔、菲力克斯、云创电子、大忠、慧华电子、利通、鸿华、贝塔、麦新、辉烨、海能达、普奥、立一、星火电子、中策亿特、舜大、裕正、立强、三盛源、达鑫、经纬达、宜兴文达、恒升、德珑、安登利、科德电子、联泰兴、创世富尔、鸿润恒一、雅玛西等。&lt;/p&gt;
-&lt;p&gt;BMS中使用了CAN、LIN、485等通讯方式，这些通讯方式需要芯片支持。相关芯片供应商包括微芯、英飞凌、亚德诺、恩智浦、意法半导体、芯力特、思瑞浦、纳芯微、川土微、致远、金升阳、维安、格励微、贝岭、中微爱芯等。&lt;/p&gt;</description></item><item><title>stm32为何在诸多的单片机中脱颖而出？</title><link>https://www.fluxionwatt.com/zh-cn/blog/deploying-hugo-sites/</link><pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/blog/deploying-hugo-sites/</guid><description>&lt;p&gt;+++
-translationKey = &amp;lsquo;foo&amp;rsquo;
-+++&lt;/p&gt;
-&lt;div class="bg-gray-50 p-6 rounded-lg mb-8"&gt;
- &lt;h2 class="text-xl font-semibold mb-4"&gt;目录&lt;/h2&gt;
- &lt;nav id="TableOfContents"&gt;
- &lt;ul&gt;
- &lt;li&gt;&lt;a href="#1-产品线覆盖极广从入门到高端同门迁移"&gt;1. 产品线覆盖极广：从入门到高端“同门迁移”&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#2-外设能力强且均衡面向真实工程落地"&gt;2. 外设能力强且均衡：面向真实工程落地&lt;/a&gt;
- &lt;ul&gt;
- &lt;li&gt;&lt;a href="#21-常用外设齐全组合搭配灵活"&gt;2.1 常用外设齐全，组合搭配灵活&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#22-外设联动机制成熟dma定时器是硬实力"&gt;2.2 外设联动机制成熟：DMA/定时器是“硬实力”&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#23-工业通信与高速接口更贴近实际需求"&gt;2.3 工业通信与高速接口更贴近实际需求&lt;/a&gt;&lt;/li&gt;
- &lt;/ul&gt;
- &lt;/li&gt;
- &lt;li&gt;&lt;a href="#3-生态与社区巨大缩短平均解决问题时间"&gt;3. 生态与社区巨大：缩短“平均解决问题时间”&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#4-工具链友好cubemxide-提升启动速度与可维护性"&gt;4. 工具链友好：CubeMX/IDE 提升启动速度与可维护性&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#5-资料与参考设计丰富从芯片到可落地方案"&gt;5. 资料与参考设计丰富：从芯片到“可落地方案”&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#6-中间件与软件栈不止点灯而是完整系统能力"&gt;6. 中间件与软件栈：不止点灯，而是完整系统能力&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#7-供应链与风险控制量产项目最看重可替代性"&gt;7. 供应链与风险控制：量产项目最看重“可替代性”&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#8-学习曲线合理既适合入门也能支撑深度优化"&gt;8. 学习曲线合理：既适合入门，也能支撑深度优化&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#9-工程实践视角stm32-的好用到底体现在哪里"&gt;9. 工程实践视角：STM32 的“好用”到底体现在哪里？&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#结语脱颖而出是系统优势的胜利"&gt;结语：脱颖而出，是“系统优势”的胜利&lt;/a&gt;&lt;/li&gt;
- &lt;/ul&gt;
-&lt;/nav&gt;
-&lt;/div&gt;
-
-&lt;h1 id="stm32-为何能在诸多单片机中脱颖而出"&gt;STM32 为何能在诸多单片机中脱颖而出？&lt;/h1&gt;
-&lt;p&gt;在 MCU（单片机）领域，品牌和型号多到眼花：8 位、16 位、32 位；面向家电、车规、工业、消费电子；从几毛钱到几十块一颗都有。但如果你观察大量真实工程项目，尤其是国内外中小团队、方案公司、硬件创业团队，甚至不少传统工业厂商的新品，你会发现 STM32 经常成为“默认选项”。它之所以能在诸多单片机中脱颖而出，并不是因为某一项指标碾压所有对手，而是它在&lt;strong&gt;产品线覆盖、外设能力、工具链、生态、工程化资料、供应链与风险控制&lt;/strong&gt;等维度形成了“组合优势”。这种组合优势，才是让团队愿意持续使用、不断复用的关键。&lt;/p&gt;
-&lt;p&gt;下面从工程实践角度，拆解 STM32 的核心竞争力。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="1-产品线覆盖极广从入门到高端同门迁移"&gt;1. 产品线覆盖极广：从入门到高端“同门迁移”&lt;/h2&gt;
-&lt;p&gt;STM32 的显著特征之一是&lt;strong&gt;系列多且跨度大&lt;/strong&gt;：从低成本、低功耗的入门型号，到带 DSP/FPU 的中高性能型号，再到更高主频、更大 SRAM/Flash、更强图形和高速外设能力的型号，基本可以覆盖绝大多数嵌入式需求。对团队来说，这意味着：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;学习与开发投资能长期复用&lt;/strong&gt;：你在一个系列里积累的时钟配置、外设用法、调试经验，换到更高端型号依然适用。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;产品分档更容易&lt;/strong&gt;：同一款产品可以做低配/标准/高配多个 SKU，底层架构保持一致。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;升级路线清晰&lt;/strong&gt;：早期原型用低端芯片快速跑通，量产或功能加码时可在 STM32 家族内升级，迁移成本较低。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;很多项目真正怕的不是“性能不够”，而是“选型变动导致系统推倒重来”。STM32 的“同门迁移”特性，让项目的技术风险更可控。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="2-外设能力强且均衡面向真实工程落地"&gt;2. 外设能力强且均衡：面向真实工程落地&lt;/h2&gt;
-&lt;p&gt;不少 MCU 的宣传会强调主频、功耗或某一个特色外设，但工程落地更看重“&lt;strong&gt;外设是否齐全、是否成熟、是否好用&lt;/strong&gt;”。STM32 在外设上通常给人一个感受：&lt;strong&gt;够用、能打、配套完善&lt;/strong&gt;。&lt;/p&gt;</description></item><item><title>能源行业必须知道的电气名词解释</title><link>https://www.fluxionwatt.com/zh-cn/blog/customizing-your-hugo-theme/</link><pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/blog/customizing-your-hugo-theme/</guid><description>&lt;div class="bg-gray-50 p-6 rounded-lg mb-8"&gt;
- &lt;h2 class="text-xl font-semibold mb-4"&gt;目录&lt;/h2&gt;
- &lt;nav id="TableOfContents"&gt;&lt;/nav&gt;
-&lt;/div&gt;
-
-&lt;p&gt;1、[有功功率]—— 在交流电能的发输用过程中，用于转换成电磁形式的那部分能量叫做有功。&lt;/p&gt;
-&lt;p&gt;2、[无功功率]—— 在交流电能的发输用过程中，用于电路内电磁场交换的那部分能量叫做无功。&lt;/p&gt;
-&lt;p&gt;3、[电力系统]—— 由发电机、配电装置、升压和降压变电所、电力线路及电能用户所组成的整体称为电力系统。[中性点位移]：在三相电路中，电源[电压]三相负载对称的情况下，如果三相负荷也对称，那么不管有无中性点，中性点的电压均为零。但如果三相负载不对称，且无中性线或中性线阻抗较大，那么中性点就会出现电压，这种现象称为中性点位移现象。&lt;/p&gt;</description></item><item><title>GridBeat 1.0.0 新版发布</title><link>https://www.fluxionwatt.com/zh-cn/blog/gridbeat-ann-1.0.0/</link><pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/blog/gridbeat-ann-1.0.0/</guid><description>&lt;h2 id="发布"&gt;发布&lt;/h2&gt;
-&lt;p&gt;基于正式发布。&lt;/p&gt;
-&lt;h2 id="致谢"&gt;致谢&lt;/h2&gt;
-&lt;p&gt;向我们所有开发人员，赞助者和贡献者表示特别的感谢！&lt;/p&gt;
-&lt;h2 id="完整-changelog"&gt;完整 Changelog&lt;/h2&gt;
-&lt;p&gt;自最新发布以来所有的变更历史，都可以浏览这个页面 。&lt;/p&gt;
-&lt;h2 id="反馈"&gt;反馈&lt;/h2&gt;
-&lt;p&gt;欢迎给本版本提供反馈。欢迎到 GitHub issues 创建新 issue 或者给我们的邮件列表之一发送邮件， 或者到我们新建立的 bbs 讨论。&lt;/p&gt;
-&lt;h2 id="下一个版本"&gt;下一个版本&lt;/h2&gt;
-&lt;p&gt;下一个版本的 计划在十月初发布。向所有的支持者、贡献者和用户表示感谢！&lt;/p&gt;</description></item><item><title>储能EMS管理软件的设计方案</title><link>https://www.fluxionwatt.com/zh-cn/blog/getting-started-with-hugo/</link><pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/blog/getting-started-with-hugo/</guid><description>&lt;div class="bg-gray-50 p-6 rounded-lg mb-8"&gt;
- &lt;h2 class="text-xl font-semibold mb-4"&gt;目录&lt;/h2&gt;
- &lt;nav id="TableOfContents"&gt;
- &lt;ul&gt;
- &lt;li&gt;&lt;a href="#集中式储能ems管理软件"&gt;集中式储能EMS管理软件：&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#分散式储能ems管理软件"&gt;分散式储能EMS管理软件：&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#云端储能ems管理软件"&gt;云端储能EMS管理软件：&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#嵌入式储能ems管理软件"&gt;嵌入式储能EMS管理软件：&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#可定制化储能ems管理软件"&gt;可定制化储能EMS管理软件：&lt;/a&gt;&lt;/li&gt;
- &lt;/ul&gt;
-&lt;/nav&gt;
-&lt;/div&gt;
-
-&lt;p&gt;储能EMS管理软件的设计方案可以根据不同的应用场景和需求而有所不同，以下是一些常见的设计方案：&lt;/p&gt;
-&lt;h2 id="集中式储能ems管理软件"&gt;集中式储能EMS管理软件：&lt;/h2&gt;
-&lt;p&gt;这种方案适用于大型能源系统，例如风力发电、太阳能发电等，可以将多个储能子系统集中管理和监控。该软件可以实时监测各储能子系统的运行状态、能量存储量、充放电状态等，并可以集中控制充放电策略、能量调度等。&lt;/p&gt;
-&lt;h2 id="分散式储能ems管理软件"&gt;分散式储能EMS管理软件：&lt;/h2&gt;
-&lt;p&gt;这种方案适用于分布式能源系统，例如商业和工业领域的储能系统，可以针对不同的能源子系统进行管理和监控。该软件可以实现本地控制和远程监控，方便用户对储能系统进行日常维护和故障处理。&lt;/p&gt;
-&lt;h2 id="云端储能ems管理软件"&gt;云端储能EMS管理软件：&lt;/h2&gt;
-&lt;p&gt;这种方案适用于各种规模的能源系统，可以利用云计算技术实现储能系统的远程管理和监控。该软件可以通过互联网与多个储能系统连接，实现数据的实时采集、分析和优化，并可以提供开放式的API接口，方便用户进行二次开发。&lt;/p&gt;
-&lt;h2 id="嵌入式储能ems管理软件"&gt;嵌入式储能EMS管理软件：&lt;/h2&gt;
-&lt;p&gt;这种方案适用于小型能源系统，例如电动汽车、移动电源等，可以将储能系统与电力管理系统集成在一起。该软件可以实现能量的实时监测、控制和保护，并可以与智能家居、智能交通等其他系统进行集成。&lt;/p&gt;
-&lt;h2 id="可定制化储能ems管理软件"&gt;可定制化储能EMS管理软件：&lt;/h2&gt;
-&lt;p&gt;这种方案可以根据用户的需求进行定制化开发，可以满足不同用户对储能系统的特殊需求。该软件可以根据用户的需求设计充放电策略、数据处理和分析方法等，并可以提供可视化界面和报表工具等，方便用户进行数据分析和决策。&lt;/p&gt;
-&lt;p&gt;以上是常见的储能EMS管理软件设计方案，选择合适的设计方案需要根据具体的场景和需求进行评估和选择。&lt;/p&gt;</description></item><item><title>Beautiful Design System</title><link>https://www.fluxionwatt.com/zh-cn/products/gridbeat/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/products/gridbeat/</guid><description>&lt;h2 id="comprehensive-design-system"&gt;Comprehensive Design System&lt;/h2&gt;
-&lt;p&gt;Our theme includes a complete design system that makes it easy to create beautiful, consistent interfaces. Built on TailwindCSS, it provides the flexibility to customize every aspect of your design while maintaining a professional look.&lt;/p&gt;
-&lt;h3 id="design-components"&gt;Design Components&lt;/h3&gt;
-&lt;h4 id="core-elements"&gt;Core Elements&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Typography system with perfect vertical rhythm&lt;/li&gt;
-&lt;li&gt;Color palette with semantic variables&lt;/li&gt;
-&lt;li&gt;Spacing and sizing scales&lt;/li&gt;
-&lt;li&gt;Grid and layout systems&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id="ui-components"&gt;UI Components&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Navigation components (headers, footers, menus)&lt;/li&gt;
-&lt;li&gt;Hero sections and feature displays&lt;/li&gt;
-&lt;li&gt;Cards and content containers&lt;/li&gt;
-&lt;li&gt;Forms and input elements&lt;/li&gt;
-&lt;li&gt;Buttons and CTAs&lt;/li&gt;
-&lt;li&gt;Pricing tables&lt;/li&gt;
-&lt;li&gt;Testimonial displays&lt;/li&gt;
-&lt;li&gt;Team member profiles&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id="design-features"&gt;Design Features&lt;/h4&gt;
-&lt;h5 id="customization"&gt;Customization&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;Easy theme customization through TailwindCSS&lt;/li&gt;
-&lt;li&gt;Brand color management&lt;/li&gt;
-&lt;li&gt;Typography customization&lt;/li&gt;
-&lt;li&gt;Spacing system adjustment&lt;/li&gt;
-&lt;li&gt;Component variants&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h5 id="accessibility"&gt;Accessibility&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;WCAG 2.1 compliant components&lt;/li&gt;
-&lt;li&gt;Proper ARIA attributes&lt;/li&gt;
-&lt;li&gt;Keyboard navigation support&lt;/li&gt;
-&lt;li&gt;High contrast mode support&lt;/li&gt;
-&lt;li&gt;Screen reader optimized&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h5 id="responsive-design"&gt;Responsive Design&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;Mobile-first approach&lt;/li&gt;
-&lt;li&gt;Breakpoint system&lt;/li&gt;
-&lt;li&gt;Fluid typography&lt;/li&gt;
-&lt;li&gt;Adaptive layouts&lt;/li&gt;
-&lt;li&gt;Touch-friendly interactions&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Our design system provides the perfect foundation for creating beautiful, accessible, and responsive websites that stand out from the crowd.&lt;/p&gt;</description></item><item><title>Cloud 平台</title><link>https://www.fluxionwatt.com/zh-cn/cloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/cloud/</guid><description/></item><item><title>Cloud 平台</title><link>https://www.fluxionwatt.com/zh-cn/support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/support/</guid><description/></item><item><title>Developer Experience</title><link>https://www.fluxionwatt.com/zh-cn/solutions/plant/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/solutions/plant/</guid><description>&lt;h2 id="built-for-developers"&gt;Built for Developers&lt;/h2&gt;
-&lt;p&gt;Our theme is designed with developers in mind, providing a clean, efficient workflow that makes building websites enjoyable and productive.&lt;/p&gt;
-&lt;h3 id="development-features"&gt;Development Features&lt;/h3&gt;
-&lt;h4 id="project-structure"&gt;Project Structure&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Logical directory organization&lt;/li&gt;
-&lt;li&gt;Clear separation of concerns&lt;/li&gt;
-&lt;li&gt;Modular component architecture&lt;/li&gt;
-&lt;li&gt;Consistent naming conventions&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id="development-workflow"&gt;Development Workflow&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Fast hot reload development server&lt;/li&gt;
-&lt;li&gt;Automatic asset processing&lt;/li&gt;
-&lt;li&gt;Source maps for debugging&lt;/li&gt;
-&lt;li&gt;Build process optimization&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id="component-system"&gt;Component System&lt;/h4&gt;
-&lt;h5 id="shortcodes"&gt;Shortcodes&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;Rich set of pre-built shortcodes&lt;/li&gt;
-&lt;li&gt;Easy to create custom shortcodes&lt;/li&gt;
-&lt;li&gt;Documentation for each shortcode&lt;/li&gt;
-&lt;li&gt;Example implementations&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h5 id="partials"&gt;Partials&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;Reusable partial templates&lt;/li&gt;
-&lt;li&gt;Context-aware components&lt;/li&gt;
-&lt;li&gt;Easy to extend and modify&lt;/li&gt;
-&lt;li&gt;Clear documentation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id="customization"&gt;Customization&lt;/h4&gt;
-&lt;h5 id="configuration"&gt;Configuration&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;Central configuration file&lt;/li&gt;
-&lt;li&gt;Environment variables support&lt;/li&gt;
-&lt;li&gt;Feature flags&lt;/li&gt;
-&lt;li&gt;Easy theme customization&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h5 id="styling"&gt;Styling&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;TailwindCSS integration&lt;/li&gt;
-&lt;li&gt;PostCSS processing&lt;/li&gt;
-&lt;li&gt;Custom CSS support&lt;/li&gt;
-&lt;li&gt;Design token system&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id="documentation"&gt;Documentation&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Getting started guide&lt;/li&gt;
-&lt;li&gt;Component documentation&lt;/li&gt;
-&lt;li&gt;Configuration reference&lt;/li&gt;
-&lt;li&gt;Best practices&lt;/li&gt;
-&lt;li&gt;Troubleshooting guide&lt;/li&gt;
-&lt;li&gt;Deployment instructions&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Our developer experience focuses on making it easy to build, customize, and maintain your website while following best practices and maintaining clean, efficient code.&lt;/p&gt;</description></item><item><title>Join Our Team</title><link>https://www.fluxionwatt.com/zh-cn/careers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/careers/</guid><description>&lt;p&gt;At Saasify, we believe in empowering our team members to do their best work. We foster an environment of innovation, collaboration, and continuous learning. Our culture is built on trust, transparency, and a shared commitment to excellence.&lt;/p&gt;
-&lt;p&gt;We&amp;rsquo;re looking for passionate individuals who want to make a difference and grow with us. If you&amp;rsquo;re excited about building the future of SaaS and working with cutting-edge technology, we&amp;rsquo;d love to hear from you.&lt;/p&gt;</description></item><item><title>Lightning-Fast Performance</title><link>https://www.fluxionwatt.com/zh-cn/products/ems/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/products/ems/</guid><description>&lt;h2 id="built-for-speed"&gt;Built for Speed&lt;/h2&gt;
-&lt;p&gt;Our theme is engineered from the ground up with performance in mind. By leveraging Hugo&amp;rsquo;s powerful static site generation and combining it with modern optimization techniques, we deliver websites that load instantly and run smoothly.&lt;/p&gt;
-&lt;h3 id="performance-metrics"&gt;Performance Metrics&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Build Time&lt;/strong&gt;: Less than 1 second for most sites&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Page Load Time&lt;/strong&gt;: Under 500ms first contentful paint&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Time to Interactive&lt;/strong&gt;: Under 1.5 seconds&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Google Lighthouse Score&lt;/strong&gt;: 95+ on all metrics&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="optimization-features"&gt;Optimization Features&lt;/h3&gt;
-&lt;h4 id="asset-optimization"&gt;Asset Optimization&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Automatic image optimization and WebP conversion&lt;/li&gt;
-&lt;li&gt;CSS minification and purging of unused styles&lt;/li&gt;
-&lt;li&gt;JavaScript bundling and tree-shaking&lt;/li&gt;
-&lt;li&gt;Lazy loading of images and components&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id="caching-strategy"&gt;Caching Strategy&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Efficient browser caching with proper headers&lt;/li&gt;
-&lt;li&gt;Static asset fingerprinting&lt;/li&gt;
-&lt;li&gt;Pre-rendered HTML for instant loads&lt;/li&gt;
-&lt;li&gt;Service worker for offline capabilities&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id="cdn-integration"&gt;CDN Integration&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Built for global distribution&lt;/li&gt;
-&lt;li&gt;Edge caching ready&lt;/li&gt;
-&lt;li&gt;Automatic cache invalidation&lt;/li&gt;
-&lt;li&gt;Geographic redundancy&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Our performance-first approach ensures your website not only looks great but delivers an exceptional user experience through blazing-fast load times and smooth interactions.&lt;/p&gt;</description></item><item><title>Lightning-Fast Performance</title><link>https://www.fluxionwatt.com/zh-cn/solutions/solar-home/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/solutions/solar-home/</guid><description>&lt;h2 id="built-for-speed"&gt;Built for Speed&lt;/h2&gt;
-&lt;p&gt;Our theme is engineered from the ground up with performance in mind. By leveraging Hugo&amp;rsquo;s powerful static site generation and combining it with modern optimization techniques, we deliver websites that load instantly and run smoothly.&lt;/p&gt;
-&lt;h3 id="performance-metrics"&gt;Performance Metrics&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Build Time&lt;/strong&gt;: Less than 1 second for most sites&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Page Load Time&lt;/strong&gt;: Under 500ms first contentful paint&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Time to Interactive&lt;/strong&gt;: Under 1.5 seconds&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Google Lighthouse Score&lt;/strong&gt;: 95+ on all metrics&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="optimization-features"&gt;Optimization Features&lt;/h3&gt;
-&lt;h4 id="asset-optimization"&gt;Asset Optimization&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Automatic image optimization and WebP conversion&lt;/li&gt;
-&lt;li&gt;CSS minification and purging of unused styles&lt;/li&gt;
-&lt;li&gt;JavaScript bundling and tree-shaking&lt;/li&gt;
-&lt;li&gt;Lazy loading of images and components&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id="caching-strategy"&gt;Caching Strategy&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Efficient browser caching with proper headers&lt;/li&gt;
-&lt;li&gt;Static asset fingerprinting&lt;/li&gt;
-&lt;li&gt;Pre-rendered HTML for instant loads&lt;/li&gt;
-&lt;li&gt;Service worker for offline capabilities&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id="cdn-integration"&gt;CDN Integration&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Built for global distribution&lt;/li&gt;
-&lt;li&gt;Edge caching ready&lt;/li&gt;
-&lt;li&gt;Automatic cache invalidation&lt;/li&gt;
-&lt;li&gt;Geographic redundancy&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Our performance-first approach ensures your website not only looks great but delivers an exceptional user experience through blazing-fast load times and smooth interactions.&lt;/p&gt;</description></item><item><title>Lightning-Fast Performance</title><link>https://www.fluxionwatt.com/zh-cn/solutions/zero-carbon-park/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/solutions/zero-carbon-park/</guid><description>&lt;h2 id="built-for-speed"&gt;Built for Speed&lt;/h2&gt;
-&lt;p&gt;Our theme is engineered from the ground up with performance in mind. By leveraging Hugo&amp;rsquo;s powerful static site generation and combining it with modern optimization techniques, we deliver websites that load instantly and run smoothly.&lt;/p&gt;
-&lt;h3 id="performance-metrics"&gt;Performance Metrics&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Build Time&lt;/strong&gt;: Less than 1 second for most sites&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Page Load Time&lt;/strong&gt;: Under 500ms first contentful paint&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Time to Interactive&lt;/strong&gt;: Under 1.5 seconds&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Google Lighthouse Score&lt;/strong&gt;: 95+ on all metrics&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="optimization-features"&gt;Optimization Features&lt;/h3&gt;
-&lt;h4 id="asset-optimization"&gt;Asset Optimization&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Automatic image optimization and WebP conversion&lt;/li&gt;
-&lt;li&gt;CSS minification and purging of unused styles&lt;/li&gt;
-&lt;li&gt;JavaScript bundling and tree-shaking&lt;/li&gt;
-&lt;li&gt;Lazy loading of images and components&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id="caching-strategy"&gt;Caching Strategy&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Efficient browser caching with proper headers&lt;/li&gt;
-&lt;li&gt;Static asset fingerprinting&lt;/li&gt;
-&lt;li&gt;Pre-rendered HTML for instant loads&lt;/li&gt;
-&lt;li&gt;Service worker for offline capabilities&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id="cdn-integration"&gt;CDN Integration&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Built for global distribution&lt;/li&gt;
-&lt;li&gt;Edge caching ready&lt;/li&gt;
-&lt;li&gt;Automatic cache invalidation&lt;/li&gt;
-&lt;li&gt;Geographic redundancy&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Our performance-first approach ensures your website not only looks great but delivers an exceptional user experience through blazing-fast load times and smooth interactions.&lt;/p&gt;</description></item><item><title>Pricing</title><link>https://www.fluxionwatt.com/zh-cn/pricing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/pricing/</guid><description>&lt;section class="py-16 bg-white"&gt;
- &lt;div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"&gt;
- 
- &lt;div class="text-center"&gt;
- &lt;h2 class="text-3xl font-bold text-gray-900"&gt;Designed for business teams like yours&lt;/h2&gt;
- 
- &lt;p class="mt-4 text-xl text-gray-600"&gt;Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.&lt;/p&gt;
- 
- &lt;/div&gt;
- 
- 
- &lt;div class="mt-16"&gt;
- &lt;div class="grid grid-cols-1 md:grid-cols-3 gap-8"&gt;
- 
- &lt;div class="w-full"&gt;
- &lt;div class="h-full flex flex-col rounded-2xl border border-gray-200 bg-white shadow-sm hover:shadow-lg transition-shadow duration-300 relative"&gt;
- 
- &lt;div class="p-8 flex flex-col flex-grow"&gt;
- &lt;div class="mb-6"&gt;
- &lt;h3 class="text-2xl font-bold text-gray-900"&gt;Starter&lt;/h3&gt;
- &lt;p class="mt-2 text-gray-500"&gt;Best option for personal use &amp;amp; for your next project.&lt;/p&gt;
- &lt;/div&gt;
- &lt;div class="mb-8"&gt;
- &lt;p class="flex items-baseline"&gt;
- &lt;span class="text-5xl font-bold tracking-tight text-gray-900"&gt;$29&lt;/span&gt;
- &lt;span class="ml-2 text-gray-500"&gt;/月&lt;/span&gt;
- &lt;/p&gt;
- &lt;/div&gt;
- &lt;ul class="space-y-4 text-gray-600 flex-grow"&gt;
- 
- &lt;li class="flex items-start"&gt;
- &lt;svg class="h-6 w-6 flex-shrink-0 text-blue-500" fill="currentColor" viewBox="0 0 24 24"&gt;
- &lt;path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/&gt;
- &lt;/svg&gt;
- &lt;span class="ml-3"&gt;Individual configuration&lt;/span&gt;
- &lt;/li&gt;
- 
- &lt;li class="flex items-start"&gt;
- &lt;svg class="h-6 w-6 flex-shrink-0 text-blue-500" fill="currentColor" viewBox="0 0 24 24"&gt;
- &lt;path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/&gt;
- &lt;/svg&gt;
- &lt;span class="ml-3"&gt;No setup, or hidden fees&lt;/span&gt;
- &lt;/li&gt;
- 
- &lt;li class="flex items-start"&gt;
- &lt;svg class="h-6 w-6 flex-shrink-0 text-blue-500" fill="currentColor" viewBox="0 0 24 24"&gt;
- &lt;path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/&gt;
- &lt;/svg&gt;
- &lt;span class="ml-3"&gt;Team size: 1 developer&lt;/span&gt;
- &lt;/li&gt;
- 
- &lt;li class="flex items-start"&gt;
- &lt;svg class="h-6 w-6 flex-shrink-0 text-blue-500" fill="currentColor" viewBox="0 0 24 24"&gt;
- &lt;path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/&gt;
- &lt;/svg&gt;
- &lt;span class="ml-3"&gt;Premium support: 6 months&lt;/span&gt;
- &lt;/li&gt;
- 
- &lt;li class="flex items-start"&gt;
- &lt;svg class="h-6 w-6 flex-shrink-0 text-blue-500" fill="currentColor" viewBox="0 0 24 24"&gt;
- &lt;path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/&gt;
- &lt;/svg&gt;
- &lt;span class="ml-3"&gt;Free updates: 6 months&lt;/span&gt;
- &lt;/li&gt;
- 
- &lt;/ul&gt;
- &lt;div class="mt-8"&gt;
- &lt;a href="#" class="btn btn-primary w-full"&gt;
- Get started
- &lt;/a&gt;
- &lt;/div&gt;
- &lt;/div&gt;
- &lt;/div&gt;
- &lt;/div&gt;
- 
- &lt;div class="w-full"&gt;
- &lt;div class="h-full flex flex-col rounded-2xl border border-gray-200 bg-white shadow-sm hover:shadow-lg transition-shadow duration-300 relative"&gt;
- 
- &lt;div class="absolute top-4 right-4 inline-block rounded-full bg-blue-100 px-4 py-1 text-sm font-semibold text-blue-800"&gt;
- 热门
- &lt;/div&gt;
- 
- &lt;div class="p-8 flex flex-col flex-grow"&gt;
- &lt;div class="mb-6"&gt;
- &lt;h3 class="text-2xl font-bold text-gray-900"&gt;Company&lt;/h3&gt;
- &lt;p class="mt-2 text-gray-500"&gt;Relevant for multiple users, extended &amp;amp; premium support.&lt;/p&gt;</description></item><item><title>关于我们</title><link>https://www.fluxionwatt.com/zh-cn/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/about/</guid><description>&lt;section class="bg-gradient-to-b from-blue-50 via-blue-50 to-white pt-20 pb-32"&gt;
- &lt;div class="container mx-auto px-4"&gt;
- 
- &lt;div class="text-center"&gt;
- &lt;h1 class="text-4xl md:text-5xl font-bold mb-6"&gt;Building the Future of SaaS&lt;/h1&gt;
- &lt;p class="text-xl text-gray-600 mb-16"&gt;We're on a mission to revolutionize how businesses operate in the digital age&lt;/p&gt;
- &lt;div class="max-w-3xl mx-auto bg-white rounded-xl shadow-sm p-8"&gt;
- &lt;h2 class="text-3xl font-bold mb-4"&gt;Our Mission&lt;/h2&gt;
- &lt;p class="text-xl text-gray-600"&gt;
- We're dedicated to empowering businesses with innovative SaaS solutions that drive growth and efficiency. Our platform combines cutting-edge technology with intuitive design to solve complex business challenges.
- &lt;/p&gt;
- &lt;/div&gt;
- &lt;/div&gt;
-
- &lt;/div&gt;
-&lt;/section&gt;
-
-&lt;section class="py-20 bg-gray-50"&gt;
- &lt;div class="container mx-auto px-4"&gt;
- 
- &lt;div class="max-w-6xl mx-auto"&gt;
- &lt;h2 class="text-3xl font-bold text-center mb-12"&gt;Leadership Team&lt;/h2&gt;
- &lt;div class="grid grid-cols-1 md:grid-cols-3 gap-8"&gt;
- &lt;div class="team-member text-center"&gt;
- &lt;div class="relative mb-4 rounded-lg overflow-hidden aspect-square"&gt;
- 
- &lt;img src="https://www.fluxionwatt.com/images/company/exec-1.svg" alt="Sarah Johnson" class="w-full h-full object-cover"&gt;
- 
- 
- &lt;a href="#" target="_blank" rel="noopener" class="absolute bottom-2 right-2 bg-white rounded-full p-2 shadow-md hover:shadow-lg transition-shadow"&gt;
- &lt;svg class="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 24 24"&gt;
- &lt;path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/&gt;
- &lt;/svg&gt;
- &lt;/a&gt;
- 
- &lt;/div&gt;
- &lt;h3 class="text-xl font-bold mb-1"&gt;Sarah Johnson&lt;/h3&gt;
- &lt;p class="text-gray-600"&gt;Chief Executive Officer&lt;/p&gt;</description></item><item><title>社区版本与企业版本对比</title><link>https://www.fluxionwatt.com/zh-cn/license/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/license/</guid><description>&lt;h2 id="mit-license"&gt;MIT License&lt;/h2&gt;
-&lt;p&gt;Copyright (c) 2024&lt;/p&gt;
-&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the &amp;ldquo;Software&amp;rdquo;), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:&lt;/p&gt;</description></item><item><title>隐私策略</title><link>https://www.fluxionwatt.com/zh-cn/privacy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/privacy/</guid><description>&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;At Saasify, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our service.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="information-we-collect"&gt;Information We Collect&lt;/h2&gt;
-&lt;h3 id="personal-information"&gt;Personal Information&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Name and email address&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Billing information&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Usage data and analytics&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Communication preferences&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="automatically-collected-information"&gt;Automatically Collected Information&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;IP addresses&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Browser type&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Device information&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cookies and tracking technologies&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id="how-we-use-your-information"&gt;How We Use Your Information&lt;/h2&gt;
-&lt;p&gt;We use the collected information for:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Service Delivery&lt;/strong&gt;&lt;br&gt;
-Providing and maintaining our service&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Updates&lt;/strong&gt;&lt;br&gt;
-Notifying you about changes to our service&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Support&lt;/strong&gt;&lt;br&gt;
-Providing customer support&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Transactions&lt;/strong&gt;&lt;br&gt;
-Processing your transactions&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Analytics&lt;/strong&gt;&lt;br&gt;
-Analyzing usage patterns to improve our service&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id="data-security"&gt;Data Security&lt;/h2&gt;
-&lt;p&gt;We implement appropriate technical and organizational security measures to protect your personal information. However, no method of transmission over the Internet is 100% secure.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on FluxionWatt</title>
+    <link>http://localhost:1313/zh-cn/</link>
+    <description>Recent content in Home on FluxionWatt</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 23 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh-cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>为什么储能行业充放电倍率都是 0.5C</title>
+      <link>http://localhost:1313/zh-cn/blog/why-charge-discharge-storage-50c/</link>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-cn/blog/why-charge-discharge-storage-50c/</guid>
+      <description>&lt;h1 id=&#34;为什么储能行业充放电倍率都爱用05c&#34;&gt;为什么储能行业充放电倍率“都爱用”0.5C？&lt;/h1&gt;&#xA;&lt;p&gt;很多电化学储能项目（尤其是电网侧、工商业侧的大型电池储能系统 BESS）在参数表上都会出现一个熟悉的数字：&lt;strong&gt;0.5C 充放电倍率&lt;/strong&gt;。看起来好像整个行业都默认了 0.5C，这背后其实是 &lt;strong&gt;电芯特性、寿命成本、安全和电网应用场景多方面权衡的结果&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;先简单回顾：&lt;br&gt;&#xA;&lt;strong&gt;0.5C 的含义&lt;/strong&gt;：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;对于容量为 &lt;em&gt;100Ah&lt;/em&gt; 的电池，0.5C 放电电流就是 &lt;em&gt;50A&lt;/em&gt;；&lt;/li&gt;&#xA;&lt;li&gt;理论上 2 小时充满或放空，所以 0.5C 往往对应“2 小时制”储能系统。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;下面从几个维度拆开讲。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一电芯物理特性05c-是寿命安全与效率的甜点位&#34;&gt;一、电芯物理特性：0.5C 是寿命、安全与效率的“甜点位”&lt;/h2&gt;&#xA;&lt;p&gt;大型储能现在主流用的是 &lt;strong&gt;磷酸铁锂（LFP）能量型电芯&lt;/strong&gt;，不是动力电池那种高 C 倍率“暴力玩家”。对这类能量型电芯来说：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;寿命在 0.5C 附近最划算&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;0.25C～0.5C：循环寿命可以轻松做到 6000–10000 次甚至更多；&lt;/li&gt;&#xA;&lt;li&gt;拉到 1C：同样的电芯体系下，容量衰减明显加快，寿命可能直接打个 7 折甚至更低。&lt;br&gt;&#xA;对于要求 10 年、15 年的电站来说，&lt;strong&gt;寿命一旦缩短就是实打实的度电成本上升&lt;/strong&gt;，所以大家自然会往 0.5C 附近靠。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;发热少，热管理简单、安全边际大&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;大电流意味着 &lt;strong&gt;I²R 损耗急剧放大&lt;/strong&gt;，发热上去，就要：&#xA;&lt;ul&gt;&#xA;&lt;li&gt;更复杂、更贵的冷却系统；&lt;/li&gt;&#xA;&lt;li&gt;更苛刻的安全设计（热失控防护、绝缘距、电气间隙等）。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;0.5C 下发热可控，&lt;strong&gt;空调 / 液冷系统压力小很多&lt;/strong&gt;，安全冗余更宽松，整个系统 CAPEX 也更友好。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;效率更高&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;低 C 倍率下，内阻损耗小一大截，系统往返效率更高。&lt;/li&gt;&#xA;&lt;li&gt;对于以“搬运能量”为主的储能（削峰填谷、调峰），&lt;strong&gt;效率比瞬时大功率更重要&lt;/strong&gt;——多赚一点度电收益，远比瞬时多一点峰值功率划算。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;综合下来：&lt;br&gt;&#xA;&lt;strong&gt;0.5C 是“物理上电芯比较舒服”的点&lt;/strong&gt;，再高就开始明显吃寿命和安全冗余了。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;二电网应用场景2-小时--4-小时制天然推导出-05c&#34;&gt;二、电网应用场景：2 小时 / 4 小时制天然推导出 0.5C&lt;/h2&gt;&#xA;&lt;p&gt;再看应用侧。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Product Manager</title>
+      <link>http://localhost:1313/zh-cn/jobs/product-manager/</link>
+      <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-cn/jobs/product-manager/</guid>
+      <description>&lt;p&gt;We&amp;rsquo;re looking for a Product Manager to join our team and help shape the future of our product.&lt;/p&gt;&#xA;&lt;h2 id=&#34;about-the-role&#34;&gt;About the Role&lt;/h2&gt;&#xA;&lt;p&gt;As a Product Manager, you&amp;rsquo;ll be responsible for:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Defining and executing the product strategy and roadmap&lt;/li&gt;&#xA;&lt;li&gt;Working closely with engineering, design, and marketing teams&lt;/li&gt;&#xA;&lt;li&gt;Conducting user research and gathering customer feedback&lt;/li&gt;&#xA;&lt;li&gt;Analyzing market trends and competitive landscape&lt;/li&gt;&#xA;&lt;li&gt;Prioritizing features and managing the product backlog&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;4+ years of product management experience in SaaS&lt;/li&gt;&#xA;&lt;li&gt;Strong analytical and problem-solving skills&lt;/li&gt;&#xA;&lt;li&gt;Excellent communication and stakeholder management abilities&lt;/li&gt;&#xA;&lt;li&gt;Experience with agile development methodologies&lt;/li&gt;&#xA;&lt;li&gt;Data-driven decision making mindset&lt;/li&gt;&#xA;&lt;li&gt;Technical background or ability to work closely with technical teams&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;nice-to-have&#34;&gt;Nice to Have&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;MBA or relevant advanced degree&lt;/li&gt;&#xA;&lt;li&gt;Experience with B2B SaaS products&lt;/li&gt;&#xA;&lt;li&gt;Background in UX design or software development&lt;/li&gt;&#xA;&lt;li&gt;Experience with product analytics tools&lt;/li&gt;&#xA;&lt;li&gt;Public speaking or presentation experience&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;benefits&#34;&gt;Benefits&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Competitive salary and equity package&lt;/li&gt;&#xA;&lt;li&gt;Comprehensive health, dental, and vision insurance&lt;/li&gt;&#xA;&lt;li&gt;401(k) matching&lt;/li&gt;&#xA;&lt;li&gt;Flexible PTO policy&lt;/li&gt;&#xA;&lt;li&gt;Professional development budget&lt;/li&gt;&#xA;&lt;li&gt;Wellness programs&lt;/li&gt;&#xA;&lt;li&gt;Company-sponsored events&lt;/li&gt;&#xA;&lt;li&gt;Office perks and snacks&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;how-to-apply&#34;&gt;How to Apply&lt;/h2&gt;&#xA;&lt;p&gt;Please send your resume and a cover letter detailing your product management experience and why you&amp;rsquo;re interested in joining our team. Include examples of products you&amp;rsquo;ve managed and their impact.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Senior Frontend Developer</title>
+      <link>http://localhost:1313/zh-cn/jobs/senior-frontend-developer/</link>
+      <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-cn/jobs/senior-frontend-developer/</guid>
+      <description>&lt;p&gt;We&amp;rsquo;re looking for a Senior Frontend Developer to join our growing team and help shape the future of our SaaS platform.&lt;/p&gt;&#xA;&lt;h2 id=&#34;about-the-role&#34;&gt;About the Role&lt;/h2&gt;&#xA;&lt;p&gt;As a Senior Frontend Developer, you&amp;rsquo;ll be responsible for:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Building and maintaining high-quality, reusable UI components&lt;/li&gt;&#xA;&lt;li&gt;Collaborating with designers to implement pixel-perfect interfaces&lt;/li&gt;&#xA;&lt;li&gt;Optimizing application performance and accessibility&lt;/li&gt;&#xA;&lt;li&gt;Mentoring junior developers and reviewing code&lt;/li&gt;&#xA;&lt;li&gt;Contributing to technical architecture decisions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;5+ years of experience in frontend development&lt;/li&gt;&#xA;&lt;li&gt;Expert knowledge of modern JavaScript, HTML, and CSS&lt;/li&gt;&#xA;&lt;li&gt;Strong experience with React or Vue.js&lt;/li&gt;&#xA;&lt;li&gt;Understanding of modern frontend build tools and workflows&lt;/li&gt;&#xA;&lt;li&gt;Experience with responsive design and cross-browser compatibility&lt;/li&gt;&#xA;&lt;li&gt;Strong communication skills and ability to work in a remote team&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;nice-to-have&#34;&gt;Nice to Have&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Experience with TypeScript&lt;/li&gt;&#xA;&lt;li&gt;Knowledge of testing frameworks (Jest, Cypress)&lt;/li&gt;&#xA;&lt;li&gt;Contributions to open source projects&lt;/li&gt;&#xA;&lt;li&gt;Experience with design systems&lt;/li&gt;&#xA;&lt;li&gt;Understanding of backend technologies&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;benefits&#34;&gt;Benefits&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Competitive salary and equity package&lt;/li&gt;&#xA;&lt;li&gt;Flexible working hours&lt;/li&gt;&#xA;&lt;li&gt;Remote-first culture&lt;/li&gt;&#xA;&lt;li&gt;Health insurance&lt;/li&gt;&#xA;&lt;li&gt;Learning and development budget&lt;/li&gt;&#xA;&lt;li&gt;Annual team retreats&lt;/li&gt;&#xA;&lt;li&gt;Home office setup allowance&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;how-to-apply&#34;&gt;How to Apply&lt;/h2&gt;&#xA;&lt;p&gt;Please send your resume, portfolio, and a brief cover letter explaining why you&amp;rsquo;d be a great fit for our team. Include links to any relevant projects or open source contributions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modbus协议介绍</title>
+      <link>http://localhost:1313/zh-cn/blog/introduction-to-modbus-protocol/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-cn/blog/introduction-to-modbus-protocol/</guid>
+      <description>&lt;div class=&#34;bg-gray-50 p-6 rounded-lg mb-8&#34;&gt;&#xA;    &lt;h2 class=&#34;text-xl font-semibold mb-4&#34;&gt;目录&lt;/h2&gt;&#xA;    &lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#modbus的历史发展&#34;&gt;Modbus的历史发展&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#modbus设计&#34;&gt;Modbus设计&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#modbus数据传输&#34;&gt;Modbus数据传输&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#地址和功能码&#34;&gt;地址和功能码&lt;/a&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#设备地址&#34;&gt;设备地址&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#寄存器地址&#34;&gt;寄存器地址&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#功能码&#34;&gt;功能码&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#modbus-的三种实现&#34;&gt;Modbus 的三种实现&lt;/a&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#modbus-rtu&#34;&gt;Modbus RTU&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#modbus-ascii&#34;&gt;Modbus ASCII&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#modbus-tcp拥抱以太网&#34;&gt;Modbus TCP：拥抱以太网&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#modbus为什么能成功&#34;&gt;Modbus为什么能成功&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/nav&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;在工业自动化领域，Modbus绝对是个绕不开的名字。作为一个从上世纪70年代末就诞生的通信协议，历久弥坚，默默支撑着无数工厂和设备的互联互通。今天咱们就来聊聊Modbus这个工业通信的元老级协议。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;modbus的历史发展&#34;&gt;Modbus的历史发展&lt;/h2&gt;&#xA;&lt;p&gt;1979年，Modicon公司（也就是现在的施耐德电气前身）推出了一款专为可编程逻辑控制器（&lt;a href=&#34;https://zhida.zhihu.com/search?content_id=259799099&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=PLC&amp;amp;zhida_source=entity&#34;&gt;PLC&lt;/a&gt;）设计的通信协议，这就是Modbus。当时的工业现场，设备之间的通信还停留在电压或电流信号的原始阶段，比如用高低电平表示开关状态，或者用0-10V、4-20mA来传递模拟量数据。Modbus的出现，就像给这些设备装上了翻译器，让PLC和现场设备能更高效地对话。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://pica.zhimg.com/v2-409dd9793660c250081028fed8ab50a8_1440w.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Modbus协议发展时间线&lt;/p&gt;&#xA;&lt;p&gt;Modbus是&lt;a href=&#34;https://zhida.zhihu.com/search?content_id=259799099&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=%E7%8E%B0%E5%9C%BA%E6%80%BB%E7%BA%BF&amp;amp;zhida_source=entity&#34;&gt;现场总线&lt;/a&gt;（Fieldbus）协议的鼻祖。现场总线是什么？简单来说，它就是工业网络的通信方式，能让多个设备通过一对线缆连接到控制器，省去了点对点接线的麻烦。过去每加一个传感器就得拉一根线，布线成本和复杂度跟蜘蛛网似的，而现场总线就有点像WiFi，把设备们都连到一个网络里，省时省力。&lt;/p&gt;&#xA;&lt;p&gt;除了Modbus，工业领域还有&lt;a href=&#34;https://zhida.zhihu.com/search?content_id=259799099&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=Profibus&amp;amp;zhida_source=entity&#34;&gt;Profibus&lt;/a&gt;、&lt;a href=&#34;https://zhida.zhihu.com/search?content_id=259799099&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=DeviceNet&amp;amp;zhida_source=entity&#34;&gt;DeviceNet&lt;/a&gt;、ControlNet等一堆现场总线协议，但Modbus凭着简单易用、开源免费的特点，成了最普及的工业协议之一，至今在全球工厂里依然随处可见。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;modbus设计&#34;&gt;Modbus设计&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://pic4.zhimg.com/v2-db3a72072776678ac0de161b684af611_1440w.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Modbus主从通信模型&lt;/p&gt;&#xA;&lt;p&gt;Modbus的设计初衷是让PLC和现场设备顺畅交流。最初它跑在串口通信上，比如RS-232或RS-485，速度慢但够稳定。后来随着网络技术发展，Modbus也升级成了支持TCP/IP和以太网的Modbus TCP，适应了现代工业网络的需求。&lt;/p&gt;&#xA;&lt;p&gt;Modbus 的核心是个 &lt;strong&gt;主从通信模型&lt;/strong&gt;：一个主设备（Master）发号施令，多个从设备（Slave）老老实实响应。主设备可以是 PLC、SCADA 系统或者一台工控机，从设备可能是传感器、变频器或者其他智能仪表。主设备主动发起请求，比如读取数据或发送控制命令，从设备根据请求返回数据或执行操作，整个过程清晰明了。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://pic2.zhimg.com/v2-40212528bd7f3bac19ecee187fb0da29_1440w.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Modbus数据类型&lt;/p&gt;&#xA;&lt;p&gt;数据方面，Modbus 支持两种基本格式：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;离散量&lt;/strong&gt;：也就是单个 bit，表示开关状态，比如 0/1、真/假。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;寄存器&lt;/strong&gt;：16 位字，通常存数值，比如温度、压力，或者其他需要表达的复杂数据。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;这种简单的数据组织方式，让 Modbus 既能应对简单的开关控制，也能处理复杂的数值传输，适应性极强。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;modbus数据传输&#34;&gt;Modbus数据传输&lt;/h2&gt;&#xA;&lt;p&gt;Modbus 的数据传输有自己的套路，了解这些细节对调试和排错至关重要。拿最基础的位传输来说，Modbus 按 &lt;strong&gt;先低位后高位&lt;/strong&gt; 的顺序发送比特（LSB to MSB）。比如有个字节是 11010010，实际传输时会拆成单个比特，按 0、1、0、0、1、0、1、1 的顺序依次发送。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://pic1.zhimg.com/v2-eb522fa7214fff037912cca1f0d484f8_1440w.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;位传输顺序 (LSB to MSB)&lt;/p&gt;&#xA;&lt;p&gt;为什么要这么讲究？因为接收端得按同样的规则解码，才能确保数据不乱套。这就像调试串口时得先确认波特率、奇偶校验和停止位一样，Modbus 的位序就是类似的基础约定。&lt;/p&gt;&#xA;&lt;p&gt;至于字节传输，Modbus 根据具体实现方式（RTU、ASCII 或 TCP）会有不同处理，待会我们会细聊。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>新能源之储能BMS芯片选型浅析</title>
+      <link>http://localhost:1313/zh-cn/blog/optimizing-hugo-performance/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-cn/blog/optimizing-hugo-performance/</guid>
+      <description>&lt;div class=&#34;bg-gray-50 p-6 rounded-lg mb-8&#34;&gt;&#xA;    &lt;h2 class=&#34;text-xl font-semibold mb-4&#34;&gt;目录&lt;/h2&gt;&#xA;    &lt;nav id=&#34;TableOfContents&#34;&gt;&lt;/nav&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;完整的电化学储能系统主要包括以下组成部分：&lt;/p&gt;&#xA;&lt;p&gt;1. 电池组：这是储能系统的核心部分，负责储存和释放能量。&lt;/p&gt;&#xA;&lt;p&gt;2. &lt;a href=&#34;https://zhida.zhihu.com/search?content_id=232250468&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=%E7%94%B5%E6%B1%A0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F&amp;amp;zhida_source=entity&#34;&gt;电池管理系统&lt;/a&gt;（BMS）：该系统负责对电池组进行监控、管理和保护，确保其正常运行和安全性。&lt;/p&gt;&#xA;&lt;p&gt;3. &lt;a href=&#34;https://zhida.zhihu.com/search?content_id=232250468&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=%E8%83%BD%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F&amp;amp;zhida_source=entity&#34;&gt;能量管理系统&lt;/a&gt;（EMS）：该系统负责整个储能系统的能量调度和管理，实现能源的有效利用。&lt;/p&gt;&#xA;&lt;p&gt;4. 储能变流器（PCS）：该设备负责能量的转换和传输，可以将电池输出的直流电转换为交流电，或者将交流电转换为直流电。&lt;/p&gt;&#xA;&lt;p&gt;5. 其他电气设备：这包括一些支持系统运行的其他电气设备，例如充电器、放电设备等。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://pic4.zhimg.com/v2-3a038e6d7cb4078511bebe5b164f6fdb_1440w.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;图1、电化学储能系统结构简图&lt;/p&gt;&#xA;&lt;p&gt;在一套完整的电化学储能系统中，各部分成本占比如下：电池组成本最高，达到60%；其次是储能逆变器，占20%；能量管理系统成本占比为10%；电池管理系统和其他电气设备的成本各占5%。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://pic4.zhimg.com/v2-4b46d1022393ce679e4651ea49081633_1440w.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;图2、储能系统成本和技术简况&lt;/p&gt;&#xA;&lt;p&gt;电池组是储能系统最重要的组成部分。通常，电池组采用模块化的结构，由电芯组成模组，然后将模组放置在电箱内，再由多个电箱组成电池柜，形成一个储能单元。能量型电池是储能系统所使用的电池类型，其特点是能量密度高，因此一次充电可以提供更长的使用时间。此外，能量型电池的寿命较长，这对储能系统而言非常重要。消除昼夜峰谷差是储能系统的主要应用场景。产品的使用时间直接影响到项目的收益。一些主要的电池组供应商包括&lt;a href=&#34;https://zhida.zhihu.com/search?content_id=232250468&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=%E5%AE%81%E5%BE%B7%E6%97%B6%E4%BB%A3&amp;amp;zhida_source=entity&#34;&gt;宁德时代&lt;/a&gt;、&lt;a href=&#34;https://zhida.zhihu.com/search?content_id=232250468&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=%E6%AF%94%E4%BA%9A%E8%BF%AA&amp;amp;zhida_source=entity&#34;&gt;比亚迪&lt;/a&gt;、&lt;a href=&#34;https://zhida.zhihu.com/search?content_id=232250468&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=LG%E6%96%B0%E8%83%BD%E6%BA%90&amp;amp;zhida_source=entity&#34;&gt;LG新能源&lt;/a&gt;、&lt;a href=&#34;https://zhida.zhihu.com/search?content_id=232250468&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=%E6%9D%BE%E4%B8%8B&amp;amp;zhida_source=entity&#34;&gt;松下&lt;/a&gt;、&lt;a href=&#34;https://zhida.zhihu.com/search?content_id=232250468&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=%E4%B8%89%E6%98%9FSDI&amp;amp;zhida_source=entity&#34;&gt;三星SDI&lt;/a&gt;、&lt;a href=&#34;https://zhida.zhihu.com/search?content_id=232250468&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=SK&amp;#43;On&amp;amp;zhida_source=entity&#34;&gt;SK On&lt;/a&gt;、&lt;a href=&#34;https://zhida.zhihu.com/search?content_id=232250468&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=%E4%B8%AD%E5%88%9B%E6%96%B0%E8%88%AA&amp;amp;zhida_source=entity&#34;&gt;中创新航&lt;/a&gt;、&lt;a href=&#34;https://zhida.zhihu.com/search?content_id=232250468&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=%E4%BA%BF%E7%BA%AC%E9%94%82%E8%83%BD&amp;amp;zhida_source=entity&#34;&gt;亿纬锂能&lt;/a&gt;、&lt;a href=&#34;https://zhida.zhihu.com/search?content_id=232250468&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=%E5%9B%BD%E8%BD%A9%E9%AB%98%E7%A7%91&amp;amp;zhida_source=entity&#34;&gt;国轩高科&lt;/a&gt;、&lt;a href=&#34;https://zhida.zhihu.com/search?content_id=232250468&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=%E6%AC%A3%E6%97%BA%E8%BE%BE&amp;amp;zhida_source=entity&#34;&gt;欣旺达&lt;/a&gt;等。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://pica.zhimg.com/v2-cfbb595c4b0a131c2e6f4f2ae613b692_1440w.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;图3、电池组结构简图&lt;/p&gt;&#xA;&lt;p&gt;储能变流器可以控制储能电池组的充电和放电过程，进行交直流的变换。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://picx.zhimg.com/v2-5f561e88197e768c9da8ef61be05cb37_1440w.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;图4、储能变流器工作流&lt;/p&gt;&#xA;&lt;p&gt;能量管理系统(EMS)，即Energy Management System，主要功能包括储能系统设备(PCS、BMS、电表、消防、空调等)数据采集、数据分析展示以及能量调度(主要体现为运行经济运行策略及安全保护策略)。能量管理系统负责数据采集、网络监控和能量调度等，是电池组、电池管理系统以及储能变流器之间的连接纽带，还负责电池管理系统(BMS)与配电网调度系统接口，接受调度指令，完成诸如蓄电池充放电控制、独立离网系统支持、削峰填谷以及新能源发电平滑输出等电网实际应用。EMS主要用于微电网内部能量控制，维持微电网功率平衡，保证微电网正常运行；需求和应用场景多种多样，软件系统的工作量极大；可满足中小型商用级储能系统的现场能量调度需求，大型储能系统会涉及到电网侧的调度。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://pic4.zhimg.com/v2-ca8b468d9c5c5ad9e390abec0ce5242b_1440w.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;图5、决策层的EMS&lt;/p&gt;&#xA;&lt;p&gt;电池管理系统(BMS)负责电池的监测、评估、保护以及均衡等，通过通讯的方式上传电池相关信息和状态，防止电池的过充与过放，占整套电化学储能系统的成本比例约为5%，由于这个环节比较独立，可以做到单体利润最大化，颇具市场潜力。BMS在整个电化学储能系统中起至关重要作用。储能的BMS还需要与电网进行通讯，控制谐波、频率等关键参数，并实现与储能变流器(PCS)以及能量管理系统(EMS)的信息交互，PCS控制器通过CAN接口与BMS通讯获取电池组状态信息，可实现对电池的保护性充放电，确保电池运行安全。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://pic4.zhimg.com/v2-e1f9d9eeb251920c413ee73423ff69b7_1440w.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;图5、BMS的三层架构&lt;/p&gt;&#xA;&lt;p&gt;BMS主要由电池阵列管理单元（BAMS）、电池蔟管理单元(BCMS)以及电池管理单元（BMU）组成。电池阵列管理单元是BMS中的“上位机”，负责对整个BMS系统的数据进行收集和分析判断、控制，具备完善的事件记录及历史数据存储，包括电池系统充放电、运行参数设定等。电池簇管理单元负责对电池管理单元进行监测、控制，包括电池故障诊断，均衡控制策略、剩余电量预估等。电池管理单元负责对电池模组的电压、温度进行采集和上传，并实现电池单体间电量双向高效主动平衡。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://pic1.zhimg.com/v2-4412eaa811a7e63f487fa5fcc743899a_1440w.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;图6、BMS的结构组成简图&lt;/p&gt;&#xA;&lt;p&gt;BMS中的核心器件之一是电池管理芯片，属于电源管理细分赛道，电池计量芯片用于确定电池的电量状态（SoC）和健康状态（SoH），进行电池荷电状态估算；电池安全芯片主要分为电池监测、电池保护和电池均衡芯片，避免出现过充、过放、过流和短路等故障；充电管理类芯片用于完成电压转换、调节，电池充电管理以及过压过流保护等功能。假设每个电池簇参数为48V/280Ah，对应需要一颗16颗AFE采样芯片。储能电站均采用主动均衡策略，每个电池簇需要16颗主动均衡芯片。在旺盛的市场需求驱动下，2023年预计能实现在储能应用领域量产电池均衡芯片、电池计量芯片的企业出货量会增加明显。各个电池簇的信息再经由隔离通讯接口上传至中枢MCU，进行统一调配。电池管理芯片原厂有德州仪器、亚德诺/凌力尔特、亚德诺/美信、微芯/爱特梅尔、英飞凌、恩智浦、瑞萨/英特矽尔、松下、意法半导体、安森美、罗姆、TELECHIPS、Dukosi、MPS、凹凸科技、航天民芯、必易微、中微半导、赛微微电、圣邦、微源、南芯、集澈、纳芯微、创芯微、赛芯电子、猿芯半导体、钰泰、杰华特、华泰半导体、矽力杰、稳先微、比亚迪半导体、琪埔维、上海博通、中颖、芯海、禹创、英锐芯、芯朋、英集芯、思瑞浦、希荻微、鸿翼芯、力芯微、意瑞、中科阿尔法、芯进等。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://pic1.zhimg.com/v2-3a33a065782becaff28b0d98ac1d274a_1440w.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;图7、AFE采样芯片主要型号和市场价格&lt;/p&gt;&#xA;&lt;p&gt;BMS中的另一个核心器件是MCU，负责电流采集和电池包的总压采集、充放电逻辑控制、电池健康状态计算、对外通信 (通常需要CAN通信隔离收发器)等。MCU的供电一般采用隔离供电，电池经过隔离DC-DC降压变换器给MCU供电以及控制充放电MOS电路进行电池包的充放电管理。MCU芯片供应商主要有德州仪器、意法半导体、恩智浦、英飞凌、瑞萨、中颖、雅特力、兆易创新、君正、芯海、国民技术、紫光国微、极海、新唐、乐鑫、航芯、博通集成、复微、锐能微等。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://pic1.zhimg.com/v2-a1eaa7fb1049d5c6f4ddded6310d69ec_1440w.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;图8、BMS硬件简图&lt;/p&gt;&#xA;&lt;p&gt;BMS中的电池电流采集后，需要使用ADC芯片将模拟信号转换成数字信号。ADC芯片供应商包括德州仪器、意法半导体、亚德诺、瑞萨、贝岭、思瑞浦、圣邦微、芯海、必易微、晶华微、芯佰微、迅芯微、治精微、类比、智毅聚芯等。&lt;/p&gt;&#xA;&lt;p&gt;数字隔离方面，主要应用于高低压之间的数字通信，例如BMS主控板上的高压采样与MCU之间的SPI通信，以及采样板AFE与MCU的SPI通信。数字隔离芯片可以分为数字隔离器、隔离通讯接口（如CAN、LIN、485等）。数字隔离器主要用于将输入信号传递到与输入隔离的输出端口，隔离通讯接口则加入了通讯协议的解析功能，可以将通讯链路上的信号转化成MCU/SoC易处理的格式。等。&lt;/p&gt;&#xA;&lt;p&gt;除了使用数字隔离器外，还可以使用光耦、或者变压器隔离方案。光耦厂商包括安森美、东芝、博通、ISOCOM、亿光、光宝、奥伦德、先进光半导体、国晶微、华联等；变压器原厂有国巨/普思、TDK、胜美达、田村、台达、光宝、京泉华、可立克、顺络电子、铭普光磁、麦捷科技、伊戈尔、永创星科技、中富电路、阿图姆、维胜科技、柔性磁电、格利尔、菲力克斯、云创电子、大忠、慧华电子、利通、鸿华、贝塔、麦新、辉烨、海能达、普奥、立一、星火电子、中策亿特、舜大、裕正、立强、三盛源、达鑫、经纬达、宜兴文达、恒升、德珑、安登利、科德电子、联泰兴、创世富尔、鸿润恒一、雅玛西等。&lt;/p&gt;&#xA;&lt;p&gt;BMS中使用了CAN、LIN、485等通讯方式，这些通讯方式需要芯片支持。相关芯片供应商包括微芯、英飞凌、亚德诺、恩智浦、意法半导体、芯力特、思瑞浦、纳芯微、川土微、致远、金升阳、维安、格励微、贝岭、中微爱芯等。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>stm32为何在诸多的单片机中脱颖而出？</title>
+      <link>http://localhost:1313/zh-cn/blog/deploying-hugo-sites/</link>
+      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-cn/blog/deploying-hugo-sites/</guid>
+      <description>&lt;p&gt;+++&#xA;translationKey = &amp;lsquo;foo&amp;rsquo;&#xA;+++&lt;/p&gt;&#xA;&lt;div class=&#34;bg-gray-50 p-6 rounded-lg mb-8&#34;&gt;&#xA;    &lt;h2 class=&#34;text-xl font-semibold mb-4&#34;&gt;目录&lt;/h2&gt;&#xA;    &lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#1-产品线覆盖极广从入门到高端同门迁移&#34;&gt;1. 产品线覆盖极广：从入门到高端“同门迁移”&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#2-外设能力强且均衡面向真实工程落地&#34;&gt;2. 外设能力强且均衡：面向真实工程落地&lt;/a&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#21-常用外设齐全组合搭配灵活&#34;&gt;2.1 常用外设齐全，组合搭配灵活&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#22-外设联动机制成熟dma定时器是硬实力&#34;&gt;2.2 外设联动机制成熟：DMA/定时器是“硬实力”&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#23-工业通信与高速接口更贴近实际需求&#34;&gt;2.3 工业通信与高速接口更贴近实际需求&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#3-生态与社区巨大缩短平均解决问题时间&#34;&gt;3. 生态与社区巨大：缩短“平均解决问题时间”&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#4-工具链友好cubemxide-提升启动速度与可维护性&#34;&gt;4. 工具链友好：CubeMX/IDE 提升启动速度与可维护性&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#5-资料与参考设计丰富从芯片到可落地方案&#34;&gt;5. 资料与参考设计丰富：从芯片到“可落地方案”&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#6-中间件与软件栈不止点灯而是完整系统能力&#34;&gt;6. 中间件与软件栈：不止点灯，而是完整系统能力&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#7-供应链与风险控制量产项目最看重可替代性&#34;&gt;7. 供应链与风险控制：量产项目最看重“可替代性”&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#8-学习曲线合理既适合入门也能支撑深度优化&#34;&gt;8. 学习曲线合理：既适合入门，也能支撑深度优化&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#9-工程实践视角stm32-的好用到底体现在哪里&#34;&gt;9. 工程实践视角：STM32 的“好用”到底体现在哪里？&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#结语脱颖而出是系统优势的胜利&#34;&gt;结语：脱颖而出，是“系统优势”的胜利&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/nav&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h1 id=&#34;stm32-为何能在诸多单片机中脱颖而出&#34;&gt;STM32 为何能在诸多单片机中脱颖而出？&lt;/h1&gt;&#xA;&lt;p&gt;在 MCU（单片机）领域，品牌和型号多到眼花：8 位、16 位、32 位；面向家电、车规、工业、消费电子；从几毛钱到几十块一颗都有。但如果你观察大量真实工程项目，尤其是国内外中小团队、方案公司、硬件创业团队，甚至不少传统工业厂商的新品，你会发现 STM32 经常成为“默认选项”。它之所以能在诸多单片机中脱颖而出，并不是因为某一项指标碾压所有对手，而是它在&lt;strong&gt;产品线覆盖、外设能力、工具链、生态、工程化资料、供应链与风险控制&lt;/strong&gt;等维度形成了“组合优势”。这种组合优势，才是让团队愿意持续使用、不断复用的关键。&lt;/p&gt;&#xA;&lt;p&gt;下面从工程实践角度，拆解 STM32 的核心竞争力。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-产品线覆盖极广从入门到高端同门迁移&#34;&gt;1. 产品线覆盖极广：从入门到高端“同门迁移”&lt;/h2&gt;&#xA;&lt;p&gt;STM32 的显著特征之一是&lt;strong&gt;系列多且跨度大&lt;/strong&gt;：从低成本、低功耗的入门型号，到带 DSP/FPU 的中高性能型号，再到更高主频、更大 SRAM/Flash、更强图形和高速外设能力的型号，基本可以覆盖绝大多数嵌入式需求。对团队来说，这意味着：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;学习与开发投资能长期复用&lt;/strong&gt;：你在一个系列里积累的时钟配置、外设用法、调试经验，换到更高端型号依然适用。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;产品分档更容易&lt;/strong&gt;：同一款产品可以做低配/标准/高配多个 SKU，底层架构保持一致。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;升级路线清晰&lt;/strong&gt;：早期原型用低端芯片快速跑通，量产或功能加码时可在 STM32 家族内升级，迁移成本较低。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;很多项目真正怕的不是“性能不够”，而是“选型变动导致系统推倒重来”。STM32 的“同门迁移”特性，让项目的技术风险更可控。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-外设能力强且均衡面向真实工程落地&#34;&gt;2. 外设能力强且均衡：面向真实工程落地&lt;/h2&gt;&#xA;&lt;p&gt;不少 MCU 的宣传会强调主频、功耗或某一个特色外设，但工程落地更看重“&lt;strong&gt;外设是否齐全、是否成熟、是否好用&lt;/strong&gt;”。STM32 在外设上通常给人一个感受：&lt;strong&gt;够用、能打、配套完善&lt;/strong&gt;。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>能源行业必须知道的电气名词解释</title>
+      <link>http://localhost:1313/zh-cn/blog/customizing-your-hugo-theme/</link>
+      <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-cn/blog/customizing-your-hugo-theme/</guid>
+      <description>&lt;div class=&#34;bg-gray-50 p-6 rounded-lg mb-8&#34;&gt;&#xA;    &lt;h2 class=&#34;text-xl font-semibold mb-4&#34;&gt;目录&lt;/h2&gt;&#xA;    &lt;nav id=&#34;TableOfContents&#34;&gt;&lt;/nav&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;1、[有功功率]—— 在交流电能的发输用过程中，用于转换成电磁形式的那部分能量叫做有功。&lt;/p&gt;&#xA;&lt;p&gt;2、[无功功率]—— 在交流电能的发输用过程中，用于电路内电磁场交换的那部分能量叫做无功。&lt;/p&gt;&#xA;&lt;p&gt;3、[电力系统]—— 由发电机、配电装置、升压和降压变电所、电力线路及电能用户所组成的整体称为电力系统。[中性点位移]：在三相电路中，电源[电压]三相负载对称的情况下，如果三相负荷也对称，那么不管有无中性点，中性点的电压均为零。但如果三相负载不对称，且无中性线或中性线阻抗较大，那么中性点就会出现电压，这种现象称为中性点位移现象。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GridBeat 1.0.0 新版发布</title>
+      <link>http://localhost:1313/zh-cn/blog/gridbeat-ann-1.0.0/</link>
+      <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-cn/blog/gridbeat-ann-1.0.0/</guid>
+      <description>&lt;h2 id=&#34;发布&#34;&gt;发布&lt;/h2&gt;&#xA;&lt;p&gt;基于正式发布。&lt;/p&gt;&#xA;&lt;h2 id=&#34;致谢&#34;&gt;致谢&lt;/h2&gt;&#xA;&lt;p&gt;向我们所有开发人员，赞助者和贡献者表示特别的感谢！&lt;/p&gt;&#xA;&lt;h2 id=&#34;完整-changelog&#34;&gt;完整 Changelog&lt;/h2&gt;&#xA;&lt;p&gt;自最新发布以来所有的变更历史，都可以浏览这个页面 。&lt;/p&gt;&#xA;&lt;h2 id=&#34;反馈&#34;&gt;反馈&lt;/h2&gt;&#xA;&lt;p&gt;欢迎给本版本提供反馈。欢迎到 GitHub issues 创建新 issue 或者给我们的邮件列表之一发送邮件， 或者到我们新建立的 bbs 讨论。&lt;/p&gt;&#xA;&lt;h2 id=&#34;下一个版本&#34;&gt;下一个版本&lt;/h2&gt;&#xA;&lt;p&gt;下一个版本的 计划在十月初发布。向所有的支持者、贡献者和用户表示感谢！&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>储能EMS管理软件的设计方案</title>
+      <link>http://localhost:1313/zh-cn/blog/getting-started-with-hugo/</link>
+      <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-cn/blog/getting-started-with-hugo/</guid>
+      <description>&lt;div class=&#34;bg-gray-50 p-6 rounded-lg mb-8&#34;&gt;&#xA;    &lt;h2 class=&#34;text-xl font-semibold mb-4&#34;&gt;目录&lt;/h2&gt;&#xA;    &lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#集中式储能ems管理软件&#34;&gt;集中式储能EMS管理软件：&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#分散式储能ems管理软件&#34;&gt;分散式储能EMS管理软件：&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#云端储能ems管理软件&#34;&gt;云端储能EMS管理软件：&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#嵌入式储能ems管理软件&#34;&gt;嵌入式储能EMS管理软件：&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#可定制化储能ems管理软件&#34;&gt;可定制化储能EMS管理软件：&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/nav&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;储能EMS管理软件的设计方案可以根据不同的应用场景和需求而有所不同，以下是一些常见的设计方案：&lt;/p&gt;&#xA;&lt;h2 id=&#34;集中式储能ems管理软件&#34;&gt;集中式储能EMS管理软件：&lt;/h2&gt;&#xA;&lt;p&gt;这种方案适用于大型能源系统，例如风力发电、太阳能发电等，可以将多个储能子系统集中管理和监控。该软件可以实时监测各储能子系统的运行状态、能量存储量、充放电状态等，并可以集中控制充放电策略、能量调度等。&lt;/p&gt;&#xA;&lt;h2 id=&#34;分散式储能ems管理软件&#34;&gt;分散式储能EMS管理软件：&lt;/h2&gt;&#xA;&lt;p&gt;这种方案适用于分布式能源系统，例如商业和工业领域的储能系统，可以针对不同的能源子系统进行管理和监控。该软件可以实现本地控制和远程监控，方便用户对储能系统进行日常维护和故障处理。&lt;/p&gt;&#xA;&lt;h2 id=&#34;云端储能ems管理软件&#34;&gt;云端储能EMS管理软件：&lt;/h2&gt;&#xA;&lt;p&gt;这种方案适用于各种规模的能源系统，可以利用云计算技术实现储能系统的远程管理和监控。该软件可以通过互联网与多个储能系统连接，实现数据的实时采集、分析和优化，并可以提供开放式的API接口，方便用户进行二次开发。&lt;/p&gt;&#xA;&lt;h2 id=&#34;嵌入式储能ems管理软件&#34;&gt;嵌入式储能EMS管理软件：&lt;/h2&gt;&#xA;&lt;p&gt;这种方案适用于小型能源系统，例如电动汽车、移动电源等，可以将储能系统与电力管理系统集成在一起。该软件可以实现能量的实时监测、控制和保护，并可以与智能家居、智能交通等其他系统进行集成。&lt;/p&gt;&#xA;&lt;h2 id=&#34;可定制化储能ems管理软件&#34;&gt;可定制化储能EMS管理软件：&lt;/h2&gt;&#xA;&lt;p&gt;这种方案可以根据用户的需求进行定制化开发，可以满足不同用户对储能系统的特殊需求。该软件可以根据用户的需求设计充放电策略、数据处理和分析方法等，并可以提供可视化界面和报表工具等，方便用户进行数据分析和决策。&lt;/p&gt;&#xA;&lt;p&gt;以上是常见的储能EMS管理软件设计方案，选择合适的设计方案需要根据具体的场景和需求进行评估和选择。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Beautiful Design System</title>
+      <link>http://localhost:1313/zh-cn/products/gridbeat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-cn/products/gridbeat/</guid>
+      <description>&lt;h2 id=&#34;comprehensive-design-system&#34;&gt;Comprehensive Design System&lt;/h2&gt;&#xA;&lt;p&gt;Our theme includes a complete design system that makes it easy to create beautiful, consistent interfaces. Built on TailwindCSS, it provides the flexibility to customize every aspect of your design while maintaining a professional look.&lt;/p&gt;&#xA;&lt;h3 id=&#34;design-components&#34;&gt;Design Components&lt;/h3&gt;&#xA;&lt;h4 id=&#34;core-elements&#34;&gt;Core Elements&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Typography system with perfect vertical rhythm&lt;/li&gt;&#xA;&lt;li&gt;Color palette with semantic variables&lt;/li&gt;&#xA;&lt;li&gt;Spacing and sizing scales&lt;/li&gt;&#xA;&lt;li&gt;Grid and layout systems&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;ui-components&#34;&gt;UI Components&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Navigation components (headers, footers, menus)&lt;/li&gt;&#xA;&lt;li&gt;Hero sections and feature displays&lt;/li&gt;&#xA;&lt;li&gt;Cards and content containers&lt;/li&gt;&#xA;&lt;li&gt;Forms and input elements&lt;/li&gt;&#xA;&lt;li&gt;Buttons and CTAs&lt;/li&gt;&#xA;&lt;li&gt;Pricing tables&lt;/li&gt;&#xA;&lt;li&gt;Testimonial displays&lt;/li&gt;&#xA;&lt;li&gt;Team member profiles&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;design-features&#34;&gt;Design Features&lt;/h4&gt;&#xA;&lt;h5 id=&#34;customization&#34;&gt;Customization&lt;/h5&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Easy theme customization through TailwindCSS&lt;/li&gt;&#xA;&lt;li&gt;Brand color management&lt;/li&gt;&#xA;&lt;li&gt;Typography customization&lt;/li&gt;&#xA;&lt;li&gt;Spacing system adjustment&lt;/li&gt;&#xA;&lt;li&gt;Component variants&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h5 id=&#34;accessibility&#34;&gt;Accessibility&lt;/h5&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;WCAG 2.1 compliant components&lt;/li&gt;&#xA;&lt;li&gt;Proper ARIA attributes&lt;/li&gt;&#xA;&lt;li&gt;Keyboard navigation support&lt;/li&gt;&#xA;&lt;li&gt;High contrast mode support&lt;/li&gt;&#xA;&lt;li&gt;Screen reader optimized&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h5 id=&#34;responsive-design&#34;&gt;Responsive Design&lt;/h5&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Mobile-first approach&lt;/li&gt;&#xA;&lt;li&gt;Breakpoint system&lt;/li&gt;&#xA;&lt;li&gt;Fluid typography&lt;/li&gt;&#xA;&lt;li&gt;Adaptive layouts&lt;/li&gt;&#xA;&lt;li&gt;Touch-friendly interactions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Our design system provides the perfect foundation for creating beautiful, accessible, and responsive websites that stand out from the crowd.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cloud 平台</title>
+      <link>http://localhost:1313/zh-cn/cloud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-cn/cloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud 平台</title>
+      <link>http://localhost:1313/zh-cn/support/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-cn/support/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Developer Experience</title>
+      <link>http://localhost:1313/zh-cn/solutions/plant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-cn/solutions/plant/</guid>
+      <description>&lt;h2 id=&#34;built-for-developers&#34;&gt;Built for Developers&lt;/h2&gt;&#xA;&lt;p&gt;Our theme is designed with developers in mind, providing a clean, efficient workflow that makes building websites enjoyable and productive.&lt;/p&gt;&#xA;&lt;h3 id=&#34;development-features&#34;&gt;Development Features&lt;/h3&gt;&#xA;&lt;h4 id=&#34;project-structure&#34;&gt;Project Structure&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Logical directory organization&lt;/li&gt;&#xA;&lt;li&gt;Clear separation of concerns&lt;/li&gt;&#xA;&lt;li&gt;Modular component architecture&lt;/li&gt;&#xA;&lt;li&gt;Consistent naming conventions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;development-workflow&#34;&gt;Development Workflow&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fast hot reload development server&lt;/li&gt;&#xA;&lt;li&gt;Automatic asset processing&lt;/li&gt;&#xA;&lt;li&gt;Source maps for debugging&lt;/li&gt;&#xA;&lt;li&gt;Build process optimization&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;component-system&#34;&gt;Component System&lt;/h4&gt;&#xA;&lt;h5 id=&#34;shortcodes&#34;&gt;Shortcodes&lt;/h5&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Rich set of pre-built shortcodes&lt;/li&gt;&#xA;&lt;li&gt;Easy to create custom shortcodes&lt;/li&gt;&#xA;&lt;li&gt;Documentation for each shortcode&lt;/li&gt;&#xA;&lt;li&gt;Example implementations&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h5 id=&#34;partials&#34;&gt;Partials&lt;/h5&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Reusable partial templates&lt;/li&gt;&#xA;&lt;li&gt;Context-aware components&lt;/li&gt;&#xA;&lt;li&gt;Easy to extend and modify&lt;/li&gt;&#xA;&lt;li&gt;Clear documentation&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;customization&#34;&gt;Customization&lt;/h4&gt;&#xA;&lt;h5 id=&#34;configuration&#34;&gt;Configuration&lt;/h5&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Central configuration file&lt;/li&gt;&#xA;&lt;li&gt;Environment variables support&lt;/li&gt;&#xA;&lt;li&gt;Feature flags&lt;/li&gt;&#xA;&lt;li&gt;Easy theme customization&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h5 id=&#34;styling&#34;&gt;Styling&lt;/h5&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;TailwindCSS integration&lt;/li&gt;&#xA;&lt;li&gt;PostCSS processing&lt;/li&gt;&#xA;&lt;li&gt;Custom CSS support&lt;/li&gt;&#xA;&lt;li&gt;Design token system&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;documentation&#34;&gt;Documentation&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Getting started guide&lt;/li&gt;&#xA;&lt;li&gt;Component documentation&lt;/li&gt;&#xA;&lt;li&gt;Configuration reference&lt;/li&gt;&#xA;&lt;li&gt;Best practices&lt;/li&gt;&#xA;&lt;li&gt;Troubleshooting guide&lt;/li&gt;&#xA;&lt;li&gt;Deployment instructions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Our developer experience focuses on making it easy to build, customize, and maintain your website while following best practices and maintaining clean, efficient code.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Join Our Team</title>
+      <link>http://localhost:1313/zh-cn/careers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-cn/careers/</guid>
+      <description>&lt;p&gt;At Saasify, we believe in empowering our team members to do their best work. We foster an environment of innovation, collaboration, and continuous learning. Our culture is built on trust, transparency, and a shared commitment to excellence.&lt;/p&gt;&#xA;&lt;p&gt;We&amp;rsquo;re looking for passionate individuals who want to make a difference and grow with us. If you&amp;rsquo;re excited about building the future of SaaS and working with cutting-edge technology, we&amp;rsquo;d love to hear from you.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lightning-Fast Performance</title>
+      <link>http://localhost:1313/zh-cn/products/ems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-cn/products/ems/</guid>
+      <description>&lt;h2 id=&#34;built-for-speed&#34;&gt;Built for Speed&lt;/h2&gt;&#xA;&lt;p&gt;Our theme is engineered from the ground up with performance in mind. By leveraging Hugo&amp;rsquo;s powerful static site generation and combining it with modern optimization techniques, we deliver websites that load instantly and run smoothly.&lt;/p&gt;&#xA;&lt;h3 id=&#34;performance-metrics&#34;&gt;Performance Metrics&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Build Time&lt;/strong&gt;: Less than 1 second for most sites&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Page Load Time&lt;/strong&gt;: Under 500ms first contentful paint&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Time to Interactive&lt;/strong&gt;: Under 1.5 seconds&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Google Lighthouse Score&lt;/strong&gt;: 95+ on all metrics&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;optimization-features&#34;&gt;Optimization Features&lt;/h3&gt;&#xA;&lt;h4 id=&#34;asset-optimization&#34;&gt;Asset Optimization&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Automatic image optimization and WebP conversion&lt;/li&gt;&#xA;&lt;li&gt;CSS minification and purging of unused styles&lt;/li&gt;&#xA;&lt;li&gt;JavaScript bundling and tree-shaking&lt;/li&gt;&#xA;&lt;li&gt;Lazy loading of images and components&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;caching-strategy&#34;&gt;Caching Strategy&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Efficient browser caching with proper headers&lt;/li&gt;&#xA;&lt;li&gt;Static asset fingerprinting&lt;/li&gt;&#xA;&lt;li&gt;Pre-rendered HTML for instant loads&lt;/li&gt;&#xA;&lt;li&gt;Service worker for offline capabilities&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;cdn-integration&#34;&gt;CDN Integration&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Built for global distribution&lt;/li&gt;&#xA;&lt;li&gt;Edge caching ready&lt;/li&gt;&#xA;&lt;li&gt;Automatic cache invalidation&lt;/li&gt;&#xA;&lt;li&gt;Geographic redundancy&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Our performance-first approach ensures your website not only looks great but delivers an exceptional user experience through blazing-fast load times and smooth interactions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lightning-Fast Performance</title>
+      <link>http://localhost:1313/zh-cn/solutions/solar-home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-cn/solutions/solar-home/</guid>
+      <description>&lt;h2 id=&#34;built-for-speed&#34;&gt;Built for Speed&lt;/h2&gt;&#xA;&lt;p&gt;Our theme is engineered from the ground up with performance in mind. By leveraging Hugo&amp;rsquo;s powerful static site generation and combining it with modern optimization techniques, we deliver websites that load instantly and run smoothly.&lt;/p&gt;&#xA;&lt;h3 id=&#34;performance-metrics&#34;&gt;Performance Metrics&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Build Time&lt;/strong&gt;: Less than 1 second for most sites&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Page Load Time&lt;/strong&gt;: Under 500ms first contentful paint&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Time to Interactive&lt;/strong&gt;: Under 1.5 seconds&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Google Lighthouse Score&lt;/strong&gt;: 95+ on all metrics&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;optimization-features&#34;&gt;Optimization Features&lt;/h3&gt;&#xA;&lt;h4 id=&#34;asset-optimization&#34;&gt;Asset Optimization&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Automatic image optimization and WebP conversion&lt;/li&gt;&#xA;&lt;li&gt;CSS minification and purging of unused styles&lt;/li&gt;&#xA;&lt;li&gt;JavaScript bundling and tree-shaking&lt;/li&gt;&#xA;&lt;li&gt;Lazy loading of images and components&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;caching-strategy&#34;&gt;Caching Strategy&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Efficient browser caching with proper headers&lt;/li&gt;&#xA;&lt;li&gt;Static asset fingerprinting&lt;/li&gt;&#xA;&lt;li&gt;Pre-rendered HTML for instant loads&lt;/li&gt;&#xA;&lt;li&gt;Service worker for offline capabilities&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;cdn-integration&#34;&gt;CDN Integration&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Built for global distribution&lt;/li&gt;&#xA;&lt;li&gt;Edge caching ready&lt;/li&gt;&#xA;&lt;li&gt;Automatic cache invalidation&lt;/li&gt;&#xA;&lt;li&gt;Geographic redundancy&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Our performance-first approach ensures your website not only looks great but delivers an exceptional user experience through blazing-fast load times and smooth interactions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lightning-Fast Performance</title>
+      <link>http://localhost:1313/zh-cn/solutions/zero-carbon-park/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-cn/solutions/zero-carbon-park/</guid>
+      <description>&lt;h2 id=&#34;built-for-speed&#34;&gt;Built for Speed&lt;/h2&gt;&#xA;&lt;p&gt;Our theme is engineered from the ground up with performance in mind. By leveraging Hugo&amp;rsquo;s powerful static site generation and combining it with modern optimization techniques, we deliver websites that load instantly and run smoothly.&lt;/p&gt;&#xA;&lt;h3 id=&#34;performance-metrics&#34;&gt;Performance Metrics&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Build Time&lt;/strong&gt;: Less than 1 second for most sites&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Page Load Time&lt;/strong&gt;: Under 500ms first contentful paint&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Time to Interactive&lt;/strong&gt;: Under 1.5 seconds&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Google Lighthouse Score&lt;/strong&gt;: 95+ on all metrics&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;optimization-features&#34;&gt;Optimization Features&lt;/h3&gt;&#xA;&lt;h4 id=&#34;asset-optimization&#34;&gt;Asset Optimization&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Automatic image optimization and WebP conversion&lt;/li&gt;&#xA;&lt;li&gt;CSS minification and purging of unused styles&lt;/li&gt;&#xA;&lt;li&gt;JavaScript bundling and tree-shaking&lt;/li&gt;&#xA;&lt;li&gt;Lazy loading of images and components&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;caching-strategy&#34;&gt;Caching Strategy&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Efficient browser caching with proper headers&lt;/li&gt;&#xA;&lt;li&gt;Static asset fingerprinting&lt;/li&gt;&#xA;&lt;li&gt;Pre-rendered HTML for instant loads&lt;/li&gt;&#xA;&lt;li&gt;Service worker for offline capabilities&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;cdn-integration&#34;&gt;CDN Integration&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Built for global distribution&lt;/li&gt;&#xA;&lt;li&gt;Edge caching ready&lt;/li&gt;&#xA;&lt;li&gt;Automatic cache invalidation&lt;/li&gt;&#xA;&lt;li&gt;Geographic redundancy&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Our performance-first approach ensures your website not only looks great but delivers an exceptional user experience through blazing-fast load times and smooth interactions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pricing</title>
+      <link>http://localhost:1313/zh-cn/pricing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-cn/pricing/</guid>
+      <description>&lt;section class=&#34;py-16 bg-white&#34;&gt;&#xA;    &lt;div class=&#34;max-w-6xl mx-auto px-4 sm:px-6 lg:px-8&#34;&gt;&#xA;        &#xA;        &lt;div class=&#34;text-center&#34;&gt;&#xA;            &lt;h2 class=&#34;text-3xl font-bold text-gray-900&#34;&gt;Designed for business teams like yours&lt;/h2&gt;&#xA;            &#xA;            &lt;p class=&#34;mt-4 text-xl text-gray-600&#34;&gt;Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.&lt;/p&gt;&#xA;            &#xA;        &lt;/div&gt;&#xA;        &#xA;        &#xA;        &lt;div class=&#34;mt-16&#34;&gt;&#xA;            &lt;div class=&#34;grid grid-cols-1 md:grid-cols-3 gap-8&#34;&gt;&#xA;                &#xA;                &lt;div class=&#34;w-full&#34;&gt;&#xA;                    &lt;div class=&#34;h-full flex flex-col rounded-2xl border border-gray-200 bg-white shadow-sm hover:shadow-lg transition-shadow duration-300 relative&#34;&gt;&#xA;                        &#xA;                        &lt;div class=&#34;p-8 flex flex-col flex-grow&#34;&gt;&#xA;                            &lt;div class=&#34;mb-6&#34;&gt;&#xA;                                &lt;h3 class=&#34;text-2xl font-bold text-gray-900&#34;&gt;Starter&lt;/h3&gt;&#xA;                                &lt;p class=&#34;mt-2 text-gray-500&#34;&gt;Best option for personal use &amp;amp; for your next project.&lt;/p&gt;&#xA;                            &lt;/div&gt;&#xA;                            &lt;div class=&#34;mb-8&#34;&gt;&#xA;                                &lt;p class=&#34;flex items-baseline&#34;&gt;&#xA;                                    &lt;span class=&#34;text-5xl font-bold tracking-tight text-gray-900&#34;&gt;$29&lt;/span&gt;&#xA;                                    &lt;span class=&#34;ml-2 text-gray-500&#34;&gt;/月&lt;/span&gt;&#xA;                                &lt;/p&gt;&#xA;                            &lt;/div&gt;&#xA;                            &lt;ul class=&#34;space-y-4 text-gray-600 flex-grow&#34;&gt;&#xA;                                &#xA;                                &lt;li class=&#34;flex items-start&#34;&gt;&#xA;                                    &lt;svg class=&#34;h-6 w-6 flex-shrink-0 text-blue-500&#34; fill=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34;&gt;&#xA;                                        &lt;path d=&#34;M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z&#34;/&gt;&#xA;                                    &lt;/svg&gt;&#xA;                                    &lt;span class=&#34;ml-3&#34;&gt;Individual configuration&lt;/span&gt;&#xA;                                &lt;/li&gt;&#xA;                                &#xA;                                &lt;li class=&#34;flex items-start&#34;&gt;&#xA;                                    &lt;svg class=&#34;h-6 w-6 flex-shrink-0 text-blue-500&#34; fill=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34;&gt;&#xA;                                        &lt;path d=&#34;M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z&#34;/&gt;&#xA;                                    &lt;/svg&gt;&#xA;                                    &lt;span class=&#34;ml-3&#34;&gt;No setup, or hidden fees&lt;/span&gt;&#xA;                                &lt;/li&gt;&#xA;                                &#xA;                                &lt;li class=&#34;flex items-start&#34;&gt;&#xA;                                    &lt;svg class=&#34;h-6 w-6 flex-shrink-0 text-blue-500&#34; fill=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34;&gt;&#xA;                                        &lt;path d=&#34;M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z&#34;/&gt;&#xA;                                    &lt;/svg&gt;&#xA;                                    &lt;span class=&#34;ml-3&#34;&gt;Team size: 1 developer&lt;/span&gt;&#xA;                                &lt;/li&gt;&#xA;                                &#xA;                                &lt;li class=&#34;flex items-start&#34;&gt;&#xA;                                    &lt;svg class=&#34;h-6 w-6 flex-shrink-0 text-blue-500&#34; fill=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34;&gt;&#xA;                                        &lt;path d=&#34;M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z&#34;/&gt;&#xA;                                    &lt;/svg&gt;&#xA;                                    &lt;span class=&#34;ml-3&#34;&gt;Premium support: 6 months&lt;/span&gt;&#xA;                                &lt;/li&gt;&#xA;                                &#xA;                                &lt;li class=&#34;flex items-start&#34;&gt;&#xA;                                    &lt;svg class=&#34;h-6 w-6 flex-shrink-0 text-blue-500&#34; fill=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34;&gt;&#xA;                                        &lt;path d=&#34;M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z&#34;/&gt;&#xA;                                    &lt;/svg&gt;&#xA;                                    &lt;span class=&#34;ml-3&#34;&gt;Free updates: 6 months&lt;/span&gt;&#xA;                                &lt;/li&gt;&#xA;                                &#xA;                            &lt;/ul&gt;&#xA;                            &lt;div class=&#34;mt-8&#34;&gt;&#xA;                                &lt;a href=&#34;#&#34; class=&#34;btn btn-primary w-full&#34;&gt;&#xA;                                    Get started&#xA;                                &lt;/a&gt;&#xA;                            &lt;/div&gt;&#xA;                        &lt;/div&gt;&#xA;                    &lt;/div&gt;&#xA;                &lt;/div&gt;&#xA;                &#xA;                &lt;div class=&#34;w-full&#34;&gt;&#xA;                    &lt;div class=&#34;h-full flex flex-col rounded-2xl border border-gray-200 bg-white shadow-sm hover:shadow-lg transition-shadow duration-300 relative&#34;&gt;&#xA;                        &#xA;                        &lt;div class=&#34;absolute top-4 right-4 inline-block rounded-full bg-blue-100 px-4 py-1 text-sm font-semibold text-blue-800&#34;&gt;&#xA;                            热门&#xA;                        &lt;/div&gt;&#xA;                        &#xA;                        &lt;div class=&#34;p-8 flex flex-col flex-grow&#34;&gt;&#xA;                            &lt;div class=&#34;mb-6&#34;&gt;&#xA;                                &lt;h3 class=&#34;text-2xl font-bold text-gray-900&#34;&gt;Company&lt;/h3&gt;&#xA;                                &lt;p class=&#34;mt-2 text-gray-500&#34;&gt;Relevant for multiple users, extended &amp;amp; premium support.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>关于我们</title>
+      <link>http://localhost:1313/zh-cn/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-cn/about/</guid>
+      <description>&lt;section class=&#34;bg-gradient-to-b from-blue-50 via-blue-50 to-white pt-20 pb-32&#34;&gt;&#xA;    &lt;div class=&#34;container mx-auto px-4&#34;&gt;&#xA;        &#xA;    &lt;div class=&#34;text-center&#34;&gt;&#xA;        &lt;h1 class=&#34;text-4xl md:text-5xl font-bold mb-6&#34;&gt;Building the Future of SaaS&lt;/h1&gt;&#xA;        &lt;p class=&#34;text-xl text-gray-600 mb-16&#34;&gt;We&#39;re on a mission to revolutionize how businesses operate in the digital age&lt;/p&gt;&#xA;        &lt;div class=&#34;max-w-3xl mx-auto bg-white rounded-xl shadow-sm p-8&#34;&gt;&#xA;            &lt;h2 class=&#34;text-3xl font-bold mb-4&#34;&gt;Our Mission&lt;/h2&gt;&#xA;            &lt;p class=&#34;text-xl text-gray-600&#34;&gt;&#xA;                We&#39;re dedicated to empowering businesses with innovative SaaS solutions that drive growth and efficiency. Our platform combines cutting-edge technology with intuitive design to solve complex business challenges.&#xA;            &lt;/p&gt;&#xA;        &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;    &lt;/div&gt;&#xA;&lt;/section&gt;&#xA;&#xA;&lt;section class=&#34;py-20 bg-gray-50&#34;&gt;&#xA;    &lt;div class=&#34;container mx-auto px-4&#34;&gt;&#xA;        &#xA;    &lt;div class=&#34;max-w-6xl mx-auto&#34;&gt;&#xA;        &lt;h2 class=&#34;text-3xl font-bold text-center mb-12&#34;&gt;Leadership Team&lt;/h2&gt;&#xA;        &lt;div class=&#34;grid grid-cols-1 md:grid-cols-3 gap-8&#34;&gt;&#xA;            &lt;div class=&#34;team-member text-center&#34;&gt;&#xA;                &lt;div class=&#34;relative mb-4 rounded-lg overflow-hidden aspect-square&#34;&gt;&#xA;                    &#xA;                    &lt;img src=&#34;http://localhost:1313/images/company/exec-1.svg&#34; alt=&#34;Sarah Johnson&#34; class=&#34;w-full h-full object-cover&#34;&gt;&#xA;                    &#xA;                    &#xA;                    &lt;a href=&#34;#&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; class=&#34;absolute bottom-2 right-2 bg-white rounded-full p-2 shadow-md hover:shadow-lg transition-shadow&#34;&gt;&#xA;                        &lt;svg class=&#34;w-5 h-5 text-blue-600&#34; fill=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34;&gt;&#xA;                            &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;&#xA;                        &lt;/svg&gt;&#xA;                    &lt;/a&gt;&#xA;                    &#xA;                &lt;/div&gt;&#xA;                &lt;h3 class=&#34;text-xl font-bold mb-1&#34;&gt;Sarah Johnson&lt;/h3&gt;&#xA;                &lt;p class=&#34;text-gray-600&#34;&gt;Chief Executive Officer&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>社区版本与企业版本对比</title>
+      <link>http://localhost:1313/zh-cn/license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-cn/license/</guid>
+      <description>&lt;h2 id=&#34;mit-license&#34;&gt;MIT License&lt;/h2&gt;&#xA;&lt;p&gt;Copyright (c) 2024&lt;/p&gt;&#xA;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy&#xA;of this software and associated documentation files (the &amp;ldquo;Software&amp;rdquo;), to deal&#xA;in the Software without restriction, including without limitation the rights&#xA;to use, copy, modify, merge, publish, distribute, sublicense, and/or sell&#xA;copies of the Software, and to permit persons to whom the Software is&#xA;furnished to do so, subject to the following conditions:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>隐私策略</title>
+      <link>http://localhost:1313/zh-cn/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-cn/privacy/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;At Saasify, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our service.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;information-we-collect&#34;&gt;Information We Collect&lt;/h2&gt;&#xA;&lt;h3 id=&#34;personal-information&#34;&gt;Personal Information&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Name and email address&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Billing information&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Usage data and analytics&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Communication preferences&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;automatically-collected-information&#34;&gt;Automatically Collected Information&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;IP addresses&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Browser type&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Device information&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Cookies and tracking technologies&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;how-we-use-your-information&#34;&gt;How We Use Your Information&lt;/h2&gt;&#xA;&lt;p&gt;We use the collected information for:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Service Delivery&lt;/strong&gt;&lt;br&gt;&#xA;Providing and maintaining our service&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Updates&lt;/strong&gt;&lt;br&gt;&#xA;Notifying you about changes to our service&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Support&lt;/strong&gt;&lt;br&gt;&#xA;Providing customer support&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Transactions&lt;/strong&gt;&lt;br&gt;&#xA;Processing your transactions&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Analytics&lt;/strong&gt;&lt;br&gt;&#xA;Analyzing usage patterns to improve our service&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;data-security&#34;&gt;Data Security&lt;/h2&gt;&#xA;&lt;p&gt;We implement appropriate technical and organizational security measures to protect your personal information. However, no method of transmission over the Internet is 100% secure.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

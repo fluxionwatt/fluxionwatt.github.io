@@ -1,42 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Github-Pages on FluxionWatt</title><link>https://www.fluxionwatt.com/zh-cn/tags/github-pages/</link><description>Recent content in Github-Pages on FluxionWatt</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 16 Dec 2025 20:17:56 +0800</lastBuildDate><atom:link href="https://www.fluxionwatt.com/zh-cn/tags/github-pages/index.xml" rel="self" type="application/rss+xml"/><item><title>stm32为何在诸多的单片机中脱颖而出？</title><link>https://www.fluxionwatt.com/zh-cn/blog/deploying-hugo-sites/</link><pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate><guid>https://www.fluxionwatt.com/zh-cn/blog/deploying-hugo-sites/</guid><description>&lt;p&gt;+++
-translationKey = &amp;lsquo;foo&amp;rsquo;
-+++&lt;/p&gt;
-&lt;div class="bg-gray-50 p-6 rounded-lg mb-8"&gt;
- &lt;h2 class="text-xl font-semibold mb-4"&gt;目录&lt;/h2&gt;
- &lt;nav id="TableOfContents"&gt;
- &lt;ul&gt;
- &lt;li&gt;&lt;a href="#1-产品线覆盖极广从入门到高端同门迁移"&gt;1. 产品线覆盖极广：从入门到高端“同门迁移”&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#2-外设能力强且均衡面向真实工程落地"&gt;2. 外设能力强且均衡：面向真实工程落地&lt;/a&gt;
- &lt;ul&gt;
- &lt;li&gt;&lt;a href="#21-常用外设齐全组合搭配灵活"&gt;2.1 常用外设齐全，组合搭配灵活&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#22-外设联动机制成熟dma定时器是硬实力"&gt;2.2 外设联动机制成熟：DMA/定时器是“硬实力”&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#23-工业通信与高速接口更贴近实际需求"&gt;2.3 工业通信与高速接口更贴近实际需求&lt;/a&gt;&lt;/li&gt;
- &lt;/ul&gt;
- &lt;/li&gt;
- &lt;li&gt;&lt;a href="#3-生态与社区巨大缩短平均解决问题时间"&gt;3. 生态与社区巨大：缩短“平均解决问题时间”&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#4-工具链友好cubemxide-提升启动速度与可维护性"&gt;4. 工具链友好：CubeMX/IDE 提升启动速度与可维护性&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#5-资料与参考设计丰富从芯片到可落地方案"&gt;5. 资料与参考设计丰富：从芯片到“可落地方案”&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#6-中间件与软件栈不止点灯而是完整系统能力"&gt;6. 中间件与软件栈：不止点灯，而是完整系统能力&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#7-供应链与风险控制量产项目最看重可替代性"&gt;7. 供应链与风险控制：量产项目最看重“可替代性”&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#8-学习曲线合理既适合入门也能支撑深度优化"&gt;8. 学习曲线合理：既适合入门，也能支撑深度优化&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#9-工程实践视角stm32-的好用到底体现在哪里"&gt;9. 工程实践视角：STM32 的“好用”到底体现在哪里？&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#结语脱颖而出是系统优势的胜利"&gt;结语：脱颖而出，是“系统优势”的胜利&lt;/a&gt;&lt;/li&gt;
- &lt;/ul&gt;
-&lt;/nav&gt;
-&lt;/div&gt;
-
-&lt;h1 id="stm32-为何能在诸多单片机中脱颖而出"&gt;STM32 为何能在诸多单片机中脱颖而出？&lt;/h1&gt;
-&lt;p&gt;在 MCU（单片机）领域，品牌和型号多到眼花：8 位、16 位、32 位；面向家电、车规、工业、消费电子；从几毛钱到几十块一颗都有。但如果你观察大量真实工程项目，尤其是国内外中小团队、方案公司、硬件创业团队，甚至不少传统工业厂商的新品，你会发现 STM32 经常成为“默认选项”。它之所以能在诸多单片机中脱颖而出，并不是因为某一项指标碾压所有对手，而是它在&lt;strong&gt;产品线覆盖、外设能力、工具链、生态、工程化资料、供应链与风险控制&lt;/strong&gt;等维度形成了“组合优势”。这种组合优势，才是让团队愿意持续使用、不断复用的关键。&lt;/p&gt;
-&lt;p&gt;下面从工程实践角度，拆解 STM32 的核心竞争力。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="1-产品线覆盖极广从入门到高端同门迁移"&gt;1. 产品线覆盖极广：从入门到高端“同门迁移”&lt;/h2&gt;
-&lt;p&gt;STM32 的显著特征之一是&lt;strong&gt;系列多且跨度大&lt;/strong&gt;：从低成本、低功耗的入门型号，到带 DSP/FPU 的中高性能型号，再到更高主频、更大 SRAM/Flash、更强图形和高速外设能力的型号，基本可以覆盖绝大多数嵌入式需求。对团队来说，这意味着：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;学习与开发投资能长期复用&lt;/strong&gt;：你在一个系列里积累的时钟配置、外设用法、调试经验，换到更高端型号依然适用。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;产品分档更容易&lt;/strong&gt;：同一款产品可以做低配/标准/高配多个 SKU，底层架构保持一致。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;升级路线清晰&lt;/strong&gt;：早期原型用低端芯片快速跑通，量产或功能加码时可在 STM32 家族内升级，迁移成本较低。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;很多项目真正怕的不是“性能不够”，而是“选型变动导致系统推倒重来”。STM32 的“同门迁移”特性，让项目的技术风险更可控。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="2-外设能力强且均衡面向真实工程落地"&gt;2. 外设能力强且均衡：面向真实工程落地&lt;/h2&gt;
-&lt;p&gt;不少 MCU 的宣传会强调主频、功耗或某一个特色外设，但工程落地更看重“&lt;strong&gt;外设是否齐全、是否成熟、是否好用&lt;/strong&gt;”。STM32 在外设上通常给人一个感受：&lt;strong&gt;够用、能打、配套完善&lt;/strong&gt;。&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github-Pages on FluxionWatt</title>
+    <link>http://localhost:1313/zh-cn/tags/github-pages/</link>
+    <description>Recent content in Github-Pages on FluxionWatt</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 22 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh-cn/tags/github-pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>stm32为何在诸多的单片机中脱颖而出？</title>
+      <link>http://localhost:1313/zh-cn/blog/deploying-hugo-sites/</link>
+      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-cn/blog/deploying-hugo-sites/</guid>
+      <description>&lt;p&gt;+++&#xA;translationKey = &amp;lsquo;foo&amp;rsquo;&#xA;+++&lt;/p&gt;&#xA;&lt;div class=&#34;bg-gray-50 p-6 rounded-lg mb-8&#34;&gt;&#xA;    &lt;h2 class=&#34;text-xl font-semibold mb-4&#34;&gt;目录&lt;/h2&gt;&#xA;    &lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#1-产品线覆盖极广从入门到高端同门迁移&#34;&gt;1. 产品线覆盖极广：从入门到高端“同门迁移”&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#2-外设能力强且均衡面向真实工程落地&#34;&gt;2. 外设能力强且均衡：面向真实工程落地&lt;/a&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#21-常用外设齐全组合搭配灵活&#34;&gt;2.1 常用外设齐全，组合搭配灵活&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#22-外设联动机制成熟dma定时器是硬实力&#34;&gt;2.2 外设联动机制成熟：DMA/定时器是“硬实力”&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#23-工业通信与高速接口更贴近实际需求&#34;&gt;2.3 工业通信与高速接口更贴近实际需求&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#3-生态与社区巨大缩短平均解决问题时间&#34;&gt;3. 生态与社区巨大：缩短“平均解决问题时间”&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#4-工具链友好cubemxide-提升启动速度与可维护性&#34;&gt;4. 工具链友好：CubeMX/IDE 提升启动速度与可维护性&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#5-资料与参考设计丰富从芯片到可落地方案&#34;&gt;5. 资料与参考设计丰富：从芯片到“可落地方案”&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#6-中间件与软件栈不止点灯而是完整系统能力&#34;&gt;6. 中间件与软件栈：不止点灯，而是完整系统能力&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#7-供应链与风险控制量产项目最看重可替代性&#34;&gt;7. 供应链与风险控制：量产项目最看重“可替代性”&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#8-学习曲线合理既适合入门也能支撑深度优化&#34;&gt;8. 学习曲线合理：既适合入门，也能支撑深度优化&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#9-工程实践视角stm32-的好用到底体现在哪里&#34;&gt;9. 工程实践视角：STM32 的“好用”到底体现在哪里？&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#结语脱颖而出是系统优势的胜利&#34;&gt;结语：脱颖而出，是“系统优势”的胜利&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/nav&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h1 id=&#34;stm32-为何能在诸多单片机中脱颖而出&#34;&gt;STM32 为何能在诸多单片机中脱颖而出？&lt;/h1&gt;&#xA;&lt;p&gt;在 MCU（单片机）领域，品牌和型号多到眼花：8 位、16 位、32 位；面向家电、车规、工业、消费电子；从几毛钱到几十块一颗都有。但如果你观察大量真实工程项目，尤其是国内外中小团队、方案公司、硬件创业团队，甚至不少传统工业厂商的新品，你会发现 STM32 经常成为“默认选项”。它之所以能在诸多单片机中脱颖而出，并不是因为某一项指标碾压所有对手，而是它在&lt;strong&gt;产品线覆盖、外设能力、工具链、生态、工程化资料、供应链与风险控制&lt;/strong&gt;等维度形成了“组合优势”。这种组合优势，才是让团队愿意持续使用、不断复用的关键。&lt;/p&gt;&#xA;&lt;p&gt;下面从工程实践角度，拆解 STM32 的核心竞争力。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-产品线覆盖极广从入门到高端同门迁移&#34;&gt;1. 产品线覆盖极广：从入门到高端“同门迁移”&lt;/h2&gt;&#xA;&lt;p&gt;STM32 的显著特征之一是&lt;strong&gt;系列多且跨度大&lt;/strong&gt;：从低成本、低功耗的入门型号，到带 DSP/FPU 的中高性能型号，再到更高主频、更大 SRAM/Flash、更强图形和高速外设能力的型号，基本可以覆盖绝大多数嵌入式需求。对团队来说，这意味着：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;学习与开发投资能长期复用&lt;/strong&gt;：你在一个系列里积累的时钟配置、外设用法、调试经验，换到更高端型号依然适用。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;产品分档更容易&lt;/strong&gt;：同一款产品可以做低配/标准/高配多个 SKU，底层架构保持一致。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;升级路线清晰&lt;/strong&gt;：早期原型用低端芯片快速跑通，量产或功能加码时可在 STM32 家族内升级，迁移成本较低。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;很多项目真正怕的不是“性能不够”，而是“选型变动导致系统推倒重来”。STM32 的“同门迁移”特性，让项目的技术风险更可控。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-外设能力强且均衡面向真实工程落地&#34;&gt;2. 外设能力强且均衡：面向真实工程落地&lt;/h2&gt;&#xA;&lt;p&gt;不少 MCU 的宣传会强调主频、功耗或某一个特色外设，但工程落地更看重“&lt;strong&gt;外设是否齐全、是否成熟、是否好用&lt;/strong&gt;”。STM32 在外设上通常给人一个感受：&lt;strong&gt;够用、能打、配套完善&lt;/strong&gt;。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
