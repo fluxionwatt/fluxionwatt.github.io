@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Solutions_副本s on FluxionWatt</title>
+    <link>http://localhost:1313/zh-cn/solutions_%E5%89%AF%E6%9C%AC/</link>
+    <description>Recent content in Solutions_副本s on FluxionWatt</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <atom:link href="http://localhost:1313/zh-cn/solutions_%E5%89%AF%E6%9C%AC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Developer Experience</title>
+      <link>http://localhost:1313/zh-cn/solutions_%E5%89%AF%E6%9C%AC/plant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-cn/solutions_%E5%89%AF%E6%9C%AC/plant/</guid>
+      <description>&lt;h2 id=&#34;built-for-developers&#34;&gt;Built for Developers&lt;/h2&gt;&#xA;&lt;p&gt;Our theme is designed with developers in mind, providing a clean, efficient workflow that makes building websites enjoyable and productive.&lt;/p&gt;&#xA;&lt;h3 id=&#34;development-features&#34;&gt;Development Features&lt;/h3&gt;&#xA;&lt;h4 id=&#34;project-structure&#34;&gt;Project Structure&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Logical directory organization&lt;/li&gt;&#xA;&lt;li&gt;Clear separation of concerns&lt;/li&gt;&#xA;&lt;li&gt;Modular component architecture&lt;/li&gt;&#xA;&lt;li&gt;Consistent naming conventions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;development-workflow&#34;&gt;Development Workflow&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fast hot reload development server&lt;/li&gt;&#xA;&lt;li&gt;Automatic asset processing&lt;/li&gt;&#xA;&lt;li&gt;Source maps for debugging&lt;/li&gt;&#xA;&lt;li&gt;Build process optimization&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;component-system&#34;&gt;Component System&lt;/h4&gt;&#xA;&lt;h5 id=&#34;shortcodes&#34;&gt;Shortcodes&lt;/h5&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Rich set of pre-built shortcodes&lt;/li&gt;&#xA;&lt;li&gt;Easy to create custom shortcodes&lt;/li&gt;&#xA;&lt;li&gt;Documentation for each shortcode&lt;/li&gt;&#xA;&lt;li&gt;Example implementations&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h5 id=&#34;partials&#34;&gt;Partials&lt;/h5&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Reusable partial templates&lt;/li&gt;&#xA;&lt;li&gt;Context-aware components&lt;/li&gt;&#xA;&lt;li&gt;Easy to extend and modify&lt;/li&gt;&#xA;&lt;li&gt;Clear documentation&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;customization&#34;&gt;Customization&lt;/h4&gt;&#xA;&lt;h5 id=&#34;configuration&#34;&gt;Configuration&lt;/h5&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Central configuration file&lt;/li&gt;&#xA;&lt;li&gt;Environment variables support&lt;/li&gt;&#xA;&lt;li&gt;Feature flags&lt;/li&gt;&#xA;&lt;li&gt;Easy theme customization&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h5 id=&#34;styling&#34;&gt;Styling&lt;/h5&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;TailwindCSS integration&lt;/li&gt;&#xA;&lt;li&gt;PostCSS processing&lt;/li&gt;&#xA;&lt;li&gt;Custom CSS support&lt;/li&gt;&#xA;&lt;li&gt;Design token system&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;documentation&#34;&gt;Documentation&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Getting started guide&lt;/li&gt;&#xA;&lt;li&gt;Component documentation&lt;/li&gt;&#xA;&lt;li&gt;Configuration reference&lt;/li&gt;&#xA;&lt;li&gt;Best practices&lt;/li&gt;&#xA;&lt;li&gt;Troubleshooting guide&lt;/li&gt;&#xA;&lt;li&gt;Deployment instructions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Our developer experience focuses on making it easy to build, customize, and maintain your website while following best practices and maintaining clean, efficient code.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
