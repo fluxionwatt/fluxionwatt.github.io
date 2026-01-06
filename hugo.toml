@@ -10,7 +10,7 @@ theme = "fc-theme"
 enableEmoji = true
 
 # Enable Git info for lastmod
-enableGitInfo = true
+enableGitInfo = false
 
 # Enable taxonomies
 [taxonomies]
@@ -31,8 +31,8 @@ paginatePath = "page"
   # Global CTA Configuration
   [params.cta]
     enable = true
-    title = "Ready to Build Your SaaS Website?"
-    description = "Join companies already using our theme to create beautiful, high-performance websites."
+    title = "FluxionWatt Team"
+    description = "FluxionWatt"
     gradient_from = "#2563eb"  # Indigo-600
     gradient_to = "#7c3aed"    # Purple-600
     gradient_angle = 30
@@ -49,8 +49,7 @@ paginatePath = "page"
     youtube = "https://youtube.com/@fluxionwatt"
     github = "https://github.com/fluxionwatt"
     telegram = "https://t.me/fluxionwatt"
-
-  
+ 
   # Footer Configuration
   [params.footer]
     column_1_title = "Features"
@@ -188,25 +187,17 @@ paginatePath = "page"
       subtitle = "了解更多光伏、储能咨询与最佳实践"
 
 [languages.zh-cn.params.blog.sidebar]
-
-  # 最新文章
   [languages.zh-cn.params.blog.sidebar.recent]
     enable = true
     title = "最新文章"
     count = 5
-
-  # 分类
   [languages.zh-cn.params.blog.sidebar.categories]
     enable = true
     title = "分类"
-
-  # 热门标签
   [languages.zh-cn.params.blog.sidebar.tags]
     enable = true
     title = "热门标签"
     count = 20
-
-  # 订阅表单
   [languages.zh-cn.params.blog.sidebar.subscribe]
     enable = true
     title = "订阅电子报"
@@ -220,22 +211,31 @@ paginatePath = "page"
 # Navigation Menu
 [menu]
   [[menu.main]]
-    name = "Products&Solutions"
+    name = "Solutions"
     weight = 2
     [menu.main.params]
       has_submenu = true
       submenu = [
-        { name = "Performance", url = "/en/products/performance/" },
-        { name = "Design System", url = "/en/products/design-system/" },
-        { name = "Developer Experience", url = "/en/products/developer-experience/" }
+        { name = "Solar Plant", url = "/zh-cn/solutions/plant/" },
+        { name = "Zero Carbon Park", url = "/zh-cn/solutions/zero-carbon-park/" },
+        { name = "Solar Home Solutions", url = "/zh-cn/solutions/solar-home/" }
+      ]
+  [[menu.main]]
+    name = "Products"
+    weight = 3
+    [menu.main.params]
+      has_submenu = true
+      submenu = [
+        { name = "Plant EMS", url = "/zh-cn/products/ems/" },
+        { name = "Data Collect & Montion gridbeat", url = "/zh-cn/products/gridbeat/" }
       ]
   [[menu.main]]
     name = "Cloud"
     url = "/en/cloud"
-    weight = 3
+    weight = 4
   [[menu.main]]
     name = "Support"
-    weight = 4
+    weight = 5
     [menu.main.params]
       has_submenu = true
       submenu = [
@@ -246,14 +246,15 @@ paginatePath = "page"
   [[menu.main]]
     name = "Blog"
     url = "/en/blog"
-    weight = 5
+    weight = 6
   [[menu.main]]
     name = "About"
-    weight = 6
+    weight = 7
     url = "/en/about"
+
   [[menu.footer_column_1]]
     name = "Performance"
-    url = "/en/features/performance"
+    url = "/en/features/ems"
     weight = 1
   [[menu.footer_column_1]]
     name = "Design System"
@@ -282,22 +283,31 @@ paginatePath = "page"
 
 [languages.zh-cn.menu]
   [[languages.zh-cn.menu.main]]
-    name = "产品与解决方案"
+    name = "解决方案"
     weight = 2
     [languages.zh-cn.menu.main.params]
       has_submenu = true
       submenu = [
-        { name = "性能", url = "/zh-cn/products/performance/" },
-        { name = "设计系统", url = "/zh-cn/products/design-system/" },
-        { name = "开发者体验", url = "/zh-cn/products/developer-experience/" }
+        { name = "光伏储能电站解决方案", url = "/zh-cn/solutions/plant/" },
+        { name = "工商业决方案", url = "/zh-cn/solutions/zero-carbon-park/" },
+        { name = "户用解决方案", url = "/zh-cn/solutions/solar-home/" }
+      ]
+  [[languages.zh-cn.menu.main]]
+    name = "产品"
+    weight = 3
+    [languages.zh-cn.menu.main.params]
+      has_submenu = true
+      submenu = [
+        { name = "电站 EMS 产品", url = "/zh-cn/products/ems/" },
+        { name = "数据采集与监控 gridbeat 产品", url = "/zh-cn/products/gridbeat/" }
       ]
   [[languages.zh-cn.menu.main]]
     name = "云平台"
     url = "/zh-cn/cloud"
-    weight = 3
+    weight = 4
   [[languages.zh-cn.menu.main]]
     name = "支持"
-    weight = 4
+    weight = 5
     [languages.zh-cn.menu.main.params]
       has_submenu = true
       submenu = [
@@ -308,16 +318,16 @@ paginatePath = "page"
   [[languages.zh-cn.menu.main]]
     name = "博客"
     url = "/zh-cn/blog"
-    weight = 5
+    weight = 6
   [[languages.zh-cn.menu.main]]
     name = "关于"
     url = "/zh-cn/about"
-    weight = 6
+    weight = 7
 
 [languages.zh.menu]
   [[languages.zh-cn.menu.footer_column_1]]
     name = "性能"
-    url = "/zh-cn/features/performance/"
+    url = "/zh-cn/features/ems/"
     weight = 1
   [[languages.zh-cn.menu.footer_column_1]]
     name = "设计系统"

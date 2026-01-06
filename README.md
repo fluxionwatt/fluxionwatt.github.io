@@ -1,16 +1,14 @@
 ### Local Development
 
 ```
-git submodule update --init --recursive
-
-brew install yarn hugo
-yarn install
-yarn run build
+brew install hugo
+npm install
+npm run build
 ```
 
 ```
 # Start development server (builds TailwindCSS and runs Hugo server)
-yarn run start
+npm run start
 
 # Your site will be available at http://localhost:1313
 ```
@@ -18,6 +16,6 @@ yarn run start
 ### Deployment
 
 ```
-yarn run deploy
+npm run deploy
 ```
 
