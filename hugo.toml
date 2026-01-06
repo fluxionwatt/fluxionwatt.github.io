@@ -26,7 +26,7 @@ paginatePath = "page"
   author = "FluxionWatt Team"
   logo = "/images/logo.svg"
   # Google Analytics ID (e.g., "G-XXXXXXXXXX")
-  # googleAnalytics = "G-XXXXXXXXXX"
+  googleAnalytics = "G-6D1JD4VWSE"
   
   # Global CTA Configuration
   [params.cta]
