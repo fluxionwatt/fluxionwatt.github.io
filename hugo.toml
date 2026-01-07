@@ -25,7 +25,6 @@ paginatePath = "page"
   description = ""
   author = "FluxionWatt Team"
   logo = "/images/logo.svg"
-  # Google Analytics ID (e.g., "G-XXXXXXXXXX")
   googleAnalytics = "G-6D1JD4VWSE"
   
   # Global CTA Configuration
@@ -83,16 +82,16 @@ paginatePath = "page"
         text_size = "text-sm"
     
     # Button configuration
-    [params.header.buttons]
+    #[params.header.buttons]
       # Sign In button
-      [params.header.buttons.signIn]
-        text = "Sign in"
-        url = "/signin"
+    #  [params.header.buttons.signIn]
+    #    text = "Sign in"
+    #    url = "/signin"
       
       # Get Started button
-      [params.header.buttons.getStarted]
-        text = "Get Started"
-        url = "/get-started"
+    #  [params.header.buttons.getStarted]
+    #    text = "Get Started"
+    #    url = "/get-started"
 
   # Blog configuration
   [params.blog]
@@ -229,10 +228,10 @@ paginatePath = "page"
         { name = "Plant EMS", url = "/zh-cn/products/ems/" },
         { name = "Data Collect & Montion gridbeat", url = "/zh-cn/products/gridbeat/" }
       ]
-  [[menu.main]]
-    name = "Cloud"
-    url = "/en/cloud"
-    weight = 4
+  #[[menu.main]]
+  #  name = "Cloud"
+  #  url = "/en/cloud"
+  #  weight = 4
   [[menu.main]]
     name = "Support"
     weight = 5
@@ -301,10 +300,10 @@ paginatePath = "page"
         { name = "电站 EMS 产品", url = "/zh-cn/products/ems/" },
         { name = "数据采集与监控 gridbeat 产品", url = "/zh-cn/products/gridbeat/" }
       ]
-  [[languages.zh-cn.menu.main]]
-    name = "云平台"
-    url = "/zh-cn/cloud"
-    weight = 4
+  #[[languages.zh-cn.menu.main]]
+  #  name = "云平台"
+  #  url = "/zh-cn/cloud"
+  #  weight = 4
   [[languages.zh-cn.menu.main]]
     name = "支持"
     weight = 5
