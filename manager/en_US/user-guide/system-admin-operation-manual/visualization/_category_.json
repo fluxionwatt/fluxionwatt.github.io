@@ -1,9 +1,0 @@
-{
-  "key": "system-admin-visualization",
-  "label": "Visualization",
-  "position": 3,
-  "link": {
-    "type": "generated-index",
-    "description": "Visualization"
-  }
-}
