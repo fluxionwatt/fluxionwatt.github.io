@@ -7,7 +7,7 @@
   "scripts": {
     "start": "concurrently \"npx tailwindcss -i themes/fc-theme/assets/css/main.css -o static/css/style.css --watch\" \"hugo server -D\"",
     "build": "tailwindcss -i themes/fc-theme/assets/css/main.css -o static/css/style.css --minify && HUGO_ENV=production hugo --minify",
-    "deploy": "npx gh-pages -d ./public/ -b gh-pages"
+    "deploy": "touch public/.nojekyll && npx gh-pages -d ./public/ -b gh-pages --dotfiles"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.7",
