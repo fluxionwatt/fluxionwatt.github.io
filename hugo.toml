@@ -239,7 +239,7 @@ paginatePath = "page"
       has_submenu = true
       submenu = [
         { name = "Support", url = "/en/support" },
-        { name = "Manager Docs", url = "/manager/en_US" },
+        { name = "EMS Docs", url = "/ems/en_US" },
         { name = "GridBeat Docs", url = "/gridbeat/en_US" }
       ]
   [[menu.main]]
@@ -311,7 +311,7 @@ paginatePath = "page"
       has_submenu = true
       submenu = [
         { name = "支持", url = "/zh-cn/support" },
-        { name = "Manager 文档", url = "/manager/zh_CN" },
+        { name = "EMS 文档", url = "/ems/zh_CN" },
         { name = "GridBeat 文档", url = "/gridbeat/zh_CN" }
       ]
   [[languages.zh-cn.menu.main]]
