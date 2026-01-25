@@ -53,7 +53,7 @@ testimonials:
     badgeColor="#2563eb"
     image="/images/feature-1.svg"
     buttonText="了解更多"
-    buttonLink="/zh-cn/products/gridbeat/"
+    buttonLink="/zh-cn/products/tigerlogger/"
     features="多协议兼容（支持 Modbus-RTU/TCP）,OTA 升级,远程监控与管理,支持多种环境传感器、电表、气象站设备接入,支持RS485、4G/5G、WLAN、以太网通信,Web操作界面"
     imagePosition="right"
 >}}
@@ -72,7 +72,7 @@ testimonials:
     badgeColor="#7c3aed"
     image="/images/feature-2.svg"
     buttonText="了解更多"
-    buttonLink="/features/design-system/"
+    buttonLink="/zh-cn/products/ems/"
     features="本地/云化部署,光储一体化管理降低初始投资成本,数据报表,设备管理"
     imagePosition="left"
 >}}
