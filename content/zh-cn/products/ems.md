@@ -1,5 +1,5 @@
 ---
-title: "Lightning-Fast Performance"
+title: "电站能量管理系统（EMS）"
 description: "Leverage Hugo's blazing-fast build times and optimized output. Your website loads instantly, providing an exceptional user experience."
 layout: "product"
 badge: "Performance"

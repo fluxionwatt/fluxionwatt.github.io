@@ -226,7 +226,7 @@ paginatePath = "page"
       has_submenu = true
       submenu = [
         { name = "Plant EMS", url = "/zh-cn/products/ems/" },
-        { name = "Data Collect & Montion TigerLogger", url = "/zh-cn/products/tigerlogger/" }
+        { name = "TigerLogger Data Collect", url = "/zh-cn/products/tigerlogger/" }
       ]
   #[[menu.main]]
   #  name = "Cloud"
@@ -239,8 +239,8 @@ paginatePath = "page"
       has_submenu = true
       submenu = [
         { name = "Support", url = "/en/support" },
-        { name = "EMS Docs", url = "https://www.fluxionwatt.com/ems/en_US" },
-        { name = "GridBeat Docs", url = "https://www.fluxionwatt.com/gridbeat/en_US" }
+        { name = "EMS Docs", url = "https://www.fluxionwatt.com/ems/en_US/" },
+        { name = "GridBeat Docs", url = "https://www.fluxionwatt.com/gridbeat/en_US/" }
       ]
   [[menu.main]]
     name = "Blog"
@@ -298,7 +298,7 @@ paginatePath = "page"
       has_submenu = true
       submenu = [
         { name = "电站 EMS 产品", url = "/zh-cn/products/ems/" },
-        { name = "数据采集与监控 TigerLogger 产品", url = "/zh-cn/products/tigerlogger/" }
+        { name = "TigerLogger 数据采集", url = "/zh-cn/products/tigerlogger/" }
       ]
   #[[languages.zh-cn.menu.main]]
   #  name = "云平台"
@@ -311,8 +311,8 @@ paginatePath = "page"
       has_submenu = true
       submenu = [
         { name = "支持", url = "/zh-cn/support" },
-        { name = "EMS 文档", url = "https://www.fluxionwatt.com/ems/zh_CN" },
-        { name = "GridBeat 文档", url = "https://www.fluxionwatt.com/gridbeat/zh_CN" }
+        { name = "EMS 文档", url = "https://www.fluxionwatt.com/ems/zh_CN/" },
+        { name = "GridBeat 文档", url = "https://www.fluxionwatt.com/gridbeat/zh_CN/" }
       ]
   [[languages.zh-cn.menu.main]]
     name = "博客"
