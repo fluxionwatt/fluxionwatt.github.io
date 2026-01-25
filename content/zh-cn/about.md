@@ -102,7 +102,7 @@ description: "Learn about our mission, leadership team, and the investors backin
             {{< value-card 
                 title="技术支持"
                 icon="users"
-                description="sales@fluxionwatt.com"
+                description="support@fluxionwatt.com"
             >}}
         </div>
     </div>

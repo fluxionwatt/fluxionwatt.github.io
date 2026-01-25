@@ -1,7 +1,7 @@
 ---
-title: "Beautiful Design System"
+title: "TigerLogger 数据采集器"
 description: "Create stunning user interfaces with our comprehensive design system built on TailwindCSS. Customize everything to match your brand."
-layout: "feature"
+layout: "product"
 badge: "Design"
 badgeColor: "#7c3aed"
 features:
@@ -30,15 +30,18 @@ Our theme includes a complete design system that makes it easy to create beautif
 - Spacing and sizing scales
 - Grid and layout systems
 
-#### UI Components
-- Navigation components (headers, footers, menus)
-- Hero sections and feature displays
-- Cards and content containers
-- Forms and input elements
-- Buttons and CTAs
-- Pricing tables
-- Testimonial displays
-- Team member profiles
+#### 技术参数
+
+| 配置1 | 信息 |  配置2 | 信息 | 
+| -- | -- | -- | -- |
+| 支持设备数 | 200台 | 配置 | 参数 |
+| RS485接口 | 3路 ｜ ｜ ｜
+| 以太网口 | 1路，10/100/1000 Mbps自适应 ｜ ｜ ｜
+| 无线通信 | 4G/5G/wifi ｜ ｜ ｜
+| 电源 | 24 VDC，电流最大1.2A｜ ｜ ｜
+| RS485接口 | 3路 ｜ ｜ ｜
+
+*注：产品不断创新，性能继续提升，本技术参数仅供参考。*
 
 #### Design Features
 

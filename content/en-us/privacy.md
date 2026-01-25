@@ -82,7 +82,7 @@ We may update our Privacy Policy from time to time. We will notify you of any ch
 
 If you have questions about this Privacy Policy, please contact us at:
 
-* **Email:** privacy@saasify.com
+* **Email:** support@fluxionwatt.com
 * **Address:** 123 Tech Street, San Francisco, CA 94105
 
 *Last Updated: January 2024*

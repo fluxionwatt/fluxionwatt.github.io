@@ -41,21 +41,29 @@ testimonials:
 
 {{< client-logos animate="true" >}}
 
+
 {{< features-section 
-    title="Modern Features for Modern Websites"
-    description="Discover how our theme helps you build fast, beautiful SaaS websites with ease."
+    title="数据采集器（TigerLogger系列）是电站的智能通信网关，负责收集实时数据并转换协议。"
+    description="主要面向工商业及大型地面电站场景，将光伏、储能等设备的 Modbus-RTU/TCP 等协议数据统一采集和转换。"
 >}}
 
 {{< feature
-    title="Lightning-Fast Performance"
-    description="Leverage Hugo's blazing-fast build times and optimized output. Your website loads instantly, providing an exceptional user experience."
-    badge="Performance"
+    title="高性能高可靠数据采集平台"
+    description="大型光伏和储能电站的核心数据采集单元，负责汇聚、处理和上传海量设备数据至管理系统（包括云端平台）"
+    badge="高性能"
     badgeColor="#2563eb"
     image="/images/feature-1.svg"
     buttonText="Learn More"
-    buttonLink="/features/performance/"
-    features="Sub-second page loads,Optimized assets,Minimal JavaScript,CDN-ready output"
+    buttonLink="/zh-cn/products/gridbeat/"
+    features="多协议兼容（支持 Modbus-RTU/TCP）,OTA 升级,远程监控与管理,支持多种环境传感器、电表、气象站设备接入,支持RS485、4G/5G、WLAN、以太网通信,Web操作界面"
     imagePosition="right"
+>}}
+
+{{< /features-section >}}
+
+{{< features-section
+    title="EMS 能量管理系统"
+    description="能量管理系统适用于大型储能、光储项目，实现电站级能量管理、快速调度，并实现电站系统监控和设备诊断，智能高效运维，支持百万级测点数据接入，GW级储能电站能量管理"
 >}}
 
 {{< feature
@@ -66,20 +74,8 @@ testimonials:
     image="/images/feature-2.svg"
     buttonText="Learn More"
     buttonLink="/features/design-system/"
-    features="Modern UI components,Responsive design,Custom typography,Flexible layouts"
+    features="本地/云化部署,光储一体化管理降低初始投资成本,数据报表,设备管理"
     imagePosition="left"
->}}
-
-{{< feature
-    title="Developer Experience"
-    description="Enjoy a seamless development experience with hot reload, component-based architecture, and clean, maintainable code."
-    badge="Development"
-    badgeColor="#16a34a"
-    image="/images/feature-3.svg"
-    buttonText="Learn More"
-    buttonLink="/features/developer-experience/"
-    features="Component system,Easy customization,Clean code,Detailed documentation"
-    imagePosition="right"
 >}}
 
 {{< /features-section >}}
@@ -91,4 +87,3 @@ testimonials:
     background-color="#f1f5f9"
 >}}
 
-{{< cta >}}

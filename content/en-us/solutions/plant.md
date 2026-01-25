@@ -1,7 +1,7 @@
 ---
 title: "Developer Experience"
 description: "Enjoy a seamless development experience with hot reload, component-based architecture, and clean, maintainable code."
-layout: "feature"
+layout: "solution"
 badge: "Development"
 badgeColor: "#16a34a"
 features:

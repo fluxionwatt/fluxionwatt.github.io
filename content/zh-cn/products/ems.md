@@ -1,7 +1,7 @@
 ---
 title: "Lightning-Fast Performance"
 description: "Leverage Hugo's blazing-fast build times and optimized output. Your website loads instantly, providing an exceptional user experience."
-layout: "feature"
+layout: "product"
 badge: "Performance"
 badgeColor: "#2563eb"
 features:

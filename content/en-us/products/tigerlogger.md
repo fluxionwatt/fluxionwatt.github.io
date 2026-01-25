@@ -1,7 +1,7 @@
 ---
 title: "Beautiful Design System"
 description: "Create stunning user interfaces with our comprehensive design system built on TailwindCSS. Customize everything to match your brand."
-layout: "feature"
+layout: "product"
 badge: "Design"
 badgeColor: "#7c3aed"
 features:
@@ -30,7 +30,12 @@ Our theme includes a complete design system that makes it easy to create beautif
 - Spacing and sizing scales
 - Grid and layout systems
 
-#### UI Components
+#### 技术参数
+
+| 配置 | 信息 | 
+| -- | -- |
+| 配置 | 参数 |
+
 - Navigation components (headers, footers, menus)
 - Hero sections and feature displays
 - Cards and content containers

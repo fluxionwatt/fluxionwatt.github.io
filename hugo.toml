@@ -51,7 +51,7 @@ paginatePath = "page"
  
   # Footer Configuration
   [params.footer]
-    column_1_title = "Features"
+    column_1_title = "Solution"
     column_2_title = "About"
     column_3_title = "LEGAL"
   
@@ -226,7 +226,7 @@ paginatePath = "page"
       has_submenu = true
       submenu = [
         { name = "Plant EMS", url = "/zh-cn/products/ems/" },
-        { name = "Data Collect & Montion gridbeat", url = "/zh-cn/products/gridbeat/" }
+        { name = "Data Collect & Montion TigerLogger", url = "/zh-cn/products/tigerlogger/" }
       ]
   #[[menu.main]]
   #  name = "Cloud"
@@ -239,8 +239,8 @@ paginatePath = "page"
       has_submenu = true
       submenu = [
         { name = "Support", url = "/en/support" },
-        { name = "EMS Docs", url = "/ems/en_US" },
-        { name = "GridBeat Docs", url = "/gridbeat/en_US" }
+        { name = "EMS Docs", url = "https://www.fluxionwatt.com/ems/en_US" },
+        { name = "GridBeat Docs", url = "https://www.fluxionwatt.com/gridbeat/en_US" }
       ]
   [[menu.main]]
     name = "Blog"
@@ -252,16 +252,16 @@ paginatePath = "page"
     url = "/en/about"
 
   [[menu.footer_column_1]]
-    name = "Performance"
-    url = "/en/features/ems"
+    name = "Solar Plant"
+    url = "/en/solutions/plant/"
     weight = 1
   [[menu.footer_column_1]]
-    name = "Design System"
-    url = "/en/features/design-system"
+    name = "Zero Carbon Park"
+    url = "/en/solutions/zero-carbon-park/"
     weight = 2
   [[menu.footer_column_1]]
-    name = "Developer Experience"
-    url = "/en/features/developer-experience"
+    name = "Solar Home"
+    url = "/en/solutions/solar-home/"
     weight = 3
   [[menu.footer_column_2]]
     name = "Blog"
@@ -298,7 +298,7 @@ paginatePath = "page"
       has_submenu = true
       submenu = [
         { name = "电站 EMS 产品", url = "/zh-cn/products/ems/" },
-        { name = "数据采集与监控 gridbeat 产品", url = "/zh-cn/products/gridbeat/" }
+        { name = "数据采集与监控 TigerLogger 产品", url = "/zh-cn/products/tigerlogger/" }
       ]
   #[[languages.zh-cn.menu.main]]
   #  name = "云平台"
@@ -311,8 +311,8 @@ paginatePath = "page"
       has_submenu = true
       submenu = [
         { name = "支持", url = "/zh-cn/support" },
-        { name = "EMS 文档", url = "/ems/zh_CN" },
-        { name = "GridBeat 文档", url = "/gridbeat/zh_CN" }
+        { name = "EMS 文档", url = "https://www.fluxionwatt.com/ems/zh_CN" },
+        { name = "GridBeat 文档", url = "https://www.fluxionwatt.com/gridbeat/zh_CN" }
       ]
   [[languages.zh-cn.menu.main]]
     name = "博客"
@@ -325,16 +325,16 @@ paginatePath = "page"
 
 [languages.zh.menu]
   [[languages.zh-cn.menu.footer_column_1]]
-    name = "性能"
-    url = "/zh-cn/features/ems/"
+    name = "光伏储能电站解决方案"
+    url = "/zh-cn/solutions/plant/"
     weight = 1
   [[languages.zh-cn.menu.footer_column_1]]
-    name = "设计系统"
-    url = "/zh-cn/features/design-system/"
+    name = "工商业解决方案"
+    url = "/zh-cn/solutions/zero-carbon-park/"
     weight = 2
   [[languages.zh-cn.menu.footer_column_1]]
-    name = "开发者体验"
-    url = "/zh-cn/features/developer-experience/"
+    name = "户用解决方案"
+    url = "/zh-cn/featuressolutions/solar-home/"
     weight = 3
   [[languages.zh-cn.menu.footer_column_2]]
     name = "博客"
